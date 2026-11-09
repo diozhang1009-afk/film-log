@@ -3451,7 +3451,8 @@ function load(){
       const data = JSON.parse(raw);
       if(data && Array.isArray(data.films)){
         const seedIds = new Set(s.map(f => f.id));
-        data.films.forEach(lf => { if(!seedIds.has(lf.id)){ enrich(lf); s.push(lf); } });
+        /* 仅合并本地新建（'u' 前缀）影片；seed 里已删除的数字 id 不再从旧缓存复活 */
+        data.films.forEach(lf => { if(!seedIds.has(lf.id) && String(lf.id).startsWith('u')){ enrich(lf); s.push(lf); } });
       }
     }
   }catch(e){}
@@ -6455,4 +6456,4 @@ function openAddViewer(filmId){
   });
 })();
 
-window.__FILMLOG_BUILD__ = '20261109210421';
+window.__FILMLOG_BUILD__ = '20261109210544';
