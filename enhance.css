@@ -1,0 +1,165 @@
+/* =========================================================
+   FILM LOG · 增强层（enhance.css） · v2
+   仅做「增量」增强：动效 + 水彩印象派插画样式。
+   不改动原 styles.css 的任何规则，仅补充缺失变量与新增类。
+   配色沿用 Quiet UI：暖米白 / 近黑 / 灰 / 金。
+   ========================================================= */
+
+/* ---------- 补全原 styles.css 未声明、但被引用的变量 ---------- */
+:root{
+  --paper:#ffffff;
+  --card:#ffffff;
+  --accent:var(--gold);
+  --mono:var(--sans);
+  /* 统一缓动：更有「实感」的重量感（慢出、轻微过冲） */
+  --fl-ease:cubic-bezier(.19,.86,.28,1);
+  --fl-ease-back:cubic-bezier(.22,1.28,.36,1);
+}
+
+/* =========================================================
+   一、动效：滚动入场 / 页面过渡 / 微交互
+   要点：更慢、位移更大、有层次，避免「太快看不见」。
+   ========================================================= */
+
+/* 页面整体入场：上升 + 轻微放大（时长取中间值，克制但可见） */
+#app > .shell{ animation:flPageIn .72s var(--fl-ease) both; }
+@keyframes flPageIn{
+  from{ opacity:0; transform:translateY(18px) scale(.99); filter:blur(2px); }
+  to  { opacity:1; transform:none; filter:blur(0); }
+}
+
+/* 滚动入场：进入视口前下沉 + 透明，进入后归位 */
+.fl-reveal{
+  opacity:0;
+  transform:translateY(20px) scale(.99);
+  filter:blur(1.5px);
+  transition:
+    opacity .7s var(--fl-ease),
+    transform .8s var(--fl-ease),
+    filter .7s var(--fl-ease);
+  will-change:opacity, transform, filter;
+}
+.fl-reveal.fl-in{ opacity:1; transform:none; filter:blur(0); }
+
+/* 微交互：卡片轻抬 + 柔和阴影（位移适中，能感知但不夸张） */
+.lib-card{ transition:transform .34s var(--fl-ease), box-shadow .34s var(--fl-ease), opacity .24s ease; }
+.lib-card:hover{ transform:translateY(-4px); box-shadow:0 12px 28px rgba(21,20,15,.11); }
+
+.index-item{ transition:opacity .24s ease, transform .38s var(--fl-ease); }
+.index-item:hover{ transform:translateX(5px); }
+
+.tf-card{ transition:border-color .24s ease, background .24s ease, transform .34s var(--fl-ease); }
+.tf-card:hover{ transform:translateY(-3px); }
+
+.cal-cell.cal-has{ transition:background .24s ease, transform .34s var(--fl-ease), box-shadow .34s var(--fl-ease); }
+.cal-cell.cal-has:hover{ transform:translateY(-2px) scale(1.03); box-shadow:0 8px 18px rgba(21,20,15,.09); }
+
+.watch, .dir-film, .hc-item{ transition:opacity .24s ease, transform .34s var(--fl-ease); }
+.watch:hover, .dir-film:hover, .hc-item:hover{ transform:translateX(4px); }
+
+/* 统一按压反馈（轻微的「按下去」，不过度） */
+.btn, .cal-nav, .like-btn, .cv-ok, .lib-more-btn, .king-name,
+.home-btn, .header-action, .cal-today-btn, .history-more, .archive-toggle{
+  transition:background .2s ease, color .2s ease, border-color .2s ease,
+             transform .16s var(--fl-ease-back), box-shadow .24s ease, opacity .2s ease;
+}
+.btn:active, .cal-nav:active, .like-btn:active, .cv-ok:active,
+.lib-more-btn:active, .cal-add:active{ transform:scale(.94); }
+
+/* 移动端去除点击高亮，触感更干净 */
+a, button, .cine-name, .king-card, .cal-cell{ -webkit-tap-highlight-color:transparent; }
+
+/* 顶栏品牌轻微悬浮感 */
+.brand{ transition:opacity .24s ease, letter-spacing .38s var(--fl-ease); }
+.brand:hover{ opacity:.72; letter-spacing:.05em; }
+
+/* 注：按反馈，「谁和谁最常一起看（可交互）」弦图模块不再叠加任何新增动画，
+   保持原站交互与呈现（此前在此处的描边/弹入/标签渐显已全部移除）。 */
+
+/* =========================================================
+   二、水彩印象派插画（AI 生成的位图，非写实 / 抽象 / 留白）
+   仅出现在「次要 / 非核心 / 空白较多」的页面。
+   ========================================================= */
+
+.fl-illus{
+  display:block; margin:0 auto;
+  position:relative;
+}
+.fl-illus img{
+  display:block; width:100%; height:auto;
+  /* 画面自带浅淡水彩底 wash；用 multiply 让纸底与页面米白柔和叠合，
+     浅色底自然融入，笔触保持清晰，避免生硬的方形边界。 */
+  mix-blend-mode:multiply;
+}
+
+/* 页面空白处的居中插画带 */
+.fl-illus-band{
+  display:flex; justify-content:center; align-items:center;
+  margin:56px auto 10px; padding:8px 0; max-width:520px;
+}
+.fl-illus-band .fl-illus{ max-width:460px; width:100%; }
+
+/* 插画入场：与滚动入场一致的节奏（中等时长） */
+.fl-illus{ opacity:0; transform:translateY(18px) scale(.99); filter:blur(2px);
+  transition:opacity .8s var(--fl-ease), transform .88s var(--fl-ease), filter .78s var(--fl-ease); }
+.fl-illus.fl-in{ opacity:1; transform:none; filter:blur(0); }
+
+/* =========================================================
+   三、细节优化（按反馈：仅视觉 / 动效细节，不新增模块）
+   ========================================================= */
+
+/* ---- 优化 1：翻月方向感 ----
+   点「‹」看上月时内容自左滑入，点「›」看下月时自右滑入，
+   让「翻页」有物理方向，而非整页无差别淡入。 */
+@keyframes flCalInPrev{ from{ opacity:0; transform:translateX(-16px) } to{ opacity:1; transform:none } }
+@keyframes flCalInNext{ from{ opacity:0; transform:translateX(16px) } to{ opacity:1; transform:none } }
+.fl-cal-prev{ animation:flCalInPrev .44s var(--fl-ease) both; }
+.fl-cal-next{ animation:flCalInNext .44s var(--fl-ease) both; }
+
+/* ---- 优化 2：日期格子 hover 时日期数字加重 ----
+   有放映记录的格子，悬停时日期数字由灰转墨黑并加重，指向更清楚。 */
+.cal-num{ transition:color .24s ease; }
+.cal-cell.cal-has:hover .cal-num{ color:var(--ink); font-weight:600; }
+
+/* ---- 优化 3：观影帝卡片金色「落定」 ----
+   卡片入场时一圈金色描边自中心扩散后收敛，像颁奖落定。 */
+@keyframes flKingSeal{
+  0%  { box-shadow:0 0 0 0 rgba(184,146,74,0); }
+  45% { box-shadow:0 0 0 3px rgba(184,146,74,.26); }
+  100%{ box-shadow:0 0 0 0 rgba(184,146,74,0); }
+}
+.king-card.fl-in{ animation:flKingSeal 1.05s var(--fl-ease) .1s both; }
+
+/* ---- 优化 5：评分数字统一等宽 ----
+   避免不同数字宽度不一导致的对齐参差与跳动。 */
+.detail-rating, .stat-v, .index-meta, .film-meta, .rating-cap{
+  font-variant-numeric:tabular-nums;
+  font-feature-settings:"tnum" 1;
+}
+
+/* ---- 优化 6：详情页标题与副标题间距 ----
+   原标题与原名贴得偏紧，微微放开 3px 更透气。 */
+.detail .entry-title{ margin-bottom:13px; }
+
+/* ---- 优化 7：悬停位移方向统一 ----
+   统一成两种语言：列表类「右移」、卡片类「上抬」，不再混用缩放。 */
+/* 列表类：统一右移 4px */
+.index-item:hover,
+.watch:hover, .dir-film:hover, .hc-item:hover{ transform:translateX(4px); }
+/* 卡片类：统一上抬 4px */
+.lib-card:hover, .tf-card:hover{ transform:translateY(-4px); }
+/* 日历格：小卡上抬 2px，去掉与方向语言冲突的 scale */
+.cal-cell.cal-has:hover{ transform:translateY(-2px); box-shadow:0 8px 18px rgba(21,20,15,.09); }
+
+/* =========================================================
+   四、无障碍：尊重「减少动态」偏好
+   ========================================================= */
+@media (prefers-reduced-motion: reduce){
+  #app > .shell{ animation:none !important; }
+  .fl-reveal{ opacity:1 !important; transform:none !important; filter:none !important; transition:none !important; }
+  .fl-illus{ opacity:1 !important; transform:none !important; filter:none !important; transition:none !important; }
+  .fl-reveal.fl-in, .fl-illus.fl-in{ opacity:1 !important; transform:none !important; }
+  .fl-cal-prev, .fl-cal-next, .king-card.fl-in{ animation:none !important; }
+  .lib-card:hover, .index-item:hover, .tf-card:hover, .cal-cell.cal-has:hover,
+  .watch:hover, .dir-film:hover, .hc-item:hover, .brand:hover{ transform:none !important; }
+}

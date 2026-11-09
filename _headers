@@ -1,0 +1,18 @@
+/*
+  Cloudflare Pages cache policy for FILM LOG.
+  HTML and build manifest should always be revalidated so new releases appear promptly.
+*/
+/
+  Cache-Control: no-cache, must-revalidate
+
+/*.html
+  Cache-Control: no-cache, must-revalidate
+
+/build.json
+  Cache-Control: no-store, no-cache, must-revalidate
+
+/*.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.css
+  Cache-Control: public, max-age=0, must-revalidate

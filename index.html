@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no,email=no,address=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="FILM LOG">
+<meta name="description" content="观影日历与观影记录">
+<link rel="icon" href="data:,">
+<title>FILM LOG</title>
+<link rel="stylesheet" href="styles.css?v=20261109205817">
+<link rel="stylesheet" href="enhance.css?v=20261109205817">
+<script>window.__EXPECTED_BUILD__ = "20261109205817";</script>
+</head>
+<body>
+<div id="app"></div>
+<script src="app.js?v=20261109205817"></script>
+<script src="enhance.js?v=20261109205817"></script>
+<script>
+// 缓存兜底：拉取实时版本清单，与本地写死的 BUILD 不一致则静默自动刷新
+(function(){
+  try {
+    fetch('build.json?t=' + Date.now(), {cache:'no-store'})
+      .then(function(r){ return r.json(); })
+      .then(function(j){
+        if (j && j.build && j.build !== window.__EXPECTED_BUILD__) {
+          // 优先静默更新；若用户正在填写表单（有未保存输入）则改为顶部提示
+          var typing = document.querySelector('input:focus, textarea:focus');
+          if (typing) {
+            var bar = document.createElement('div');
+            bar.textContent = 'FILM LOG 已更新，点击刷新查看最新内容';
+            bar.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#222;color:#fff;font-size:13px;text-align:center;padding:8px;cursor:pointer';
+            bar.onclick = function(){ location.reload(); };
+            document.body.appendChild(bar);
+          } else {
+            location.reload();
+          }
+        }
+      })
+      .catch(function(){});
+  } catch(e){}
+})();
+// 微信环境提示：若平台未拦截且页面在微信/QQ/微博内加载，给出更明确的浏览器打开引导
+(function(){
+  var ua = navigator.userAgent || '';
+  var isInApp = /MicroMessenger/i.test(ua) || /WeiBo/i.test(ua) || /QQ\//i.test(ua);
+  if (isInApp && window.location.hostname.indexOf('workbuddy.link') === -1) {
+    var guide = document.createElement('div');
+    guide.style.cssText = 'position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.55);padding:24px;font-family:sans-serif';
+    guide.innerHTML = '<div style="background:#fff;border-radius:16px;max-width:360px;width:100%;padding:28px;text-align:center;color:#1f2329"><div style="font-size:36px;margin-bottom:12px">🌐</div><div style="font-size:18px;font-weight:600;margin-bottom:8px">建议在浏览器中打开</div><div style="font-size:14px;color:#4e5969;line-height:1.6;margin-bottom:20px">当前宿主浏览器可能限制部分功能，点击右上角「···」选择「在浏览器打开」体验更佳。</div><button onclick="this.parentElement.parentElement.remove()" style="background:#165dff;color:#fff;border:0;border-radius:8px;padding:10px 28px;font-size:15px;cursor:pointer">知道了</button></div>';
+    document.addEventListener('DOMContentLoaded', function(){ document.body.appendChild(guide); });
+  }
+})();
+// 资源加载兜底：若 4 秒后主应用仍未渲染，提示用户刷新而非白屏
+setTimeout(function(){
+  var app = document.getElementById('app');
+  if(!app || app.children.length === 0){
+    var box = document.createElement('div');
+    box.style.cssText = 'position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;font-family:sans-serif;color:#555;background:#fff;text-align:center;padding:24px;z-index:9998';
+    box.innerHTML = '<div style="font-size:16px">暂时无法加载观影记录</div><div style="font-size:13px;color:#999">请检查网络后下拉刷新重试</div>';
+    document.body.appendChild(box);
+  }
+}, 4000);
+</script>
+</body>
+</html>
