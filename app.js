@@ -2405,19 +2405,6 @@ function seed(){
     "cast": []
   },
   {
-    "id": 119,
-    "title": "Harmony",
-    "original": "HARMONY",
-    "year": "2015",
-    "director": "Madeline Di Nonno / 中村文明（动画版参考）",
-    "rating": "7.5",
-    "tags": "剧情 · 科幻 · 群像",
-    "poster": "",
-    "synopsis": "在反乌托邦的近未来，全球体系由「生命主义」统一管控，人们的欲望与冲动被量化监视。少女米娅莉因拒绝服药而被捕，与一群狱中女子共同策划越狱与一场撼动秩序的复仇。伊藤计划同名小说改编。",
-    "watches": [],
-    "cast": []
-  },
-  {
     "id": 120,
     "title": "焦土之城",
     "original": "INCENDIES",
@@ -6468,4 +6455,4 @@ function openAddViewer(filmId){
   });
 })();
 
-window.__FILMLOG_BUILD__ = '20261109205817';
+window.__FILMLOG_BUILD__ = '20261109210421';
