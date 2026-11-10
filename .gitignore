@@ -1,0 +1,2 @@
+# 自动同步运行时产物（每次运行覆盖，不入库）
+data/auto_sync_report.json

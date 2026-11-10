@@ -1,5 +1,6 @@
 {
-  "apiUrl": "",
+  "apiUrl": "https://nbquiet.xyz/api/movies?month={month}",
+  "monthsBack": 2,
   "snapshot": "data/nbquiet_movies_all.json",
   "pendingReviewFile": "PENDING_REVIEW.md",
   "pendingDataFile": "data/auto_sync_pending.json",

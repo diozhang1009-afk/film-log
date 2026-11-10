@@ -46,27 +46,61 @@ function localDateStr(d, offH) {
 }
 
 /* ---------- 1. 取数 ---------- */
+/* 接口: GET {apiUrl}，apiUrl 含 {month} 占位符 → 按 YYYY-MM 逐月拉取；
+   返回 {movies:[...], serverTime}，整月数据（可能含上月末尾几天补日历，按 id 去重）。 */
+async function fetchMonth(month) {
+  const url = CFG.apiUrl.replace('{month}', month);
+  const ac = new AbortController();
+  const t = setTimeout(() => ac.abort(), 60000);
+  let res;
+  try {
+    res = await fetch(url, { signal: ac.signal, headers: { 'User-Agent': 'film-log-auto-sync' } });
+  } finally { clearTimeout(t); }
+  if (!res.ok) throw new Error('HTTP ' + res.status + ' @ ' + url);
+  const j = JSON.parse((await res.text()).replace(/^\uFEFF/, ''));
+  const arr = Array.isArray(j) ? j : (j.movies || []);
+  log('fetch ' + month + ': ' + arr.length + ' 条 (' + url + ')');
+  return arr;
+}
+
 async function fetchData() {
   const snapPath = path.join(REPO, CFG.snapshot);
-  if (CFG.apiUrl) {
-    log('fetch: ' + CFG.apiUrl);
-    const ac = new AbortController();
-    const t = setTimeout(() => ac.abort(), 60000);
-    const res = await fetch(CFG.apiUrl, { signal: ac.signal, headers: { 'User-Agent': 'film-log-auto-sync' } });
-    clearTimeout(t);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const text = (await res.text()).replace(/^\uFEFF/, '');
-    const arr = JSON.parse(text);
-    fs.mkdirSync(path.dirname(snapPath), { recursive: true });
-    fs.writeFileSync(snapPath, JSON.stringify(arr, null, 2), 'utf8');
-    log('快照已更新: ' + CFG.snapshot + '（' + arr.length + ' 条）');
-    return arr;
+  if (!CFG.apiUrl) {
+    if (!fs.existsSync(snapPath)) throw new Error('未配置 apiUrl 且本地快照不存在: ' + CFG.snapshot);
+    const arr = JSON.parse(fs.readFileSync(snapPath, 'utf8').replace(/^\uFEFF/, ''));
+    log('使用本地快照: ' + CFG.snapshot + '（' + arr.length + ' 条，未配置 apiUrl）');
+    return { fresh: arr, months: [] };
   }
-  if (!fs.existsSync(snapPath)) throw new Error('未配置 apiUrl 且本地快照不存在: ' + CFG.snapshot);
-  const text = fs.readFileSync(snapPath, 'utf8').replace(/^\uFEFF/, '');
-  const arr = JSON.parse(text);
-  log('使用本地快照: ' + CFG.snapshot + '（' + arr.length + ' 条，未配置 apiUrl）');
-  return arr;
+
+  /* 需要拉取的月份：当月 及 前 (monthsBack-1) 个月 */
+  const offH = CFG.timezoneOffsetHours || 8;
+  const nowLocal = new Date(Date.now() + offH * 3600e3);
+  const months = [];
+  for (let i = 0; i < (CFG.monthsBack || 2); i++) {
+    const d = new Date(Date.UTC(nowLocal.getUTCFullYear(), nowLocal.getUTCMonth() - i, 1));
+    months.push(d.toISOString().slice(0, 7));
+  }
+
+  const byId = new Map();
+  for (const m of months) {
+    for (const r of await fetchMonth(m)) if (r && r.id) byId.set(r.id, r);
+  }
+  const fresh = [...byId.values()];
+  log('本次拉取去重后: ' + fresh.length + ' 场（月份: ' + months.join(', ') + '）');
+
+  /* 快照按 id 累积（保留历史月份，供离线复现） */
+  const snap = new Map();
+  if (fs.existsSync(snapPath)) {
+    try {
+      const old = JSON.parse(fs.readFileSync(snapPath, 'utf8').replace(/^\uFEFF/, ''));
+      for (const r of (Array.isArray(old) ? old : (old.movies || []))) if (r && r.id) snap.set(r.id, r);
+    } catch (e) { log('旧快照解析失败，忽略: ' + e.message); }
+  }
+  for (const r of fresh) snap.set(r.id, r);
+  fs.mkdirSync(path.dirname(snapPath), { recursive: true });
+  fs.writeFileSync(snapPath, JSON.stringify([...snap.values()], null, 2), 'utf8');
+  log('快照已更新: ' + CFG.snapshot + '（累计 ' + snap.size + ' 条）');
+  return { fresh, months };
 }
 
 /* ---------- 2. 解析 app.js ---------- */
@@ -89,7 +123,7 @@ function canon(name, AL) {
 
 /* ---------- 3. 对账 ---------- */
 function main() {
-  fetchData().then(records => {
+  fetchData().then(({ fresh: records, months }) => {
     const appJsPath = path.join(REPO, 'app.js');
     const appJs = fs.readFileSync(appJsPath, 'utf8');
     const { arr: seed, start, end } = extractSeed(appJs);
@@ -99,37 +133,70 @@ function main() {
 
     /* 已有场次键 与 已知人群 */
     const watchKeys = new Set();
+    const seedByKey = new Map();
     const knownPeople = new Set();
     for (const f of seed) for (const w of (f.watches || [])) {
-      watchKeys.add(w.date + '|' + f.title);
+      const k = w.date + '|' + f.title;
+      watchKeys.add(k);
+      seedByKey.set(k, new Set((w.people || []).map(p => canon(p, AL))));
       for (const p of w.people || []) knownPeople.add(canon(p, AL));
     }
 
-    /* 接口已完成、日期 ≤ 今天 的记录 → 候选 */
+    /* 接口已完成、日期 ≤ 今天 的记录 → 候选（同时保留未开始的，仅用于统计） */
     const sessions = [];
+    const apiByKey = new Map();
+    let apiMin = null, apiMax = null;
     for (const r of records) {
-      if (r.status !== 'done') continue;
+      if (!r || !r.startTime) continue;
       const date = localDateStr(new Date(r.startTime), offH);
-      if (date > today) continue;
+      apiMin = (!apiMin || date < apiMin) ? date : apiMin;
+      apiMax = (!apiMax || date > apiMax) ? date : apiMax;
+      if (r.status !== 'done') continue;
       const people = [...new Set((r.participants || []).map(p => String(p.nickname || '').trim()).filter(Boolean))];
-      sessions.push({ date, title: FIX[r.title.trim()] || r.title.trim(), people, year: r.year, director: r.director || '', intro: r.intro || '', apiId: r.id });
+      const s = { date, title: FIX[(r.title || '').trim()] || (r.title || '').trim(), people, year: r.year, director: r.director || '', intro: r.intro || '', apiId: r.id };
+      sessions.push(s);
+      const k = s.date + '|' + s.title;
+      if (!apiByKey.has(k)) apiByKey.set(k, []);
+      apiByKey.get(k).push(s);
     }
 
-    /* 与 seed 对账：站内已有该日该片 → 站内为准跳过；接口内完全重复（同日|同片|同名单）→ 跳过 */
+    /* 与 seed 对账：站内已有该日该片 → 站内为准（冲突）；接口内完全重复（同日|同片|同名单）→ 跳过 */
     const newOnes = [];
     const seenFull = new Set();
+    const conflicts = [];
     for (const s of sessions) {
       const k = s.date + '|' + s.title;
-      if (watchKeys.has(k)) continue;
+      if (watchKeys.has(k)) {
+        const seedSet = seedByKey.get(k);
+        const apiSet = new Set(s.people.map(p => canon(p, AL)));
+        const same = seedSet.size === apiSet.size && [...apiSet].every(p => seedSet.has(p));
+        if (!same) conflicts.push({ date: s.date, title: s.title, seed: [...seedSet].length, api: apiSet.size, onlySeed: [...seedSet].filter(p => !apiSet.has(p)), onlyApi: [...apiSet].filter(p => !seedSet.has(p)) });
+        continue;
+      }
       const fk = k + '|' + [...s.people].sort().join(',');
       if (seenFull.has(fk)) { log('跳过接口重复记录: ' + fk); continue; }
       seenFull.add(fk);
       newOnes.push(s);
     }
 
+    /* 缺失：窗口内（接口日期范围）站内有、接口无的场次 */
+    const missing = [];
+    if (apiMin) {
+      for (const f of seed) for (const w of (f.watches || [])) {
+        if (w.date < apiMin || w.date > apiMax) continue;
+        if (!apiByKey.has(w.date + '|' + f.title)) missing.push({ date: w.date, title: f.title, people: (w.people || []).length });
+      }
+    }
+
+    log('--- 对账 ---');
+    log('接口窗口: ' + (apiMin || '-') + ' ~ ' + (apiMax || '-') + '，已完成 ' + sessions.length + ' 场，未开始 ' + (records.length - sessions.length) + ' 场');
+    log('新增(接口有站内无): ' + newOnes.length + ' | 缺失(站内有接口无): ' + missing.length + ' | 冲突(同日同片名单不同): ' + conflicts.length);
+    for (const c of conflicts) log('  冲突 ' + c.date + '《' + c.title + '》站内' + c.seed + '人 / 接口' + c.api + '人（以站内为准，不回改）');
+    for (const m of missing) log('  缺失 ' + m.date + '《' + m.title + '》' + m.people + '人');
+
     if (!newOnes.length) {
       log('无新增场次（接口已完成场次已全部在库）。今天: ' + today);
-      writeReport({ ranAt: new Date().toISOString(), today, newSessions: 0, published: false, note: '无新增' });
+      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, apiDone: sessions.length, added: 0, missing: missing.length, conflicts: conflicts.length, published: false, note: '无新增' });
       return;
     }
 
@@ -154,15 +221,22 @@ function main() {
     if (reasons.length) {
       /* 不确定 → 只写待审文件，不动数据 */
       const lines = ['# film-log 自动同步 · 待人工确认', '', '- 生成时间: ' + new Date().toLocaleString('zh-CN'),
-        '- 数据源: ' + (CFG.apiUrl ? '接口' : '本地快照（apiUrl 未配置）'), '',
-        '## 本轮检测到的新场次（未录入，未发布）', ''];
+        '- 数据源: ' + (CFG.apiUrl ? '接口 ' + CFG.apiUrl + '（月份 ' + months.join(', ') + '）' : '本地快照'),
+        '- 接口窗口: ' + apiMin + ' ~ ' + apiMax + '，已完成 ' + sessions.length + ' 场',
+        '- 对账: 新增 ' + newOnes.length + ' / 缺失 ' + missing.length + ' / 冲突 ' + conflicts.length,
+        '', '## 本轮待确认的新场次（未录入，未发布）', ''];
       for (const r of reasons) lines.push('### ' + r.date + '《' + r.title + '》', '- 人数: ' + r.people.length + '（' + r.people.join('、') + '）', '- 原因: ' + r.reasons.join('；'), '');
+      if (conflicts.length) {
+        lines.push('## 冲突场次（站内为准，未回改）', '');
+        for (const c of conflicts) lines.push('- ' + c.date + '《' + c.title + '》站内 ' + c.seed + ' 人 / 接口 ' + c.api + ' 人；仅接口有: ' + (c.onlyApi.join('、') || '无') + '；仅站内有: ' + (c.onlySeed.join('、') || '无'));
+        lines.push('');
+      }
       lines.push('## 处理方式', '', '确认无误后，在任意窗口说明「按 data/auto_sync_pending.json 录入并发布」即可。');
       fs.writeFileSync(path.join(REPO, CFG.pendingReviewFile), lines.join('\n'), 'utf8');
       fs.mkdirSync(path.dirname(path.join(REPO, CFG.pendingDataFile)), { recursive: true });
-      fs.writeFileSync(path.join(REPO, CFG.pendingDataFile), JSON.stringify({ ranAt: new Date().toISOString(), sessions: newOnes, uncertain: reasons }, null, 2), 'utf8');
+      fs.writeFileSync(path.join(REPO, CFG.pendingDataFile), JSON.stringify({ ranAt: new Date().toISOString(), months, apiWindow: [apiMin, apiMax], sessions: newOnes, uncertain: reasons, conflicts, missing }, null, 2), 'utf8');
       log('存在不确定项 ' + reasons.length + ' 条 → 已写 ' + CFG.pendingReviewFile + '，未发布（无需重试）。');
-      writeReport({ ranAt: new Date().toISOString(), today, newSessions: newOnes.length, uncertain: reasons.length, published: false, note: '待人工确认' });
+      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, apiDone: sessions.length, added: newOnes.length, missing: missing.length, conflicts: conflicts.length, uncertain: reasons.length, published: false, note: '待人工确认' });
       return;
     }
 
@@ -203,7 +277,7 @@ function main() {
     fs.unlinkSync(mf);
     execFileSync('git', ['push'], { cwd: REPO, stdio: 'inherit' });
     log('已自动发布 ' + newOnes.length + ' 场，版本 ' + localTs + '。');
-    writeReport({ ranAt: new Date().toISOString(), today, newSessions: newOnes.length, published: true, sessions: newOnes.map(s => s.date + '|' + s.title) });
+    writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, apiDone: sessions.length, added: newOnes.length, missing: missing.length, conflicts: conflicts.length, published: true, sessions: newOnes.map(s => s.date + '|' + s.title) });
   }).catch(e => die(e && e.message || String(e)));
 
   function writeReport(obj) {
