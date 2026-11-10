@@ -4842,6 +4842,30 @@ function seed(){
         ]
       }
     ]
+  },
+  {
+    "id": 216,
+    "title": "横道世之介",
+    "original": "横道世之介 / A STORY OF YONOSUKE",
+    "year": "2013",
+    "director": "冲田修一",
+    "rating": "8.8",
+    "tags": "剧情 · 喜剧 · 爱情",
+    "poster": "",
+    "synopsis": "1987 年，从长崎来东京上大学的普通青年横道世之介加入了大学摄影部，结识了富家小姐与谢野祥子等一众朋友。他为人憨厚老实，用相机默默记录下身边的点滴。多年后，朋友们回忆起世之介时，总会先愣一下，然后微笑起来。",
+    "watches": [
+      {
+        "date": "2026-11-07",
+        "people": [
+          "D",
+          "Llanlanlanlan"
+        ]
+      }
+    ],
+    "cast": [
+      "高良健吾",
+      "吉高由里子"
+    ]
   }
 ];
 }
@@ -6034,7 +6058,6 @@ const BADGE_DEFS = {
   blaze:      { name:'今天又包场了',   desc:'参加过 9 人以上场次的包场观影' },
   live:       { name:'要么住在流光算了', desc:'存在一个月内观影 >8 天且跨 ≥4 个自然周' },
   chao:       { name:'俺也will go',    desc:'与 Chao 共同观影 ≥1 次' },
-  snowking:   { name:'雪王的凝视',     desc:'与 shell 共同观影 ≥1 次' },        // 银白色外框
   shareholder:{ name:'流光精神股东',   desc:'累计观影 >20 场' }               // 金色外框
   // ...(INCLUDE_MANUAL ? MANUAL_BADGE_DEFS : {})   // ← 回退手动章时启用
 };
@@ -6105,18 +6128,6 @@ function badgeGrantedDate(name, k){
     }));
     return first;
   }
-  /* 雪王的凝视：与 shell 首次共同观影日 */
-  if(k === 'snowking'){
-    const shell = canon('shell');
-    if(name === shell) return null;
-    let first = null;
-    films.forEach(f => f.watches.forEach(w => {
-      const cs = realPeople(w);
-      if(!cs.includes(name) || !cs.includes(shell)) return;
-      if(!first || w.date < first) first = w.date;
-    }));
-    return first;
-  }
   /* 通用：返回该用户最早一次观影日（适合 club10/club20/shareholder/live/blaze/chao/recorder/hardwin/islandlove/comedian） */
   let first = null;
   films.forEach(f => f.watches.forEach(w => {
@@ -6181,18 +6192,6 @@ function hasChaoBuddy(name){
   return films.some(f => f.watches.some(w => {
     const ps = w.people.filter(p=>!isPhantom(p)).map(p => key(canon(p)));
     return ps.includes(me) && ps.includes(chao);
-  }));
-}
-/* 雪王的凝视：与用户「shell」共同观影过至少一次。
-   语义为「被雪王凝视过的人」，故 shell 本人不授予（不自凝视）。 */
-function hasShellBuddy(name){
-  const key = s => String(s ?? '').trim().toLowerCase();
-  const me = key(canon(name));
-  const shell = key(canon('shell'));
-  if(me === shell) return false;
-  return films.some(f => f.watches.some(w => {
-    const ps = w.people.filter(p=>!isPhantom(p)).map(p => key(canon(p)));
-    return ps.includes(me) && ps.includes(shell);
   }));
 }
 /* 海岛之爱·周年见证：参与 2026-07-30（数据中有时为 07-31）场次
@@ -6318,7 +6317,6 @@ function userBadges(name){
   if(hasBlaze(name)) got.push('blaze');
   if(livesInLiuguang(name)) got.push('live');
   if(hasChaoBuddy(name)) got.push('chao');
-  if(hasShellBuddy(name)) got.push('snowking');      // 雪王的凝视：与 shell 共同观影（黑底白字）
   /* 新增勋章（v18.2） */
   if(hasIslandLove(name)) got.push('islandlove');     // 海岛之爱·周年见证
   if(comedyCount(name) >= 5) got.push('comedian');    // 欢乐喜剧人
@@ -7001,7 +6999,6 @@ function personDetail(encodedName){
     if(k === 'closet') return '崆峒即深柜';
     if(k === 'hardwin') return '精品男大';
     if(k === 'recorder') return '观影记录员';
-    if(k === 'snowking') return '雪王的凝视';
     if(k === 'shareholder') return '流光精神股东';
     const kk = /^king-(\d{4})-(\d{2})$/.exec(k);
     if(kk) return Number(kk[2]) + '月观影帝';       // 逐月观影帝（x = 获得月份）
@@ -7014,7 +7011,6 @@ function personDetail(encodedName){
   /* 勋章样式类：按 key 决定外框/底色。
      金色：观影记录员(recorder)、流光精神股东(shareholder)
      黄色虚线：鸡爪体系（鸡爪王 jzking / 鸡爪+x）
-     银白色：雪王的凝视(snowking)
      平行四边形：海岛之爱·周年见证(islandlove)
      彩虹渐变：崆峒即深柜(closet)
      观影帝(live/king-*)沿用既有金框/虚线样式。 */
@@ -7024,7 +7020,6 @@ function personDetail(encodedName){
     if(k === 'jzking' || /^jz\+\d+$/.test(k)) return 'badge-jz';   // 鸡爪体系：黄色虚线外轮廓
     if(k === 'mzking' || /^mz\+\d+$/.test(k)) return 'badge-jz';   // 美人之醋体系：复用鸡爪黄色虚线外轮廓
     if(k === 'recorder' || k === 'shareholder') return 'badge-gold';
-    if(k === 'snowking') return 'badge-silver';
     if(k === 'islandlove') return 'badge-parallelogram';
     if(k === 'closet') return 'badge-rainbow';
     return '';
@@ -7425,7 +7420,7 @@ function previewBadgeName(k){
   const km=/^king-(\d{4})-(\d{2})$/.exec(k); if(km) return Number(km[2])+'月观影帝';
   const jz=/^jz\+(\d+)$/.exec(k); if(jz) return '鸡爪+'+jz[1];
   const mz=/^mz\+(\d+)$/.exec(k); if(mz) return '美人之醋+'+mz[1];
-  const map={jzking:'鸡爪王',mzking:'美人之醋王',islandlove:'海岛之爱·周年见证',fullattend:'全勤强',comedian:'欢乐喜剧人',closet:'崆峒即深柜',hardwin:'精品男大',recorder:'观影记录员',snowking:'雪王的凝视',shareholder:'流光精神股东'};
+  const map={jzking:'鸡爪王',mzking:'美人之醋王',islandlove:'海岛之爱·周年见证',fullattend:'全勤强',comedian:'欢乐喜剧人',closet:'崆峒即深柜',hardwin:'精品男大',recorder:'观影记录员',shareholder:'流光精神股东'};
   return map[k]||k;
 }
 /* 隐藏页：观影数前三名（按累计观影场次降序，同一场同一人只计一次） */

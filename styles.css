@@ -1205,13 +1205,6 @@ details.raw pre{
   color: #8a6a23;
   background: none;
 }
-/* 银白色：雪王的凝视（银边 + 银底 + 深灰文字） */
-.badge-silver{
-  border-color: #c8ccd1;
-  color: #4a4f55;
-  background: #f1f2f4;
-  box-shadow: 0 0 0 1px #c8ccd1 inset;
-}
 /* 平行四边形外框：海岛之爱·周年见证。
    用 transform: skew 把外框拉成平行四边形；内部 glyph + text 反向 skew 保持正立可读。 */
 .badge-parallelogram{
