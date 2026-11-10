@@ -85,10 +85,14 @@ async function fetchData() {
   for (const m of months) {
     for (const r of await fetchMonth(m)) if (r && r.id) byId.set(r.id, r);
   }
-  const fresh = [...byId.values()];
-  log('本次拉取去重后: ' + fresh.length + ' 场（月份: ' + months.join(', ') + '）');
+  const raw = [...byId.values()];
 
-  /* 快照按 id 累积（保留历史月份，供离线复现） */
+  /* 只读取到当日为止：之后的排片仍可能改动名单，一律不采信、不入快照 */
+  const today = localDateStr(new Date(), offH);
+  const keep = raw.filter(r => r.startTime && localDateStr(new Date(r.startTime), offH) <= today);
+  log('本次拉取去重后: ' + raw.length + ' 场（月份: ' + months.join(', ') + '），截至今日本日(' + today + ') ' + keep.length + ' 场，跳过未来 ' + (raw.length - keep.length) + ' 场');
+
+  /* 快照按 id 累积（保留历史月份，供离线复现）；同样剔除当日之后的数据 */
   const snap = new Map();
   if (fs.existsSync(snapPath)) {
     try {
@@ -96,11 +100,12 @@ async function fetchData() {
       for (const r of (Array.isArray(old) ? old : (old.movies || []))) if (r && r.id) snap.set(r.id, r);
     } catch (e) { log('旧快照解析失败，忽略: ' + e.message); }
   }
-  for (const r of fresh) snap.set(r.id, r);
+  for (const r of keep) snap.set(r.id, r);
+  const snapOut = [...snap.values()].filter(r => r.startTime && localDateStr(new Date(r.startTime), offH) <= today);
   fs.mkdirSync(path.dirname(snapPath), { recursive: true });
-  fs.writeFileSync(snapPath, JSON.stringify([...snap.values()], null, 2), 'utf8');
-  log('快照已更新: ' + CFG.snapshot + '（累计 ' + snap.size + ' 条）');
-  return { fresh, months };
+  fs.writeFileSync(snapPath, JSON.stringify(snapOut, null, 2), 'utf8');
+  log('快照已更新: ' + CFG.snapshot + '（累计 ' + snapOut.length + ' 条，均为 ≤' + today + '）');
+  return { fresh: keep, months, futureSkipped: raw.length - keep.length };
 }
 
 /* ---------- 2. 解析 app.js ---------- */
@@ -123,7 +128,7 @@ function canon(name, AL) {
 
 /* ---------- 3. 对账 ---------- */
 function main() {
-  fetchData().then(({ fresh: records, months }) => {
+  fetchData().then(({ fresh: records, months, futureSkipped }) => {
     const appJsPath = path.join(REPO, 'app.js');
     const appJs = fs.readFileSync(appJsPath, 'utf8');
     const { arr: seed, start, end } = extractSeed(appJs);
@@ -149,6 +154,7 @@ function main() {
     for (const r of records) {
       if (!r || !r.startTime) continue;
       const date = localDateStr(new Date(r.startTime), offH);
+      if (date > today) continue;   // 双保险：当日之后一律不读取
       apiMin = (!apiMin || date < apiMin) ? date : apiMin;
       apiMax = (!apiMax || date > apiMax) ? date : apiMax;
       if (r.status !== 'done') continue;
@@ -189,14 +195,14 @@ function main() {
     }
 
     log('--- 对账 ---');
-    log('接口窗口: ' + (apiMin || '-') + ' ~ ' + (apiMax || '-') + '，已完成 ' + sessions.length + ' 场，未开始 ' + (records.length - sessions.length) + ' 场');
+    log('接口窗口: ' + (apiMin || '-') + ' ~ ' + (apiMax || '-') + '（截至当日），已完成 ' + sessions.length + ' 场，未开始 ' + (records.length - sessions.length) + ' 场；当日之后跳过 ' + (futureSkipped || 0) + ' 场');
     log('新增(接口有站内无): ' + newOnes.length + ' | 缺失(站内有接口无): ' + missing.length + ' | 冲突(同日同片名单不同): ' + conflicts.length);
     for (const c of conflicts) log('  冲突 ' + c.date + '《' + c.title + '》站内' + c.seed + '人 / 接口' + c.api + '人（以站内为准，不回改）');
     for (const m of missing) log('  缺失 ' + m.date + '《' + m.title + '》' + m.people + '人');
 
     if (!newOnes.length) {
       log('无新增场次（接口已完成场次已全部在库）。今天: ' + today);
-      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, apiDone: sessions.length, added: 0, missing: missing.length, conflicts: conflicts.length, published: false, note: '无新增' });
+      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, futureSkipped, apiDone: sessions.length, added: 0, missing: missing.length, conflicts: conflicts.length, published: false, note: '无新增' });
       return;
     }
 
@@ -236,7 +242,7 @@ function main() {
       fs.mkdirSync(path.dirname(path.join(REPO, CFG.pendingDataFile)), { recursive: true });
       fs.writeFileSync(path.join(REPO, CFG.pendingDataFile), JSON.stringify({ ranAt: new Date().toISOString(), months, apiWindow: [apiMin, apiMax], sessions: newOnes, uncertain: reasons, conflicts, missing }, null, 2), 'utf8');
       log('存在不确定项 ' + reasons.length + ' 条 → 已写 ' + CFG.pendingReviewFile + '，未发布（无需重试）。');
-      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, apiDone: sessions.length, added: newOnes.length, missing: missing.length, conflicts: conflicts.length, uncertain: reasons.length, published: false, note: '待人工确认' });
+      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, futureSkipped, apiDone: sessions.length, added: newOnes.length, missing: missing.length, conflicts: conflicts.length, uncertain: reasons.length, published: false, note: '待人工确认' });
       return;
     }
 
@@ -277,7 +283,7 @@ function main() {
     fs.unlinkSync(mf);
     execFileSync('git', ['push'], { cwd: REPO, stdio: 'inherit' });
     log('已自动发布 ' + newOnes.length + ' 场，版本 ' + localTs + '。');
-    writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, apiDone: sessions.length, added: newOnes.length, missing: missing.length, conflicts: conflicts.length, published: true, sessions: newOnes.map(s => s.date + '|' + s.title) });
+    writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, futureSkipped, apiDone: sessions.length, added: newOnes.length, missing: missing.length, conflicts: conflicts.length, published: true, sessions: newOnes.map(s => s.date + '|' + s.title) });
   }).catch(e => die(e && e.message || String(e)));
 
   function writeReport(obj) {
