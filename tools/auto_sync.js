@@ -17,6 +17,8 @@
         由 auto_sync_run.ps1 链式安排 retryHours 小时后重试，直到成功。
 
    确定性判定（用户 2026-11-10 口径）:
+     - 优先按网站（接口）显示为准：同日同片名单不同 → 用接口名单回写站内；
+       接口无该场（缺失）= 手动录入 → 保留站内不动；接口 0 人 → 保留站内待确认；
      - 片名错别字直接归入正确片名（FIX 表）；
      - 同片异名按豆瓣口径（已并入 FIX / seed 现名）；
      - 新昵称若命中 ALIASES 键或「已知名 + 的朋友」模式则视为已知；
@@ -166,17 +168,26 @@ function main() {
       apiByKey.get(k).push(s);
     }
 
-    /* 与 seed 对账：站内已有该日该片 → 站内为准（冲突）；接口内完全重复（同日|同片|同名单）→ 跳过 */
+    /* 与 seed 对账（用户 2026-11-10 口径）：
+       - 优先按网站（接口）显示为准 → 同日同片名单不同时，以接口名单回写站内；
+       - 接口里没有该场（缺失）= 手动录入，保留站内不动；
+       - 接口内完全重复（同日|同片|同名单）→ 跳过。 */
     const newOnes = [];
     const seenFull = new Set();
     const conflicts = [];
+    const updates = [];
     for (const s of sessions) {
       const k = s.date + '|' + s.title;
       if (watchKeys.has(k)) {
         const seedSet = seedByKey.get(k);
         const apiSet = new Set(s.people.map(p => canon(p, AL)));
         const same = seedSet.size === apiSet.size && [...apiSet].every(p => seedSet.has(p));
-        if (!same) conflicts.push({ date: s.date, title: s.title, seed: [...seedSet].length, api: apiSet.size, onlySeed: [...seedSet].filter(p => !apiSet.has(p)), onlyApi: [...apiSet].filter(p => !seedSet.has(p)) });
+        if (!same) {
+          const c = { date: s.date, title: s.title, seed: [...seedSet].length, api: apiSet.size, onlySeed: [...seedSet].filter(p => !apiSet.has(p)), onlyApi: [...apiSet].filter(p => !seedSet.has(p)) };
+          conflicts.push(c);
+          /* 接口 0 人 → 数据不全，保留站内待人工确认；否则按接口回写 */
+          if (s.people.length) updates.push({ date: s.date, title: s.title, people: s.people, onlySeed: c.onlySeed, onlyApi: c.onlyApi });
+        }
         continue;
       }
       const fk = k + '|' + [...s.people].sort().join(',');
@@ -196,13 +207,13 @@ function main() {
 
     log('--- 对账 ---');
     log('接口窗口: ' + (apiMin || '-') + ' ~ ' + (apiMax || '-') + '（截至当日），已完成 ' + sessions.length + ' 场，未开始 ' + (records.length - sessions.length) + ' 场；当日之后跳过 ' + (futureSkipped || 0) + ' 场');
-    log('新增(接口有站内无): ' + newOnes.length + ' | 缺失(站内有接口无): ' + missing.length + ' | 冲突(同日同片名单不同): ' + conflicts.length);
-    for (const c of conflicts) log('  冲突 ' + c.date + '《' + c.title + '》站内' + c.seed + '人 / 接口' + c.api + '人（以站内为准，不回改）');
-    for (const m of missing) log('  缺失 ' + m.date + '《' + m.title + '》' + m.people + '人');
+    log('新增(接口有站内无): ' + newOnes.length + ' | 缺失(站内有接口无,手动录入保留): ' + missing.length + ' | 冲突(同日同片名单不同): ' + conflicts.length + '（按接口回写 ' + updates.length + '）');
+    for (const c of conflicts) log('  冲突 ' + c.date + '《' + c.title + '》站内' + c.seed + '人 / 接口' + c.api + '人 → ' + (c.api ? '以接口为准回写' : '接口 0 人，保留站内'));
+    for (const m of missing) log('  缺失 ' + m.date + '《' + m.title + '》' + m.people + '人（手动录入，保留）');
 
-    if (!newOnes.length) {
-      log('无新增场次（接口已完成场次已全部在库）。今天: ' + today);
-      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, futureSkipped, apiDone: sessions.length, added: 0, missing: missing.length, conflicts: conflicts.length, published: false, note: '无新增' });
+    if (!newOnes.length && !updates.length) {
+      log('无新增、无名单变更（接口已完成场次已全部在库且一致）。今天: ' + today);
+      writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, futureSkipped, apiDone: sessions.length, added: 0, updated: 0, missing: missing.length, conflicts: conflicts.length, published: false, note: '无变更' });
       return;
     }
 
@@ -233,7 +244,7 @@ function main() {
         '', '## 本轮待确认的新场次（未录入，未发布）', ''];
       for (const r of reasons) lines.push('### ' + r.date + '《' + r.title + '》', '- 人数: ' + r.people.length + '（' + r.people.join('、') + '）', '- 原因: ' + r.reasons.join('；'), '');
       if (conflicts.length) {
-        lines.push('## 冲突场次（站内为准，未回改）', '');
+        lines.push('## 冲突场次（以接口为准回写；接口 0 人则保留站内）', '');
         for (const c of conflicts) lines.push('- ' + c.date + '《' + c.title + '》站内 ' + c.seed + ' 人 / 接口 ' + c.api + ' 人；仅接口有: ' + (c.onlyApi.join('、') || '无') + '；仅站内有: ' + (c.onlySeed.join('、') || '无'));
         lines.push('');
       }
@@ -246,7 +257,12 @@ function main() {
       return;
     }
 
-    /* 全部确定 → 追加场次 */
+    /* 全部确定 → 按接口回写名单 + 追加新场次 */
+    for (const u of updates) {
+      const f = seed.find(x => x.title === u.title);
+      const w = f && (f.watches || []).find(x => x.date === u.date);
+      if (w) w.people = u.people;
+    }
     const byTitle = new Map();
     for (const s of newOnes) {
       if (!byTitle.has(s.title)) byTitle.set(s.title, []);
@@ -274,16 +290,17 @@ function main() {
     /* 校验 + 发布 */
     execFileSync('node', ['--check', 'app.js'], { cwd: REPO, stdio: 'inherit' });
     execFileSync('node', ['check.js'], { cwd: REPO, stdio: 'inherit' });
-    const msg = ['feat: auto-sync ' + newOnes.length + ' sessions from api (' + new Date().toLocaleString('zh-CN') + ')',
-      '', ...newOnes.map(s => '- ' + s.date + '《' + s.title + '》' + s.people.length + '人')].join('\n');
+    const msg = ['feat: auto-sync ' + newOnes.length + ' new / ' + updates.length + ' updated sessions (' + new Date().toLocaleString('zh-CN') + ')',
+      '', ...newOnes.map(s => '+ ' + s.date + '《' + s.title + '》' + s.people.length + '人'),
+      ...updates.map(u => '~ ' + u.date + '《' + u.title + '》' + u.people.length + '人（移除: ' + (u.onlySeed.join('、') || '无') + '）')].join('\n');
     const mf = path.join(REPO, '.git', 'AUTO_COMMIT_MSG.txt');
     fs.writeFileSync(mf, msg, 'utf8');
     execFileSync('git', ['add', 'app.js', 'index.html', 'build.json', CFG.snapshot], { cwd: REPO, stdio: 'inherit' });
     execFileSync('git', ['commit', '-F', mf], { cwd: REPO, stdio: 'inherit' });
     fs.unlinkSync(mf);
     execFileSync('git', ['push'], { cwd: REPO, stdio: 'inherit' });
-    log('已自动发布 ' + newOnes.length + ' 场，版本 ' + localTs + '。');
-    writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, futureSkipped, apiDone: sessions.length, added: newOnes.length, missing: missing.length, conflicts: conflicts.length, published: true, sessions: newOnes.map(s => s.date + '|' + s.title) });
+    log('已自动发布 ' + newOnes.length + ' 新增 / ' + updates.length + ' 名单更新，版本 ' + localTs + '。');
+    writeReport({ ranAt: new Date().toISOString(), today, apiWindow: [apiMin, apiMax], months, futureSkipped, apiDone: sessions.length, added: newOnes.length, updated: updates.length, missing: missing.length, conflicts: conflicts.length, published: true, sessions: newOnes.map(s => s.date + '|' + s.title), updatedSessions: updates.map(u => u.date + '|' + u.title) });
   }).catch(e => die(e && e.message || String(e)));
 
   function writeReport(obj) {
