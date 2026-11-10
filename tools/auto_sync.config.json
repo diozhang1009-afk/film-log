@@ -1,0 +1,9 @@
+{
+  "apiUrl": "",
+  "snapshot": "data/nbquiet_movies_all.json",
+  "pendingReviewFile": "PENDING_REVIEW.md",
+  "pendingDataFile": "data/auto_sync_pending.json",
+  "reportFile": "data/auto_sync_report.json",
+  "timezoneOffsetHours": 8,
+  "retryHours": 18
+}
