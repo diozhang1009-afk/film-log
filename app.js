@@ -1514,7 +1514,7 @@ function seed(){
   },
   {
     "id": 55,
-    "title": "EVA剧场版终",
+    "title": "新·福音战士剧场版：终",
     "original": "EVANGELION: 3.0+1.0 THRICE UPON A TIME",
     "year": "2021",
     "director": "庵野秀明",
@@ -5625,7 +5625,7 @@ const FILM_DB = {
     "tags": "剧情 · 青春",
     "synopsis": "一名从北海道独自到东京上大学的女孩，在平淡的开学、租房与社团之间，藏着一个不愿说出口的秘密——她选择这所学校，只是为了靠近一个人。岩井俊二以漫溢的樱花与淅沥的雨，把青春里最轻的那点执念拍成了温柔的散文。"
   },
-  "EVA剧场版终": {
+  "新·福音战士剧场版：终": {
     "original": "EVANGELION: 3.0+1.0 THRICE UPON A TIME",
     "year": "2021",
     "director": "庵野秀明",
