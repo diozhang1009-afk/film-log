@@ -1341,7 +1341,7 @@ function seed(){
   },
   {
     "id": 49,
-    "title": "蓝白红之白",
+    "title": "蓝白红三部曲之白",
     "original": "TROIS COULEURS: BLANC",
     "year": "1994",
     "director": "克日什托夫·基耶斯洛夫斯基",
