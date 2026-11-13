@@ -138,16 +138,16 @@ function main() {
     const offH = CFG.timezoneOffsetHours || 8;
     const today = localDateStr(new Date(), offH);
 
-    /* 已有场次键 与 已知人群 */
-    const watchKeys = new Set();
-    const seedByKey = new Map();
+    /* 已有场次：按「日期|片名」分组（同日同片可能有多场，逐一匹配，不能只留最后一条） */
+    const seedGroups = new Map();
     const knownPeople = new Set();
     for (const f of seed) for (const w of (f.watches || [])) {
       const k = w.date + '|' + f.title;
-      watchKeys.add(k);
-      seedByKey.set(k, new Set((w.people || []).map(p => canon(p, AL))));
+      if (!seedGroups.has(k)) seedGroups.set(k, []);
+      seedGroups.get(k).push({ people: new Set((w.people || []).map(p => canon(p, AL))), watch: w, used: false });
       for (const p of w.people || []) knownPeople.add(canon(p, AL));
     }
+    const sigOf = set => [...set].sort().join('|');
 
     /* 接口已完成、日期 ≤ 今天 的记录 → 候选（同时保留未开始的，仅用于统计） */
     const sessions = [];
@@ -178,19 +178,30 @@ function main() {
     const updates = [];
     for (const s of sessions) {
       const k = s.date + '|' + s.title;
-      if (watchKeys.has(k)) {
-        const seedSet = seedByKey.get(k);
+      const groups = seedGroups.get(k);
+      if (groups) {
         const apiSet = new Set(s.people.map(p => canon(p, AL)));
-        const same = seedSet.size === apiSet.size && [...apiSet].every(p => seedSet.has(p));
-        if (!same) {
-          const c = { date: s.date, title: s.title, seed: [...seedSet].length, api: apiSet.size, onlySeed: [...seedSet].filter(p => !apiSet.has(p)), onlyApi: [...apiSet].filter(p => !seedSet.has(p)) };
+        /* 先找名单完全一致且未被占用的场次 */
+        const hit = groups.find(g => !g.used && sigOf(g.people) === sigOf(apiSet));
+        if (hit) { hit.used = true; continue; }
+        /* 再找一条未占用的场次做名单回写 */
+        const cand = groups.find(g => !g.used);
+        if (cand) {
+          cand.used = true;
+          const c = { date: s.date, title: s.title, seed: cand.people.size, api: apiSet.size, onlySeed: [...cand.people].filter(p => !apiSet.has(p)), onlyApi: [...apiSet].filter(p => !cand.people.has(p)) };
           conflicts.push(c);
           /* 接口 0 人 → 数据不全，保留站内待人工确认；否则按接口回写 */
-          if (s.people.length) updates.push({ date: s.date, title: s.title, people: s.people, onlySeed: c.onlySeed, onlyApi: c.onlyApi });
+          if (s.people.length) updates.push({ date: s.date, title: s.title, people: s.people, onlySeed: c.onlySeed, onlyApi: c.onlyApi, watch: cand.watch });
+        } else {
+          /* 站内该日该片场次已全部占用 → 接口多出来的一场算新增 */
+          const fk = k + '|' + sigOf(apiSet);
+          if (seenFull.has(fk)) { log('跳过接口重复记录: ' + fk); continue; }
+          seenFull.add(fk);
+          newOnes.push(s);
         }
         continue;
       }
-      const fk = k + '|' + [...s.people].sort().join(',');
+      const fk = k + '|' + sigOf(new Set(s.people.map(p => canon(p, AL))));
       if (seenFull.has(fk)) { log('跳过接口重复记录: ' + fk); continue; }
       seenFull.add(fk);
       newOnes.push(s);
@@ -259,9 +270,7 @@ function main() {
 
     /* 全部确定 → 按接口回写名单 + 追加新场次 */
     for (const u of updates) {
-      const f = seed.find(x => x.title === u.title);
-      const w = f && (f.watches || []).find(x => x.date === u.date);
-      if (w) w.people = u.people;
+      if (u.watch) u.watch.people = u.people;
     }
     const byTitle = new Map();
     for (const s of newOnes) {
