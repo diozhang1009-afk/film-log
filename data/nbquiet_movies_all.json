@@ -13134,7 +13134,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 8,
         "review": "我想看男同特工片，有没有导演可以拍，我想看帅哥和帅哥逃亡然后在床上大搞特搞"
       },
@@ -13142,7 +13142,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 8,
         "review": null
       },
@@ -13150,7 +13150,7 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 8,
         "review": null
       },
@@ -13158,7 +13158,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "第一次看，但感觉已经看过了"
       }
@@ -13180,25 +13180,25 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       }
     ],
     "attendance": [
@@ -13243,7 +13243,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -13251,7 +13251,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 7,
         "review": "为什么儿童向电影里有三对成年人上床，对我的眼睛和无性恋很不友好"
       },
@@ -13259,7 +13259,7 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者",
+        "title": "时光隧道行者",
         "score": null,
         "review": null
       }
@@ -13268,26 +13268,26 @@
       "id": "u_u7my6vzcrg7",
       "nickname": "123",
       "mbti": null,
-      "title": "午夜胶片追寻者"
+      "title": "时间旅行电影诗人"
     },
     "signups": [
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者"
+        "title": "时光隧道行者"
       }
     ],
     "attendance": [
@@ -13319,18 +13319,18 @@
     "stage": "done",
     "viable": true,
     "hall": {
-      "count": 5,
+      "count": 6,
       "ok": true,
-      "plan": "五人厅 × 1",
-      "settledAt": "2026-10-01T11:12:35.806Z"
+      "plan": "八人厅 × 1",
+      "settledAt": "2026-11-13T13:53:23.854Z"
     },
-    "count": 5,
+    "count": 6,
     "participants": [
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 9,
         "review": null
       },
@@ -13346,7 +13346,7 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者",
+        "title": "默片光影追忆者",
         "score": 10,
         "review": "“在很久很久以前，曾经有个国家\n…”"
       },
@@ -13354,7 +13354,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 10,
         "review": "吗的拍这么牛逼"
       },
@@ -13362,23 +13362,31 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 10,
         "review": null
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者",
+        "score": 9,
+        "review": "这部电影告诉我们政治是什么"
       }
     ],
     "creator": {
       "id": "u_t3zu2lqvihx",
       "nickname": "拎拎",
       "mbti": "INFP",
-      "title": "电影时光漫游者"
+      "title": "深焦构图信徒"
     },
     "signups": [
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_qk3riloysm9",
@@ -13390,19 +13398,25 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者"
+        "title": "默片光影追忆者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者"
       }
     ],
     "attendance": [
@@ -13410,16 +13424,17 @@
       "u_qk3riloysm9",
       "u_huq4tf4b990",
       "u_zzzkfe8gr84",
-      "u_q1adypia4xd"
+      "u_q1adypia4xd",
+      "u_m21tzyiaezv"
     ],
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-10-02T14:14:21.848Z",
-    "avgRating": 10,
-    "ratedCount": 5,
+    "avgRating": 9.75,
+    "ratedCount": 6,
     "myRating": null,
     "myReview": null,
-    "reviewCount": 3
+    "reviewCount": 4
   },
   {
     "id": "m_slftgvkjj8d",
@@ -13455,7 +13470,7 @@
         "id": "u_upfd9hn9ycx",
         "nickname": "Llanlanlanlan",
         "mbti": "INTP",
-        "title": "70年代影迷",
+        "title": "70年代光影漫游者",
         "score": null,
         "review": null
       },
@@ -13471,7 +13486,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家",
+        "title": "午夜光影探险者",
         "score": 9,
         "review": "阴间滤镜很带感"
       }
@@ -13493,13 +13508,13 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_upfd9hn9ycx",
         "nickname": "Llanlanlanlan",
         "mbti": "INTP",
-        "title": "70年代影迷"
+        "title": "70年代光影漫游者"
       },
       {
         "id": "u_4m29kgs3w7f",
@@ -13511,7 +13526,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家"
+        "title": "午夜光影探险者"
       }
     ],
     "attendance": [
@@ -13555,7 +13570,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -13563,7 +13578,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -13571,7 +13586,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 8,
         "review": null
       },
@@ -13579,7 +13594,7 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者",
+        "title": "默片光影追忆者",
         "score": 8,
         "review": null
       },
@@ -13620,32 +13635,32 @@
       "id": "u_u7my6vzcrg7",
       "nickname": "123",
       "mbti": null,
-      "title": "午夜胶片追寻者"
+      "title": "时间旅行电影诗人"
     },
     "signups": [
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者"
+        "title": "默片光影追忆者"
       },
       {
         "id": "u_jj926j0huqz",
@@ -13717,7 +13732,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": 10,
         "review": null
       },
@@ -13733,7 +13748,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 10,
         "review": null
       },
@@ -13741,7 +13756,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 9,
         "review": "人情冷暖，世态炎凉。这就是生活"
       },
@@ -13749,7 +13764,7 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者",
+        "title": "默片光影追忆者",
         "score": 10,
         "review": null
       },
@@ -13757,7 +13772,7 @@
         "id": "u_cqctu1njrms",
         "nickname": "漁子",
         "mbti": "ENFP",
-        "title": "光影漫步者",
+        "title": "光影都市漫游者",
         "score": 9,
         "review": null
       },
@@ -13765,7 +13780,7 @@
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家",
+        "title": "光影时代漫游者",
         "score": 10,
         "review": null
       },
@@ -13782,14 +13797,14 @@
       "id": "u_i6zj6y19vne",
       "nickname": "晏秋",
       "mbti": "ISFJ",
-      "title": "怀旧光影追行者"
+      "title": "时光漫步者"
     },
     "signups": [
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_qk3riloysm9",
@@ -13801,31 +13816,31 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者"
+        "title": "默片光影追忆者"
       },
       {
         "id": "u_cqctu1njrms",
         "nickname": "漁子",
         "mbti": "ENFP",
-        "title": "光影漫步者"
+        "title": "光影都市漫游者"
       },
       {
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家"
+        "title": "光影时代漫游者"
       },
       {
         "id": "u_us9h0skuy7l",
@@ -13879,7 +13894,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 9,
         "review": "假如生活欺骗了你，觉得活着正在，就去看看蜡笔小新"
       },
@@ -13904,14 +13919,14 @@
       "id": "u_qg9rau37xm4",
       "nickname": "D",
       "mbti": "ENFP",
-      "title": "年代光影追忆者"
+      "title": "时空旅人影像猎人"
     },
     "signups": [
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_6cmmljnbftp",
@@ -13974,7 +13989,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": 9,
         "review": null
       },
@@ -14004,7 +14019,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_pli5j7u665t",
@@ -14053,7 +14068,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 10,
         "review": null
       },
@@ -14061,7 +14076,7 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 9,
         "review": null
       },
@@ -14077,7 +14092,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 8,
         "review": "小伙真俊，嘬嘬(*^^*)"
       }
@@ -14086,20 +14101,20 @@
       "id": "u_qg9rau37xm4",
       "nickname": "D",
       "mbti": "ENFP",
-      "title": "年代光影追忆者"
+      "title": "时空旅人影像猎人"
     },
     "signups": [
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_h48yyo4cd07",
@@ -14111,7 +14126,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       }
     ],
     "attendance": [
@@ -14155,7 +14170,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 7,
         "review": null
       },
@@ -14163,7 +14178,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -14171,7 +14186,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "很独特的一部影片，对王家卫那段印象最深，最后一段没太看懂"
       },
@@ -14179,7 +14194,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -14195,7 +14210,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -14212,32 +14227,32 @@
       "id": "u_zzzkfe8gr84",
       "nickname": "水镜",
       "mbti": "INFP",
-      "title": "九十年代影迷"
+      "title": "时光漫游者"
     },
     "signups": [
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_re27066mopj",
@@ -14249,7 +14264,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_756v0t2ymu9",
@@ -14302,7 +14317,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": 8,
         "review": null
       },
@@ -14310,7 +14325,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 8,
         "review": null
       },
@@ -14327,20 +14342,20 @@
       "id": "u_i6zj6y19vne",
       "nickname": "晏秋",
       "mbti": "ISFJ",
-      "title": "怀旧光影追行者"
+      "title": "时光漫步者"
     },
     "signups": [
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_ozxyvfbvssl",
@@ -14389,7 +14404,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 8,
         "review": null
       },
@@ -14397,7 +14412,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "在追逐梦想的道路上会经历很多，最后甚至连梦想都会变，重要的是追逐的过程，这是我所看到的一点东西。歌剧很美，原始部落的音乐也很美，艺术是对人类灵魂的救赎。"
       },
@@ -14405,7 +14420,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者",
+        "title": "时代回响者",
         "score": null,
         "review": null
       },
@@ -14413,7 +14428,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -14421,7 +14436,7 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者",
+        "title": "时光隧道行者",
         "score": null,
         "review": null
       },
@@ -14429,7 +14444,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -14437,7 +14452,7 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者",
+        "title": "默片光影追忆者",
         "score": 8,
         "review": null
       },
@@ -14454,50 +14469,50 @@
       "id": "u_zzzkfe8gr84",
       "nickname": "水镜",
       "mbti": "INFP",
-      "title": "九十年代影迷"
+      "title": "时光漫游者"
     },
     "signups": [
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者"
+        "title": "时代回响者"
       },
       {
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者"
+        "title": "时光隧道行者"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者"
+        "title": "默片光影追忆者"
       },
       {
         "id": "u_ssa5k26ilp7",
@@ -14551,7 +14566,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": 10,
         "review": null
       },
@@ -14559,7 +14574,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 8,
         "review": null
       },
@@ -14584,20 +14599,20 @@
       "id": "u_i6zj6y19vne",
       "nickname": "晏秋",
       "mbti": "ISFJ",
-      "title": "怀旧光影追行者"
+      "title": "时光漫步者"
     },
     "signups": [
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_guzr838gofm",
@@ -14669,7 +14684,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -14701,7 +14716,7 @@
         "id": "u_v30b7vovbqb",
         "nickname": "啊啾宝",
         "mbti": null,
-        "title": "默片时代光影追寻者",
+        "title": "胶片时代追光者",
         "score": 8,
         "review": null
       },
@@ -14737,7 +14752,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_0our0zn95e1",
@@ -14761,7 +14776,7 @@
         "id": "u_v30b7vovbqb",
         "nickname": "啊啾宝",
         "mbti": null,
-        "title": "默片时代光影追寻者"
+        "title": "胶片时代追光者"
       },
       {
         "id": "u_us9h0skuy7l",
@@ -14829,7 +14844,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -14859,7 +14874,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_eqe8ri9tkqo",
@@ -14908,7 +14923,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "最爱你的人是我，你怎么舍得我难过"
       },
@@ -14916,7 +14931,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -14924,7 +14939,7 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 8,
         "review": null
       },
@@ -14932,7 +14947,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 8,
         "review": null
       },
@@ -14940,7 +14955,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       },
@@ -14948,7 +14963,7 @@
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家",
+        "title": "光影时代漫游者",
         "score": 10,
         "review": null
       },
@@ -14964,7 +14979,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 7,
         "review": "人总是被裹挟在时代中 亦步亦趋 爱情似乎成为了对抗宏大叙事唯一方式 这让我想起了张爱玲的倾城之恋 一座城的动乱牵起了两个人的缘分 蓝宇也是 北京夏天的那场动乱让他们看清了彼此的心意 结尾的城市光景随着车的移动快速略过 工业化的、荒芜的、百废待兴的城市 就像失去了爱情的荒芜心田"
       },
@@ -14981,44 +14996,44 @@
       "id": "u_m21tzyiaezv",
       "nickname": "安静的美人",
       "mbti": "INFJ",
-      "title": "影史回响者"
+      "title": "时光穿梭者"
     },
     "signups": [
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       },
       {
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家"
+        "title": "光影时代漫游者"
       },
       {
         "id": "u_ssa5k26ilp7",
@@ -15030,7 +15045,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_gd30axn7f11",
@@ -15077,9 +15092,9 @@
       "count": 10,
       "ok": true,
       "plan": "八人厅 × 1 + 二人厅 × 1",
-      "settledAt": "2026-10-07T11:30:15.494Z"
+      "settledAt": "2026-11-13T13:53:23.854Z"
     },
-    "count": 9,
+    "count": 10,
     "participants": [
       {
         "id": "u_qk3riloysm9",
@@ -15093,7 +15108,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -15101,7 +15116,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -15109,7 +15124,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -15117,7 +15132,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       },
@@ -15149,9 +15164,17 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 8,
         "review": null
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者",
+        "score": 9,
+        "review": "一段经历，一次成长"
       }
     ],
     "creator": {
@@ -15171,31 +15194,31 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       },
       {
         "id": "u_jojd3inowlo",
@@ -15219,7 +15242,13 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者"
       }
     ],
     "attendance": [
@@ -15231,16 +15260,17 @@
       "u_jojd3inowlo",
       "u_756v0t2ymu9",
       "u_n25k0mj9ipo",
-      "u_zzzkfe8gr84"
+      "u_zzzkfe8gr84",
+      "u_m21tzyiaezv"
     ],
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-10-08T13:40:06.032Z",
     "avgRating": 9,
-    "ratedCount": 2,
+    "ratedCount": 3,
     "myRating": null,
     "myReview": null,
-    "reviewCount": 1
+    "reviewCount": 2
   },
   {
     "id": "m_n0xg5oz8wor",
@@ -15268,7 +15298,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -15292,7 +15322,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 6,
         "review": "经典港片味儿真足"
       },
@@ -15300,7 +15330,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 7,
         "review": null
       }
@@ -15309,14 +15339,14 @@
       "id": "u_u7my6vzcrg7",
       "nickname": "123",
       "mbti": null,
-      "title": "午夜胶片追寻者"
+      "title": "时间旅行电影诗人"
     },
     "signups": [
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_3kf38jnva0n",
@@ -15334,13 +15364,13 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       }
     ],
     "attendance": [
@@ -15393,7 +15423,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -15401,7 +15431,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 8,
         "review": null
       },
@@ -15417,7 +15447,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       },
@@ -15455,13 +15485,13 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       },
       {
         "id": "u_re27066mopj",
@@ -15473,7 +15503,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者"
+        "title": "光影追寻者"
       },
       {
         "id": "u_50xgj0d4x46",
@@ -15532,7 +15562,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 9,
         "review": null
       },
@@ -15548,7 +15578,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 9,
         "review": null
       },
@@ -15573,14 +15603,14 @@
       "id": "u_qg9rau37xm4",
       "nickname": "D",
       "mbti": "ENFP",
-      "title": "年代光影追忆者"
+      "title": "时空旅人影像猎人"
     },
     "signups": [
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_756v0t2ymu9",
@@ -15592,7 +15622,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_us9h0skuy7l",
@@ -15657,7 +15687,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 9,
         "review": null
       },
@@ -15665,7 +15695,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 9,
         "review": null
       },
@@ -15673,7 +15703,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者",
+        "title": "时代回响者",
         "score": null,
         "review": null
       },
@@ -15689,7 +15719,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 9,
         "review": null
       },
@@ -15697,7 +15727,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 10,
         "review": null
       },
@@ -15705,7 +15735,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 9,
         "review": null
       },
@@ -15713,7 +15743,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 9,
         "review": "社会动荡，人世浮沉"
       },
@@ -15729,7 +15759,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": 10,
         "review": null
       },
@@ -15745,7 +15775,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -15761,7 +15791,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -15791,19 +15821,19 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者"
+        "title": "时代回响者"
       },
       {
         "id": "u_uyxn9jfen2j",
@@ -15815,25 +15845,25 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       },
       {
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_re27066mopj",
@@ -15845,7 +15875,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_oe80wgscmaz",
@@ -15857,7 +15887,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_qxj0e3yidy1",
@@ -15869,7 +15899,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_us9h0skuy7l",
@@ -15931,7 +15961,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家",
+        "title": "午夜光影探险者",
         "score": 8,
         "review": "《楚门的世界》反向版"
       },
@@ -15956,14 +15986,14 @@
       "id": "u_m5fpup84hmd",
       "nickname": "shell",
       "mbti": "INTJ",
-      "title": "时间旅行电影学家"
+      "title": "午夜光影探险者"
     },
     "signups": [
       {
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家"
+        "title": "午夜光影探险者"
       },
       {
         "id": "u_ssa5k26ilp7",
@@ -16032,7 +16062,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 8,
         "review": "结尾陈湘琪远去的模样最终隐没在了雨帘里 留恋伴着滂沱大雨回响在福和大戏院 回荡在台北的街头 甚是寂寞 不散依旧延续了蔡明亮对水这一意象的分析 天下没有不散的筵席 不散不仅仅是对那个电影辉煌时代的追忆 更是对时光流逝的不舍（心脏不舒服的时候看蔡明亮的长镜头 会更昏昏欲睡）"
       },
@@ -16040,7 +16070,7 @@
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家",
+        "title": "光影时代漫游者",
         "score": 8,
         "review": null
       },
@@ -16048,7 +16078,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       }
@@ -16070,7 +16100,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_3kf38jnva0n",
@@ -16082,13 +16112,13 @@
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家"
+        "title": "光影时代漫游者"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       }
     ],
     "attendance": [
@@ -16140,7 +16170,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 8,
         "review": null
       },
@@ -16148,7 +16178,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 9,
         "review": null
       },
@@ -16156,7 +16186,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -16164,7 +16194,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -16172,7 +16202,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 8,
         "review": "我们总是在试图描摹生活 却往往忽略了生活本身 结尾的戛然而止 不就是生活猝不及防的表现吗"
       },
@@ -16204,7 +16234,7 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 8,
         "review": null
       },
@@ -16212,7 +16242,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       }
@@ -16234,31 +16264,31 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_iaopx8izrn8",
@@ -16282,13 +16312,13 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者"
+        "title": "光影追寻者"
       }
     ],
     "attendance": [
@@ -16363,7 +16393,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 8,
         "review": null
       },
@@ -16379,7 +16409,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -16395,7 +16425,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 9,
         "review": "当一个社会无法为边缘人群提供保障時 就会有越来越多的人坠落 直至烧毁那张社会保障网"
       },
@@ -16411,7 +16441,7 @@
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家",
+        "title": "光影时代漫游者",
         "score": 9,
         "review": null
       },
@@ -16419,7 +16449,7 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者",
+        "title": "胶片寻梦者",
         "score": null,
         "review": null
       },
@@ -16427,7 +16457,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": null,
         "review": null
       },
@@ -16443,7 +16473,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       },
@@ -16451,7 +16481,7 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者",
+        "title": "时光隧道行者",
         "score": null,
         "review": null
       },
@@ -16501,7 +16531,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_zoyrpd4hfax",
@@ -16513,7 +16543,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_z9jne68c0ov",
@@ -16525,7 +16555,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_qxj0e3yidy1",
@@ -16537,19 +16567,19 @@
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家"
+        "title": "光影时代漫游者"
       },
       {
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者"
+        "title": "胶片寻梦者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_n25k0mj9ipo",
@@ -16561,13 +16591,13 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者"
+        "title": "光影追寻者"
       },
       {
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者"
+        "title": "时光隧道行者"
       },
       {
         "id": "u_re27066mopj",
@@ -16636,7 +16666,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -16644,7 +16674,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家",
+        "title": "午夜光影探险者",
         "score": 8,
         "review": "有一个片段是三个人开直升机差点坠机，man！"
       },
@@ -16660,7 +16690,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -16684,7 +16714,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者",
+        "title": "时代回响者",
         "score": null,
         "review": null
       },
@@ -16701,20 +16731,20 @@
       "id": "u_l8nrrc5aucj",
       "nickname": "2d9",
       "mbti": null,
-      "title": "默片时代梦境追捕者"
+      "title": "二十年代影史守望者"
     },
     "signups": [
       {
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家"
+        "title": "午夜光影探险者"
       },
       {
         "id": "u_756v0t2ymu9",
@@ -16726,7 +16756,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_4qhkuyza6qm",
@@ -16744,7 +16774,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者"
+        "title": "时代回响者"
       },
       {
         "id": "u_r4m2k9oxi72",
@@ -16798,7 +16828,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 9,
         "review": "塔塔散文诗"
       },
@@ -16806,7 +16836,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -16814,7 +16844,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       }
@@ -16823,26 +16853,26 @@
       "id": "u_qg9rau37xm4",
       "nickname": "D",
       "mbti": "ENFP",
-      "title": "年代光影追忆者"
+      "title": "时空旅人影像猎人"
     },
     "signups": [
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       }
     ],
     "attendance": [
@@ -16885,7 +16915,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": 9,
         "review": null
       },
@@ -16893,7 +16923,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -16901,7 +16931,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 9,
         "review": null
       },
@@ -16909,7 +16939,7 @@
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒",
+        "title": "午夜经典追寻者",
         "score": 8,
         "review": "题材很新颖，到现在为止都没有看过什么类似的\n女主唯唯诺诺左右纠结，看得我有点难受\n中间的荧幕内外互相观察，挺有意思的\n结尾的真实有点出乎意料，但又很合理"
       }
@@ -16918,32 +16948,32 @@
       "id": "u_p1yu7vqxip4",
       "nickname": "火山琉璃",
       "mbti": null,
-      "title": "胶片时光追忆者"
+      "title": "时光修复者"
     },
     "signups": [
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒"
+        "title": "午夜经典追寻者"
       }
     ],
     "attendance": [
@@ -17003,7 +17033,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -17019,7 +17049,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 10,
         "review": "演员、歌手、母亲、缪斯……究竟哪个是你的呢 瓦尔达不停地在影像与语言中解构着简铂金 抽丝剥茧在米诺陶斯的迷宫中 让我们在躯体之外 看到她最本真的模样 40岁生日快乐 哪怕进入更年期你也依旧只是自己"
       },
@@ -17027,7 +17057,7 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者",
+        "title": "胶片寻梦者",
         "score": null,
         "review": null
       },
@@ -17035,8 +17065,8 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者",
-        "score": null,
+        "title": "时光隧道行者",
+        "score": 9,
         "review": null
       },
       {
@@ -17051,7 +17081,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       }
@@ -17079,7 +17109,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_r4m2k9oxi72",
@@ -17091,19 +17121,19 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者"
+        "title": "胶片寻梦者"
       },
       {
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者"
+        "title": "时光隧道行者"
       },
       {
         "id": "u_iaopx8izrn8",
@@ -17115,7 +17145,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者"
+        "title": "光影追寻者"
       }
     ],
     "attendance": [
@@ -17132,8 +17162,8 @@
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-10-15T16:59:11.098Z",
-    "avgRating": 10,
-    "ratedCount": 2,
+    "avgRating": 9.666666666666666,
+    "ratedCount": 3,
     "myRating": null,
     "myReview": null,
     "reviewCount": 1
@@ -17172,7 +17202,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 9,
         "review": null
       },
@@ -17180,7 +17210,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -17220,7 +17250,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       }
@@ -17242,13 +17272,13 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_6cmmljnbftp",
@@ -17278,7 +17308,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       }
     ],
     "attendance": [
@@ -17326,7 +17356,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 9,
         "review": "没看懂，但大为震撼"
       },
@@ -17334,7 +17364,7 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者",
+        "title": "胶片寻梦者",
         "score": null,
         "review": null
       },
@@ -17342,7 +17372,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 7,
         "review": "八个梦编织成人生最后一部作品 我们在一个又一个的梦中随着黑泽明的镜头跳转着 像是将日本这个国家的整个发展历程囊括其中 回顾着日本的过去 反思着日本发动战争及其影响 最终希望退回到一种老庄式的田园牧歌 以婚礼开始最终以葬礼结束 形成了完美的闭环 梦或许是人类无意识的产物 但电影不是"
       },
@@ -17350,7 +17380,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 9,
         "review": "电影是造梦的艺术，很喜欢第五段和第八段，梵高的油画搬进电影，人物走在油画里，美极了。最后一段很符合老庄思想，使民复结绳而用之，鼓盆而歌。"
       },
@@ -17375,32 +17405,32 @@
       "id": "u_qg9rau37xm4",
       "nickname": "D",
       "mbti": "ENFP",
-      "title": "年代光影追忆者"
+      "title": "时空旅人影像猎人"
     },
     "signups": [
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者"
+        "title": "胶片寻梦者"
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_q882y7q8ikn",
@@ -17466,7 +17496,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -17482,7 +17512,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -17506,7 +17536,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": 10,
         "review": null
       },
@@ -17536,7 +17566,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_3kf38jnva0n",
@@ -17548,7 +17578,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_njjdmry82tj",
@@ -17566,7 +17596,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_qxj0e3yidy1",
@@ -17620,7 +17650,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家",
+        "title": "午夜光影探险者",
         "score": 9,
         "review": "挺治愈的～"
       },
@@ -17628,7 +17658,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 4,
         "review": "淡淡的很老套的治愈片 女主似乎在演出一种故意装傻的可爱感 很有晨间剧女主既视感 但不符合当下时代"
       },
@@ -17645,20 +17675,20 @@
       "id": "u_m5fpup84hmd",
       "nickname": "shell",
       "mbti": "INTJ",
-      "title": "时间旅行电影学家"
+      "title": "午夜光影探险者"
     },
     "signups": [
       {
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家"
+        "title": "午夜光影探险者"
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_9dpqbysadle",
@@ -17707,7 +17737,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 6,
         "review": null
       },
@@ -17715,7 +17745,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -17731,7 +17761,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       }
@@ -17740,20 +17770,20 @@
       "id": "u_kkov9j2fmfs",
       "nickname": "子衿",
       "mbti": "INFP",
-      "title": "光影岁月漫游者"
+      "title": "怀旧光影行者"
     },
     "signups": [
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_njjdmry82tj",
@@ -17765,7 +17795,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       }
     ],
     "attendance": [
@@ -17809,7 +17839,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -17817,7 +17847,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -17825,7 +17855,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "看过好多遍，电影已经吓不到我了。比恐怖片更好看的是观众反应。"
       },
@@ -17833,7 +17863,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       },
@@ -17866,32 +17896,32 @@
       "id": "u_p1yu7vqxip4",
       "nickname": "火山琉璃",
       "mbti": null,
-      "title": "胶片时光追忆者"
+      "title": "时光修复者"
     },
     "signups": [
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       },
       {
         "id": "u_mn7cak9dy9r",
@@ -17956,7 +17986,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家",
+        "title": "午夜光影探险者",
         "score": 8,
         "review": "字幕不合格"
       },
@@ -17964,7 +17994,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 6,
         "review": "当肉欲与罪恶横行之时 人类的肉体是否还能维持基本形态 而不堕落于深渊之中 当死亡展现在眼前之时 感到的不是悲痛而是性高潮 对死亡的恐惧又会将这种快感送上另一种巅峰"
       },
@@ -17981,20 +18011,20 @@
       "id": "u_m5fpup84hmd",
       "nickname": "shell",
       "mbti": "INTJ",
-      "title": "时间旅行电影学家"
+      "title": "午夜光影探险者"
     },
     "signups": [
       {
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家"
+        "title": "午夜光影探险者"
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_5iny4dbsmid",
@@ -18043,7 +18073,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -18067,7 +18097,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 7,
         "review": "非常典型的需要用弗洛伊德和拉康来分析的病例 神经质的主角在虐杀一家三口的时候 何尝不是在杀死过往的悲剧与自己 在杀戮中获得的性快感是难以言说和匹敌的 因而才会驱使着他一遍遍重复这一简单却具有复杂社会意义的行为 他的精神上渴求着鲜血可肉体却又在呕吐 灵与肉无法融合的痛苦真是令人着迷"
       },
@@ -18084,14 +18114,14 @@
       "id": "u_u7my6vzcrg7",
       "nickname": "123",
       "mbti": null,
-      "title": "午夜胶片追寻者"
+      "title": "时间旅行电影诗人"
     },
     "signups": [
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_qxj0e3yidy1",
@@ -18109,7 +18139,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_n25k0mj9ipo",
@@ -18168,7 +18198,7 @@
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒",
+        "title": "午夜经典追寻者",
         "score": 7,
         "review": "后半段时间段但是精彩和反转很多，显得前面又臭又长，看得头晕犯困"
       },
@@ -18176,7 +18206,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 9,
         "review": null
       },
@@ -18206,13 +18236,13 @@
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒"
+        "title": "午夜经典追寻者"
       },
       {
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       },
       {
         "id": "u_naawtdv7iw9",
@@ -18262,7 +18292,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       },
@@ -18270,7 +18300,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -18278,7 +18308,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       },
@@ -18295,26 +18325,26 @@
       "id": "u_0q9a0dhhdw0",
       "nickname": "火冋火冋",
       "mbti": null,
-      "title": "时光旅者"
+      "title": "光影追寻者"
     },
     "signups": [
       {
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者"
+        "title": "光影追寻者"
       },
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       },
       {
         "id": "u_mn7cak9dy9r",
@@ -18364,7 +18394,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 9,
         "review": null
       },
@@ -18380,7 +18410,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -18388,7 +18418,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": 9,
         "review": null
       }
@@ -18397,14 +18427,14 @@
       "id": "u_kkov9j2fmfs",
       "nickname": "子衿",
       "mbti": "INFP",
-      "title": "光影岁月漫游者"
+      "title": "怀旧光影行者"
     },
     "signups": [
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_oe80wgscmaz",
@@ -18416,13 +18446,13 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       }
     ],
     "attendance": [
@@ -18482,7 +18512,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 7,
         "review": "五个在大都市里的故事 以各种反转与对照串联起人与人之间的关系 看似我们身处各处 但面临的困境都是相似的"
       },
@@ -18542,7 +18572,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_9kcglji21mg",
@@ -18621,7 +18651,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": 10,
         "review": null
       },
@@ -18637,7 +18667,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -18653,7 +18683,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 5,
         "review": "人生中第一部几乎睡了全程的电影……对不起 根本不知道剧情是什么……"
       },
@@ -18677,7 +18707,7 @@
         "id": "u_3b2y2hdm7m0",
         "nickname": "爱吃蛋饼",
         "mbti": "INFP",
-        "title": "光影时光漫游者",
+        "title": "时光漫游者",
         "score": null,
         "review": null
       },
@@ -18685,7 +18715,7 @@
         "id": "u_71kb3cb0297",
         "nickname": "树叶",
         "mbti": "INFP",
-        "title": "00年代光影猎手",
+        "title": "光影追忆者",
         "score": 10,
         "review": null
       }
@@ -18707,7 +18737,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_qxj0e3yidy1",
@@ -18719,7 +18749,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_n25k0mj9ipo",
@@ -18731,7 +18761,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_4m29kgs3w7f",
@@ -18749,13 +18779,13 @@
         "id": "u_3b2y2hdm7m0",
         "nickname": "爱吃蛋饼",
         "mbti": "INFP",
-        "title": "光影时光漫游者"
+        "title": "时光漫游者"
       },
       {
         "id": "u_71kb3cb0297",
         "nickname": "树叶",
         "mbti": "INFP",
-        "title": "00年代光影猎手"
+        "title": "光影追忆者"
       }
     ],
     "attendance": [
@@ -18805,7 +18835,7 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 9,
         "review": null
       },
@@ -18813,7 +18843,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 10,
         "review": null
       },
@@ -18821,7 +18851,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": "好睡，确实没看懂"
       },
@@ -18837,7 +18867,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "将我的思绪拉回了童年"
       },
@@ -18854,20 +18884,20 @@
       "id": "u_t3zu2lqvihx",
       "nickname": "拎拎",
       "mbti": "INFP",
-      "title": "电影时光漫游者"
+      "title": "深焦构图信徒"
     },
     "signups": [
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       },
       {
         "id": "u_guzr838gofm",
@@ -18879,7 +18909,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_4qhkuyza6qm",
@@ -18897,7 +18927,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_3kf38jnva0n",
@@ -18957,7 +18987,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -18973,7 +19003,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 8,
         "review": null
       },
@@ -18981,7 +19011,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 7,
         "review": "三条线索交织，很喜欢士兵与战俘这一段感情故事"
       },
@@ -18989,7 +19019,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 7,
         "review": null
       },
@@ -18997,7 +19027,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -19005,7 +19035,7 @@
         "id": "u_v5godgiijw2",
         "nickname": "布吉岛",
         "mbti": "ENTP",
-        "title": "时尚影像探索者",
+        "title": "时尚光影追寻者",
         "score": 7,
         "review": "不是很能理解导演穿插的黑球的剧本那段剧情，莫名其妙出现的雪神也很怪，可惜那段剧本里的主角最后没承认。没那么多深度，可以看懂，可惜没什么共鸣，只能尝试共情。bgm经常出现有点突兀，或许同性恋看了会更燃一点。禁忌之恋和广岛之恋也挺像的。被网上吹的有点夸张了。6.5吧，没有半颗星。"
       },
@@ -19021,7 +19051,7 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者",
+        "title": "胶片寻梦者",
         "score": null,
         "review": null
       },
@@ -19029,7 +19059,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 9,
         "review": "与其说是恋爱更不如说是一种群体之爱 一代人为了不仅是包括同性恋在内的酷儿群体更好地走下去以生命为代价做出了奋斗这种爱超越了个体之间的情感 升华为了整个群体的大爱 他们都被彼此身上的热情所点燃 心甘情愿的将理想传承下去 这超越了爱情更像是一种传承 我爱你所以我将用我的一生为之奋斗"
       },
@@ -19053,7 +19083,7 @@
         "id": "u_6xsftse056w",
         "nickname": "司予",
         "mbti": "ENFJ",
-        "title": "午夜胶片迷影",
+        "title": "午夜光影追逐者",
         "score": 9,
         "review": null
       },
@@ -19099,7 +19129,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_njjdmry82tj",
@@ -19111,31 +19141,31 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_v5godgiijw2",
         "nickname": "布吉岛",
         "mbti": "ENTP",
-        "title": "时尚影像探索者"
+        "title": "时尚光影追寻者"
       },
       {
         "id": "u_3r4ciddqrls",
@@ -19147,13 +19177,13 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者"
+        "title": "胶片寻梦者"
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_q46kkl8oucm",
@@ -19171,7 +19201,7 @@
         "id": "u_6xsftse056w",
         "nickname": "司予",
         "mbti": "ENFJ",
-        "title": "午夜胶片迷影"
+        "title": "午夜光影追逐者"
       },
       {
         "id": "u_stb43anbye1",
@@ -19246,7 +19276,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -19262,8 +19292,8 @@
         "id": "u_v30b7vovbqb",
         "nickname": "啊啾宝",
         "mbti": null,
-        "title": "默片时代光影追寻者",
-        "score": null,
+        "title": "胶片时代追光者",
+        "score": 8,
         "review": null
       }
     ],
@@ -19271,14 +19301,14 @@
       "id": "u_u7my6vzcrg7",
       "nickname": "123",
       "mbti": null,
-      "title": "午夜胶片追寻者"
+      "title": "时间旅行电影诗人"
     },
     "signups": [
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_qxj0e3yidy1",
@@ -19290,7 +19320,7 @@
         "id": "u_v30b7vovbqb",
         "nickname": "啊啾宝",
         "mbti": null,
-        "title": "默片时代光影追寻者"
+        "title": "胶片时代追光者"
       }
     ],
     "attendance": [
@@ -19301,8 +19331,8 @@
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-10-30T14:01:01.602Z",
-    "avgRating": null,
-    "ratedCount": 0,
+    "avgRating": 8,
+    "ratedCount": 1,
     "myRating": null,
     "myReview": null,
     "reviewCount": 0
@@ -19333,7 +19363,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 8,
         "review": "从79年全斗焕上台到80年光州事变到97年亚洲金融危机最终到99年永浩自杀 这短短二十年间韩国迎来了翻天覆地的变化与变革 使得人们在风浪中迷失了自我 一次次地倒叙让我们看清了永浩从中年失意 春风得意 清楚堕落 失手杀人 青年无知的全过程 这不只是永浩的悲剧 更是韩国那代人的悲剧"
       },
@@ -19341,7 +19371,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -19357,7 +19387,7 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者",
+        "title": "胶片寻梦者",
         "score": null,
         "review": null
       },
@@ -19374,20 +19404,20 @@
       "id": "u_468fg8gsdfs",
       "nickname": "影雾",
       "mbti": "INFP",
-      "title": "90年代光影追忆者"
+      "title": "午夜电影行者"
     },
     "signups": [
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_guzr838gofm",
@@ -19399,7 +19429,7 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者"
+        "title": "胶片寻梦者"
       },
       {
         "id": "u_4qhkuyza6qm",
@@ -19450,7 +19480,7 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 10,
         "review": "面对人生的重大变故，寻求心理寄托，然而信仰崩坍，继而精神失常，到最后拍摄减去发丝的轻轻落脚。都说李沧东是现实主义的导演，但当他一次次把镜头聚焦普通人中的边缘者之时，温情就和现实交融了。理解他们的痛苦这一举动就是一种平等视之的良善。"
       },
@@ -19458,7 +19488,7 @@
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
+        "title": "午夜电影行者",
         "score": 7,
         "review": null
       },
@@ -19466,7 +19496,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -19474,7 +19504,7 @@
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者",
+        "title": "胶片寻梦者",
         "score": null,
         "review": null
       },
@@ -19482,7 +19512,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": null,
         "review": null
       },
@@ -19490,7 +19520,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -19506,7 +19536,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者",
+        "title": "时代回响者",
         "score": null,
         "review": null
       },
@@ -19514,7 +19544,7 @@
         "id": "u_wadt6i48fec",
         "nickname": "Louie",
         "mbti": "INTJ",
-        "title": "00年代李沧东影迷",
+        "title": "九十年代电影守望者",
         "score": 10,
         "review": null
       },
@@ -19531,44 +19561,44 @@
       "id": "u_t3zu2lqvihx",
       "nickname": "拎拎",
       "mbti": "INFP",
-      "title": "电影时光漫游者"
+      "title": "深焦构图信徒"
     },
     "signups": [
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_yyfvoyni44b",
         "nickname": "云",
         "mbti": "INFP",
-        "title": "90年代光影行者"
+        "title": "胶片寻梦者"
       },
       {
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_xb3nx1f8stb",
@@ -19580,13 +19610,13 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者"
+        "title": "时代回响者"
       },
       {
         "id": "u_wadt6i48fec",
         "nickname": "Louie",
         "mbti": "INTJ",
-        "title": "00年代李沧东影迷"
+        "title": "九十年代电影守望者"
       },
       {
         "id": "u_50xgj0d4x46",
@@ -19642,7 +19672,7 @@
         "id": "u_upfd9hn9ycx",
         "nickname": "Llanlanlanlan",
         "mbti": "INTP",
-        "title": "70年代影迷",
+        "title": "70年代光影漫游者",
         "score": null,
         "review": null
       },
@@ -19650,7 +19680,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": 10,
         "review": null
       },
@@ -19683,20 +19713,20 @@
       "id": "u_upfd9hn9ycx",
       "nickname": "Llanlanlanlan",
       "mbti": "INTP",
-      "title": "70年代影迷"
+      "title": "70年代光影漫游者"
     },
     "signups": [
       {
         "id": "u_upfd9hn9ycx",
         "nickname": "Llanlanlanlan",
         "mbti": "INTP",
-        "title": "70年代影迷"
+        "title": "70年代光影漫游者"
       },
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_8w9ztu3i7hs",
@@ -19775,7 +19805,7 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者",
+        "title": "默片光影追忆者",
         "score": 7,
         "review": null
       },
@@ -19783,7 +19813,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -19791,7 +19821,7 @@
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者",
+        "title": "深焦构图信徒",
         "score": 8,
         "review": null
       }
@@ -19819,19 +19849,19 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者"
+        "title": "默片光影追忆者"
       },
       {
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       }
     ],
     "attendance": [
@@ -19876,7 +19906,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -19884,7 +19914,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 7,
         "review": "影片分为三个独立的故事，第二部的渣男没得到惩罚好气啊，第三部打死小人大快人心"
       },
@@ -19892,7 +19922,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -19916,7 +19946,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       }
@@ -19925,26 +19955,26 @@
       "id": "u_u7my6vzcrg7",
       "nickname": "123",
       "mbti": null,
-      "title": "午夜胶片追寻者"
+      "title": "时间旅行电影诗人"
     },
     "signups": [
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_9z30w95c0qs",
@@ -19962,7 +19992,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       }
     ],
     "attendance": [
@@ -20008,7 +20038,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       },
@@ -20040,7 +20070,7 @@
         "id": "u_v5godgiijw2",
         "nickname": "布吉岛",
         "mbti": "ENTP",
-        "title": "时尚影像探索者",
+        "title": "时尚光影追寻者",
         "score": 7,
         "review": "群友组的，画面色彩很不错，剧情一般般吧，可以想到他下面要说什么。很细节的是把你打成了妳。\n根据真实事件改编真的很厉害！\n（还在想是不是群友最近游泳所以想看这个）没想到以前那个时候人们是这样游泳的"
       },
@@ -20057,14 +20087,14 @@
       "id": "u_0q9a0dhhdw0",
       "nickname": "火冋火冋",
       "mbti": null,
-      "title": "时光旅者"
+      "title": "光影追寻者"
     },
     "signups": [
       {
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者"
+        "title": "光影追寻者"
       },
       {
         "id": "u_9z30w95c0qs",
@@ -20088,7 +20118,7 @@
         "id": "u_v5godgiijw2",
         "nickname": "布吉岛",
         "mbti": "ENTP",
-        "title": "时尚影像探索者"
+        "title": "时尚光影追寻者"
       },
       {
         "id": "u_xb3nx1f8stb",
@@ -20140,7 +20170,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 7,
         "review": "走火入魔，杀杀杀"
       },
@@ -20156,7 +20186,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -20164,7 +20194,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       }
@@ -20173,14 +20203,14 @@
       "id": "u_m21tzyiaezv",
       "nickname": "安静的美人",
       "mbti": "INFJ",
-      "title": "影史回响者"
+      "title": "时光穿梭者"
     },
     "signups": [
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_4qhkuyza6qm",
@@ -20192,13 +20222,13 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       }
     ],
     "attendance": [
@@ -20258,7 +20288,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -20266,7 +20296,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -20274,7 +20304,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 7,
         "review": "惨惨惨"
       },
@@ -20282,7 +20312,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       },
@@ -20290,7 +20320,7 @@
         "id": "u_wadt6i48fec",
         "nickname": "Louie",
         "mbti": "INTJ",
-        "title": "00年代李沧东影迷",
+        "title": "九十年代电影守望者",
         "score": 7,
         "review": null
       },
@@ -20298,8 +20328,8 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者",
-        "score": null,
+        "title": "时光隧道行者",
+        "score": 7,
         "review": null
       },
       {
@@ -20314,7 +20344,7 @@
         "id": "u_a857zmi0r3j",
         "nickname": "好好努力",
         "mbti": "ISFP",
-        "title": "九十年代复古漫游者",
+        "title": "70年代光影漫步者",
         "score": 7,
         "review": null
       },
@@ -20330,7 +20360,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者",
+        "title": "时代回响者",
         "score": null,
         "review": null
       },
@@ -20374,37 +20404,37 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       },
       {
         "id": "u_wadt6i48fec",
         "nickname": "Louie",
         "mbti": "INTJ",
-        "title": "00年代李沧东影迷"
+        "title": "九十年代电影守望者"
       },
       {
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者"
+        "title": "时光隧道行者"
       },
       {
         "id": "u_8oxufyrzpqn",
@@ -20416,7 +20446,7 @@
         "id": "u_a857zmi0r3j",
         "nickname": "好好努力",
         "mbti": "ISFP",
-        "title": "九十年代复古漫游者"
+        "title": "70年代光影漫步者"
       },
       {
         "id": "u_p1n3fucm7w3",
@@ -20428,7 +20458,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者"
+        "title": "时代回响者"
       },
       {
         "id": "u_n25k0mj9ipo",
@@ -20462,8 +20492,8 @@
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-11-04T16:00:01.504Z",
-    "avgRating": 6.75,
-    "ratedCount": 6,
+    "avgRating": 6.8,
+    "ratedCount": 7,
     "myRating": null,
     "myReview": null,
     "reviewCount": 1
@@ -20502,7 +20532,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "节奏好，质感好。很精彩，很爽（斧头帮大战小刀会）"
       },
@@ -20532,7 +20562,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_gep1zew0m42",
@@ -20581,7 +20611,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -20597,7 +20627,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 6,
         "review": "设定不错，剧情不太行"
       },
@@ -20605,7 +20635,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       },
@@ -20613,7 +20643,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 6,
         "review": null
       },
@@ -20621,7 +20651,7 @@
         "id": "u_6xsftse056w",
         "nickname": "司予",
         "mbti": "ENFJ",
-        "title": "午夜胶片迷影",
+        "title": "午夜光影追逐者",
         "score": 6,
         "review": null
       },
@@ -20635,11 +20665,11 @@
       },
       {
         "id": "u_uz455fxgm5c",
-        "nickname": "ice",
+        "nickname": "chiral",
         "mbti": "INFJ",
-        "title": "午夜经典探索者",
-        "score": null,
-        "review": null
+        "title": "胶片时光守护者",
+        "score": 8,
+        "review": "坏了，他是想成仙呐"
       },
       {
         "id": "u_y7jtivug0x5",
@@ -20653,7 +20683,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": 10,
         "review": "唯心主义和唯物主义都可以找到属于自己的精神归宿"
       },
@@ -20661,7 +20691,7 @@
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家",
+        "title": "光影时代漫游者",
         "score": 8,
         "review": null
       },
@@ -20671,7 +20701,7 @@
         "mbti": "INFJ",
         "title": "光影时光旅者",
         "score": 7,
-        "review": null
+        "review": "连环命案一般都是指向人性，本片另辟蹊径，而是比较明确的宗教崇拜，同时尽可能用科学方法解释一切，一种“子不语怪力乱神，敬而远之”的戏剧冲突，大本营杀警那段表现力惊人。"
       },
       {
         "id": "u_9z30w95c0qs",
@@ -20694,14 +20724,14 @@
       "id": "u_p1yu7vqxip4",
       "nickname": "火山琉璃",
       "mbti": null,
-      "title": "胶片时光追忆者"
+      "title": "时光修复者"
     },
     "signups": [
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_oe80wgscmaz",
@@ -20713,25 +20743,25 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_6xsftse056w",
         "nickname": "司予",
         "mbti": "ENFJ",
-        "title": "午夜胶片迷影"
+        "title": "午夜光影追逐者"
       },
       {
         "id": "u_h5tdibpas6c",
@@ -20741,9 +20771,9 @@
       },
       {
         "id": "u_uz455fxgm5c",
-        "nickname": "ice",
+        "nickname": "chiral",
         "mbti": "INFJ",
-        "title": "午夜经典探索者"
+        "title": "胶片时光守护者"
       },
       {
         "id": "u_y7jtivug0x5",
@@ -20755,13 +20785,13 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_x7ptpj7qduf",
         "nickname": "不要压力我",
         "mbti": "INFP",
-        "title": "午夜胶片收藏家"
+        "title": "光影时代漫游者"
       },
       {
         "id": "u_us9h0skuy7l",
@@ -20801,11 +20831,11 @@
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-11-06T16:52:46.498Z",
-    "avgRating": 6.8,
-    "ratedCount": 7,
+    "avgRating": 7,
+    "ratedCount": 8,
     "myRating": null,
     "myReview": null,
-    "reviewCount": 2
+    "reviewCount": 4
   },
   {
     "id": "m_w8b1guf2orr",
@@ -20833,7 +20863,7 @@
         "id": "u_gkbil5ctfbs",
         "nickname": "Eva",
         "mbti": "INFJ",
-        "title": "90年代光影游吟者",
+        "title": "午夜电影漫步者",
         "score": 10,
         "review": "你读过圣经吗？"
       },
@@ -20873,7 +20903,7 @@
         "id": "u_b1tjiiam9vl",
         "nickname": "来点KFC",
         "mbti": null,
-        "title": "昆汀电影迷踪",
+        "title": "",
         "score": null,
         "review": null
       }
@@ -20882,14 +20912,14 @@
       "id": "u_gkbil5ctfbs",
       "nickname": "Eva",
       "mbti": "INFJ",
-      "title": "90年代光影游吟者"
+      "title": "午夜电影漫步者"
     },
     "signups": [
       {
         "id": "u_gkbil5ctfbs",
         "nickname": "Eva",
         "mbti": "INFJ",
-        "title": "90年代光影游吟者"
+        "title": "午夜电影漫步者"
       },
       {
         "id": "u_8jcaxd2whft",
@@ -20919,7 +20949,7 @@
         "id": "u_b1tjiiam9vl",
         "nickname": "来点KFC",
         "mbti": null,
-        "title": "昆汀电影迷踪"
+        "title": ""
       }
     ],
     "attendance": [
@@ -20965,7 +20995,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家",
+        "title": "午夜光影探险者",
         "score": 8,
         "review": "服化道好看，很有法国味。故事告诉我们警惕消费主义陷阱。"
       },
@@ -20981,7 +21011,7 @@
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒",
+        "title": "午夜经典追寻者",
         "score": 10,
         "review": "没看过书，直接看的电影，看完之后再去搜了一下原著。虽然电影有些东西省略了，甚至于简介里提到的孩子在电影里一点都没有，但是改编得还是挺详略得当；商人那张嘴是真的会赚钱呀，木讷的男主就是直男老实人，傻白甜的女主只是无法忍受平庸罢了；助我了解了为什么有些女生总在垃圾堆里找男人"
       },
@@ -20989,7 +21019,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 7,
         "review": "这个故事告诉我们，不要随便还在做普通人的时候就碰高定"
       }
@@ -20998,14 +21028,14 @@
       "id": "u_m5fpup84hmd",
       "nickname": "shell",
       "mbti": "INTJ",
-      "title": "时间旅行电影学家"
+      "title": "午夜光影探险者"
     },
     "signups": [
       {
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家"
+        "title": "午夜光影探险者"
       },
       {
         "id": "u_ssa5k26ilp7",
@@ -21023,13 +21053,13 @@
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒"
+        "title": "午夜经典追寻者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       }
     ],
     "attendance": [
@@ -21062,18 +21092,18 @@
     "stage": "done",
     "viable": true,
     "hall": {
-      "count": 3,
+      "count": 4,
       "ok": true,
-      "plan": "三人厅 × 1",
-      "settledAt": "2026-11-07T11:09:24.231Z"
+      "plan": "四人厅 × 1",
+      "settledAt": "2026-11-13T13:53:23.854Z"
     },
-    "count": 3,
+    "count": 4,
     "participants": [
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -21081,7 +21111,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": 10,
         "review": null
       },
@@ -21089,50 +21119,65 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者",
+        "score": 7,
+        "review": "非常憋屈，严重怀疑导演因为没系安全带被警察罚款了所以心生怨恨拍了这部片子用来意淫泄愤"
       }
     ],
     "creator": {
       "id": "u_p1yu7vqxip4",
       "nickname": "火山琉璃",
       "mbti": null,
-      "title": "胶片时光追忆者"
+      "title": "时光修复者"
     },
     "signups": [
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者"
       }
     ],
     "attendance": [
       "u_p1yu7vqxip4",
       "u_u7my6vzcrg7",
-      "u_14c7augl33i"
+      "u_14c7augl33i",
+      "u_m21tzyiaezv"
     ],
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-11-08T16:06:45.616Z",
-    "avgRating": 10,
-    "ratedCount": 1,
+    "avgRating": 8.5,
+    "ratedCount": 2,
     "myRating": null,
     "myReview": null,
-    "reviewCount": 0
+    "reviewCount": 1
   },
   {
     "id": "m_kfvje9qb2ta",
@@ -21160,7 +21205,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 9,
         "review": "与新中国同龄的电影，思想却是那么先进。与现在相比，摄制技术虽然差，但剧情好，演技好，台词好，真乃匠心之作。"
       },
@@ -21168,7 +21213,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": 10,
         "review": "沉重的压力，糟糕的儿子，轻快地表达。“她要和我结婚”，哈哈哈哈，那里笑翻了"
       },
@@ -21176,7 +21221,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": 10,
         "review": null
       },
@@ -21184,7 +21229,7 @@
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者",
+        "title": "默片光影追忆者",
         "score": 10,
         "review": "天意怜幽草，人间重晚晴。"
       },
@@ -21201,14 +21246,14 @@
         "nickname": "ayzz",
         "mbti": null,
         "title": "黑白影像追寻者",
-        "score": null,
+        "score": 10,
         "review": null
       },
       {
         "id": "u_zq0wwlmbgdc",
         "nickname": "橙",
         "mbti": "ENTJ",
-        "title": "四十年代光影守望者",
+        "title": "40年代光影追寻者",
         "score": 8,
         "review": null
       }
@@ -21217,20 +21262,20 @@
       "id": "u_m21tzyiaezv",
       "nickname": "安静的美人",
       "mbti": "INFJ",
-      "title": "影史回响者"
+      "title": "时光穿梭者"
     },
     "signups": [
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_4qhkuyza6qm",
@@ -21242,19 +21287,19 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_t3zu2lqvihx",
         "nickname": "拎拎",
         "mbti": "INFP",
-        "title": "电影时光漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_huq4tf4b990",
         "nickname": "加一个蛋",
         "mbti": "ISFJ",
-        "title": "五十年代光影漫游者"
+        "title": "默片光影追忆者"
       },
       {
         "id": "u_i0qoxt5anfx",
@@ -21272,7 +21317,7 @@
         "id": "u_zq0wwlmbgdc",
         "nickname": "橙",
         "mbti": "ENTJ",
-        "title": "四十年代光影守望者"
+        "title": "40年代光影追寻者"
       }
     ],
     "attendance": [
@@ -21287,8 +21332,8 @@
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-11-09T13:34:53.354Z",
-    "avgRating": 9.25,
-    "ratedCount": 6,
+    "avgRating": 9.4,
+    "ratedCount": 7,
     "myRating": null,
     "myReview": null,
     "reviewCount": 4
@@ -21327,7 +21372,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 9,
         "review": null
       },
@@ -21351,7 +21396,7 @@
         "id": "u_v5godgiijw2",
         "nickname": "布吉岛",
         "mbti": "ENTP",
-        "title": "时尚影像探索者",
+        "title": "时尚光影追寻者",
         "score": 8,
         "review": "我大部分时候就是和男主这样的，一直在克制，挺有同感的。男主最后说的也是，有时候，有那么几个瞬间是只感受没有思考的，那些让人无限回忆的一个个瞬间，有时候确实需要一些冲动去做一些事情，不过有时候我可能分不清这是一时冲动的激情，还是需要警惕远离的危险。"
       },
@@ -21359,7 +21404,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 9,
         "review": null
       },
@@ -21367,7 +21412,7 @@
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者",
+        "title": "二十年代影史守望者",
         "score": null,
         "review": null
       },
@@ -21375,7 +21420,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 8,
         "review": null
       }
@@ -21397,7 +21442,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       },
       {
         "id": "u_n25k0mj9ipo",
@@ -21415,25 +21460,25 @@
         "id": "u_v5godgiijw2",
         "nickname": "布吉岛",
         "mbti": "ENTP",
-        "title": "时尚影像探索者"
+        "title": "时尚光影追寻者"
       },
       {
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_l8nrrc5aucj",
         "nickname": "2d9",
         "mbti": null,
-        "title": "默片时代梦境追捕者"
+        "title": "二十年代影史守望者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       }
     ],
     "attendance": [
@@ -21481,7 +21526,7 @@
         "id": "u_gkbil5ctfbs",
         "nickname": "Eva",
         "mbti": "INFJ",
-        "title": "90年代光影游吟者",
+        "title": "午夜电影漫步者",
         "score": 9,
         "review": "原来寂寞的时候谁都一样。黎耀辉，何宝荣。当你对一个人有很特别的感情，你会更喜欢叫他的全名。"
       },
@@ -21497,7 +21542,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 9,
         "review": "我感受到深深的寂寞"
       },
@@ -21505,7 +21550,7 @@
         "id": "u_xi7xzo7fknh",
         "nickname": "CBCL",
         "mbti": "INTP",
-        "title": "九十年代香港迷影",
+        "title": "王家卫电影迷",
         "score": 8,
         "review": "奔赴幻象里的圆满终在洪流前独自看清"
       },
@@ -21513,7 +21558,7 @@
         "id": "u_i6tlr0hps2k",
         "nickname": "人造月",
         "mbti": "INFP",
-        "title": "九十年代光影漫游者",
+        "title": "深焦构图信徒",
         "score": 8,
         "review": "何宝荣永远以为，自己总有个地方可以回去，也总有个人在等自己回来，这是他有恃无恐自由撒欢的凭证。他精准地洞悉了开头与过程，却猜不到只剩一展孤灯的结局"
       },
@@ -21521,7 +21566,7 @@
         "id": "u_6xsftse056w",
         "nickname": "司予",
         "mbti": "ENFJ",
-        "title": "午夜胶片迷影",
+        "title": "午夜光影追逐者",
         "score": 8,
         "review": "越害怕失去，就越想抓紧\n越感受束缚，就越想逃离\n与其说重头再来\n不如算重蹈覆辙"
       }
@@ -21530,14 +21575,14 @@
       "id": "u_gkbil5ctfbs",
       "nickname": "Eva",
       "mbti": "INFJ",
-      "title": "90年代光影游吟者"
+      "title": "午夜电影漫步者"
     },
     "signups": [
       {
         "id": "u_gkbil5ctfbs",
         "nickname": "Eva",
         "mbti": "INFJ",
-        "title": "90年代光影游吟者"
+        "title": "午夜电影漫步者"
       },
       {
         "id": "u_xb3nx1f8stb",
@@ -21549,25 +21594,25 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_xi7xzo7fknh",
         "nickname": "CBCL",
         "mbti": "INTP",
-        "title": "九十年代香港迷影"
+        "title": "王家卫电影迷"
       },
       {
         "id": "u_i6tlr0hps2k",
         "nickname": "人造月",
         "mbti": "INFP",
-        "title": "九十年代光影漫游者"
+        "title": "深焦构图信徒"
       },
       {
         "id": "u_6xsftse056w",
         "nickname": "司予",
         "mbti": "ENFJ",
-        "title": "午夜胶片迷影"
+        "title": "午夜光影追逐者"
       }
     ],
     "attendance": [
@@ -21613,7 +21658,7 @@
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师",
+        "title": "时光漫步者",
         "score": 9,
         "review": null
       },
@@ -21621,7 +21666,7 @@
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人",
+        "title": "光影追寻者",
         "score": 9,
         "review": null
       },
@@ -21629,7 +21674,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 10,
         "review": "即使是梁朝伟，咪咪上也不能长毛，为什么他又被甩了，男男女女都甩他，到底是谁会甩梁朝伟！"
       },
@@ -21645,7 +21690,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者",
+        "title": "时代回响者",
         "score": null,
         "review": null
       }
@@ -21654,26 +21699,26 @@
       "id": "u_6a4zj6a37dp",
       "nickname": "Alex",
       "mbti": "ESTJ",
-      "title": "时光之翼放映师"
+      "title": "时光漫步者"
     },
     "signups": [
       {
         "id": "u_6a4zj6a37dp",
         "nickname": "Alex",
         "mbti": "ESTJ",
-        "title": "时光之翼放映师"
+        "title": "时光漫步者"
       },
       {
         "id": "u_q1adypia4xd",
         "nickname": "Esja",
         "mbti": "INFP",
-        "title": "时光旅人"
+        "title": "光影追寻者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_x70mbpe4pj9",
@@ -21685,7 +21730,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者"
+        "title": "时代回响者"
       }
     ],
     "attendance": [
@@ -21730,7 +21775,7 @@
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家",
+        "title": "午夜光影探险者",
         "score": 9,
         "review": "学到了一句话：“我一直为你保持着童真。”😄"
       },
@@ -21746,7 +21791,7 @@
         "id": "u_71kb3cb0297",
         "nickname": "树叶",
         "mbti": "INFP",
-        "title": "00年代光影猎手",
+        "title": "光影追忆者",
         "score": 5,
         "review": null
       },
@@ -21754,7 +21799,7 @@
         "id": "u_3b2y2hdm7m0",
         "nickname": "爱吃蛋饼",
         "mbti": "INFP",
-        "title": "光影时光漫游者",
+        "title": "时光漫游者",
         "score": null,
         "review": null
       }
@@ -21763,14 +21808,14 @@
       "id": "u_m5fpup84hmd",
       "nickname": "shell",
       "mbti": "INTJ",
-      "title": "时间旅行电影学家"
+      "title": "午夜光影探险者"
     },
     "signups": [
       {
         "id": "u_m5fpup84hmd",
         "nickname": "shell",
         "mbti": "INTJ",
-        "title": "时间旅行电影学家"
+        "title": "午夜光影探险者"
       },
       {
         "id": "u_8oxufyrzpqn",
@@ -21782,13 +21827,13 @@
         "id": "u_71kb3cb0297",
         "nickname": "树叶",
         "mbti": "INFP",
-        "title": "00年代光影猎手"
+        "title": "光影追忆者"
       },
       {
         "id": "u_3b2y2hdm7m0",
         "nickname": "爱吃蛋饼",
         "mbti": "INFP",
-        "title": "光影时光漫游者"
+        "title": "时光漫游者"
       }
     ],
     "attendance": [
@@ -21832,7 +21877,7 @@
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷",
+        "title": "年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -21840,7 +21885,7 @@
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者",
+        "title": "时代回响者",
         "score": null,
         "review": null
       },
@@ -21848,7 +21893,7 @@
         "id": "u_h7g1k6lfteo",
         "nickname": "西红柿",
         "mbti": null,
-        "title": "午夜都市猎影者",
+        "title": "胶片梦境追逐者",
         "score": null,
         "review": null
       },
@@ -21856,7 +21901,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -21864,7 +21909,7 @@
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 8,
         "review": "做人好难啊"
       },
@@ -21872,7 +21917,7 @@
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者",
+        "title": "时光漫步者",
         "score": 8,
         "review": "已经很努力很努力了，规律吃药努力与病魔抗争，努力走向新生活，努力讨母亲欢心…她有多努力，就有多绝望"
       },
@@ -21880,7 +21925,7 @@
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者",
+        "title": "怀旧光影行者",
         "score": null,
         "review": null
       },
@@ -21888,7 +21933,7 @@
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者",
+        "title": "光影追寻者",
         "score": null,
         "review": null
       },
@@ -21905,56 +21950,56 @@
       "id": "u_zhoofvu4tmv",
       "nickname": "三三得九",
       "mbti": "ISFJ",
-      "title": "年代影迷"
+      "title": "年代光影追寻者"
     },
     "signups": [
       {
         "id": "u_zhoofvu4tmv",
         "nickname": "三三得九",
         "mbti": "ISFJ",
-        "title": "年代影迷"
+        "title": "年代光影追寻者"
       },
       {
         "id": "u_gp8zhjd3xjb",
         "nickname": "兔子",
         "mbti": "ENFP",
-        "title": "怀旧光影寻踪者"
+        "title": "时代回响者"
       },
       {
         "id": "u_h7g1k6lfteo",
         "nickname": "西红柿",
         "mbti": null,
-        "title": "午夜都市猎影者"
+        "title": "胶片梦境追逐者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_i6zj6y19vne",
         "nickname": "晏秋",
         "mbti": "ISFJ",
-        "title": "怀旧光影追行者"
+        "title": "时光漫步者"
       },
       {
         "id": "u_kkov9j2fmfs",
         "nickname": "子衿",
         "mbti": "INFP",
-        "title": "光影岁月漫游者"
+        "title": "怀旧光影行者"
       },
       {
         "id": "u_0q9a0dhhdw0",
         "nickname": "火冋火冋",
         "mbti": null,
-        "title": "时光旅者"
+        "title": "光影追寻者"
       },
       {
         "id": "u_stb43anbye1",
@@ -22025,15 +22070,15 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者",
-        "score": null,
+        "title": "时光隧道行者",
+        "score": 8,
         "review": null
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者",
+        "title": "时光穿梭者",
         "score": 7,
         "review": "剧情紧张刺激，可惜设定不合逻辑"
       },
@@ -22041,7 +22086,7 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": 8,
         "review": "好精彩好精彩，居然只有短短的一个半小时"
       },
@@ -22085,19 +22130,19 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者"
+        "title": "时光隧道行者"
       },
       {
         "id": "u_m21tzyiaezv",
         "nickname": "安静的美人",
         "mbti": "INFJ",
-        "title": "影史回响者"
+        "title": "时光穿梭者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_oazg473j3ul",
@@ -22124,8 +22169,8 @@
     "isCreator": false,
     "isSigned": false,
     "completedAt": "2026-11-12T13:36:25.998Z",
-    "avgRating": 8.333333333333334,
-    "ratedCount": 3,
+    "avgRating": 8,
+    "ratedCount": 4,
     "myRating": null,
     "myReview": null,
     "reviewCount": 3
@@ -22141,8 +22186,8 @@
     "createdAt": "2026-10-29T06:50:05.670Z",
     "publicUntil": "2026-10-29T07:10:05.670Z",
     "signupDeadline": "2026-11-12T11:30:00.000Z",
-    "status": "active",
-    "stage": "closed",
+    "status": "done",
+    "stage": "done",
     "viable": true,
     "hall": {
       "count": 12,
@@ -22156,7 +22201,7 @@
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者",
+        "title": "时间旅行电影诗人",
         "score": null,
         "review": null
       },
@@ -22164,7 +22209,7 @@
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者",
+        "title": "时光修复者",
         "score": null,
         "review": null
       },
@@ -22172,7 +22217,7 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
+        "title": "时空旅人影像猎人",
         "score": null,
         "review": null
       },
@@ -22180,7 +22225,7 @@
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者",
+        "title": "时光胶片追寻者",
         "score": null,
         "review": null
       },
@@ -22188,23 +22233,23 @@
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒",
+        "title": "午夜经典追寻者",
         "score": null,
         "review": null
       },
       {
         "id": "u_uz455fxgm5c",
-        "nickname": "ice",
+        "nickname": "chiral",
         "mbti": "INFJ",
-        "title": "午夜经典探索者",
-        "score": null,
+        "title": "胶片时光守护者",
+        "score": 8,
         "review": null
       },
       {
         "id": "u_zq0wwlmbgdc",
         "nickname": "橙",
         "mbti": "ENTJ",
-        "title": "四十年代光影守望者",
+        "title": "40年代光影追寻者",
         "score": null,
         "review": null
       },
@@ -22212,7 +22257,7 @@
         "id": "u_wadt6i48fec",
         "nickname": "Louie",
         "mbti": "INTJ",
-        "title": "00年代李沧东影迷",
+        "title": "九十年代电影守望者",
         "score": null,
         "review": null
       },
@@ -22220,7 +22265,7 @@
         "id": "u_ucqyhxeg6uw",
         "nickname": "琼心",
         "mbti": "ISFP",
-        "title": "",
+        "title": "光影追忆者",
         "score": null,
         "review": null
       },
@@ -22228,15 +22273,15 @@
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者",
-        "score": null,
+        "title": "时光隧道行者",
+        "score": 9,
         "review": null
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
+        "title": "时光漫游者",
         "score": null,
         "review": null
       },
@@ -22244,8 +22289,8 @@
         "id": "u_a857zmi0r3j",
         "nickname": "好好努力",
         "mbti": "ISFP",
-        "title": "九十年代复古漫游者",
-        "score": null,
+        "title": "70年代光影漫步者",
+        "score": 7,
         "review": null
       }
     ],
@@ -22253,88 +22298,101 @@
       "id": "u_u7my6vzcrg7",
       "nickname": "123",
       "mbti": null,
-      "title": "午夜胶片追寻者"
+      "title": "时间旅行电影诗人"
     },
     "signups": [
       {
         "id": "u_u7my6vzcrg7",
         "nickname": "123",
         "mbti": null,
-        "title": "午夜胶片追寻者"
+        "title": "时间旅行电影诗人"
       },
       {
         "id": "u_p1yu7vqxip4",
         "nickname": "火山琉璃",
         "mbti": null,
-        "title": "胶片时光追忆者"
+        "title": "时光修复者"
       },
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_14c7augl33i",
         "nickname": "大梦",
         "mbti": null,
-        "title": "午夜胶片追忆者"
+        "title": "时光胶片追寻者"
       },
       {
         "id": "u_tw2tm21ne0h",
         "nickname": "coconut",
         "mbti": "ENTP",
-        "title": "深焦构图信徒"
+        "title": "午夜经典追寻者"
       },
       {
         "id": "u_uz455fxgm5c",
-        "nickname": "ice",
+        "nickname": "chiral",
         "mbti": "INFJ",
-        "title": "午夜经典探索者"
+        "title": "胶片时光守护者"
       },
       {
         "id": "u_zq0wwlmbgdc",
         "nickname": "橙",
         "mbti": "ENTJ",
-        "title": "四十年代光影守望者"
+        "title": "40年代光影追寻者"
       },
       {
         "id": "u_wadt6i48fec",
         "nickname": "Louie",
         "mbti": "INTJ",
-        "title": "00年代李沧东影迷"
+        "title": "九十年代电影守望者"
       },
       {
         "id": "u_ucqyhxeg6uw",
         "nickname": "琼心",
         "mbti": "ISFP",
-        "title": ""
+        "title": "光影追忆者"
       },
       {
         "id": "u_eicdrvytvk9",
         "nickname": "林三",
         "mbti": "INFJ",
-        "title": "九十年代电影守望者"
+        "title": "时光隧道行者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       },
       {
         "id": "u_a857zmi0r3j",
         "nickname": "好好努力",
         "mbti": "ISFP",
-        "title": "九十年代复古漫游者"
+        "title": "70年代光影漫步者"
       }
     ],
-    "attendance": null,
+    "attendance": [
+      "u_u7my6vzcrg7",
+      "u_p1yu7vqxip4",
+      "u_qg9rau37xm4",
+      "u_14c7augl33i",
+      "u_tw2tm21ne0h",
+      "u_uz455fxgm5c",
+      "u_zq0wwlmbgdc",
+      "u_wadt6i48fec",
+      "u_ucqyhxeg6uw",
+      "u_eicdrvytvk9",
+      "u_zzzkfe8gr84",
+      "u_a857zmi0r3j"
+    ],
     "isCreator": false,
     "isSigned": false,
-    "completedAt": null,
-    "avgRating": null,
-    "ratedCount": 0,
+    "completedAt": "2026-11-13T14:04:23.673Z",
+    "avgRating": 8,
+    "ratedCount": 3,
     "myRating": null,
     "myReview": null,
     "reviewCount": 0
@@ -22350,8 +22408,8 @@
     "createdAt": "2026-11-09T05:45:38.177Z",
     "publicUntil": "2026-11-09T06:05:38.177Z",
     "signupDeadline": "2026-11-12T13:30:00.000Z",
-    "status": "active",
-    "stage": "closed",
+    "status": "done",
+    "stage": "done",
     "viable": true,
     "hall": {
       "count": 4,
@@ -22365,23 +22423,23 @@
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者",
-        "score": null,
+        "title": "时空旅人影像猎人",
+        "score": 9,
         "review": null
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者",
-        "score": null,
+        "title": "午夜电影行者",
+        "score": 8,
         "review": null
       },
       {
         "id": "u_yg86azh59j4",
         "nickname": "Erikatze",
         "mbti": "INFP",
-        "title": "",
+        "title": "银翼复古探梦者",
         "score": null,
         "review": null
       },
@@ -22389,51 +22447,1244 @@
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷",
-        "score": null,
-        "review": null
+        "title": "时光漫游者",
+        "score": 8,
+        "review": "远离npd远离npd，珍爱生命，远离两个已经疯了的npd"
       }
     ],
     "creator": {
       "id": "u_qg9rau37xm4",
       "nickname": "D",
       "mbti": "ENFP",
-      "title": "年代光影追忆者"
+      "title": "时空旅人影像猎人"
     },
     "signups": [
       {
         "id": "u_qg9rau37xm4",
         "nickname": "D",
         "mbti": "ENFP",
-        "title": "年代光影追忆者"
+        "title": "时空旅人影像猎人"
       },
       {
         "id": "u_468fg8gsdfs",
         "nickname": "影雾",
         "mbti": "INFP",
-        "title": "90年代光影追忆者"
+        "title": "午夜电影行者"
       },
       {
         "id": "u_yg86azh59j4",
         "nickname": "Erikatze",
         "mbti": "INFP",
-        "title": ""
+        "title": "银翼复古探梦者"
       },
       {
         "id": "u_zzzkfe8gr84",
         "nickname": "水镜",
         "mbti": "INFP",
-        "title": "九十年代影迷"
+        "title": "时光漫游者"
       }
     ],
-    "attendance": null,
+    "attendance": [
+      "u_qg9rau37xm4",
+      "u_468fg8gsdfs",
+      "u_yg86azh59j4",
+      "u_zzzkfe8gr84"
+    ],
     "isCreator": false,
     "isSigned": false,
-    "completedAt": null,
+    "completedAt": "2026-11-13T16:49:23.820Z",
+    "avgRating": 8.333333333333334,
+    "ratedCount": 3,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 1
+  },
+  {
+    "id": "m_israwikpm30",
+    "title": "可能的爱",
+    "year": 2026,
+    "director": "李沧东",
+    "duration": 166,
+    "intro": "故事围绕两对处境迥异的夫妇展开：被解雇的工人浩硕与在口罩工厂谋生的妻子美玉，纪录片女导演艺智与她的丈夫尚宇。四人因一部关于失业工人的纪录片拍摄而相遇，在往来中直面阶层落差与生活之下的隐秘欲望。镜头架起后，权力关系无处遁形——高价手袋与创伤记忆并置，尾随前工友的沉默暴力，女人之间微妙的凝视，以及海边度假屋里一场近乎裸体的“斗牛”。一支口哨贯穿始终，在不同人生里折射出呼唤、创伤与友谊。片头“不可贪恋”",
+    "startTime": "2026-11-14T02:00:00.000Z",
+    "createdAt": "2026-11-12T01:38:22.092Z",
+    "publicUntil": "2026-11-12T01:58:22.092Z",
+    "signupDeadline": "2026-11-13T02:00:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 5,
+      "ok": true,
+      "plan": "五人厅 × 1",
+      "settledAt": "2026-11-13T02:00:02.550Z"
+    },
+    "count": 5,
+    "participants": [
+      {
+        "id": "u_b1tjiiam9vl",
+        "nickname": "来点KFC",
+        "mbti": null,
+        "title": "",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_huq4tf4b990",
+        "nickname": "加一个蛋",
+        "mbti": "ISFJ",
+        "title": "默片光影追忆者",
+        "score": 10,
+        "review": null
+      },
+      {
+        "id": "u_g0363rfawpk",
+        "nickname": "henry周",
+        "mbti": null,
+        "title": "复古光影寻梦者",
+        "score": 10,
+        "review": null
+      },
+      {
+        "id": "u_eekqrct771a",
+        "nickname": "Octopus",
+        "mbti": null,
+        "title": "复古影像寻踪者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_2y8awr8xblz",
+        "nickname": "叽叽喳喳",
+        "mbti": "ENFJ",
+        "title": "默片时光追寻者",
+        "score": 8,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_b1tjiiam9vl",
+      "nickname": "来点KFC",
+      "mbti": null,
+      "title": ""
+    },
+    "signups": [
+      {
+        "id": "u_b1tjiiam9vl",
+        "nickname": "来点KFC",
+        "mbti": null,
+        "title": ""
+      },
+      {
+        "id": "u_huq4tf4b990",
+        "nickname": "加一个蛋",
+        "mbti": "ISFJ",
+        "title": "默片光影追忆者"
+      },
+      {
+        "id": "u_g0363rfawpk",
+        "nickname": "henry周",
+        "mbti": null,
+        "title": "复古光影寻梦者"
+      },
+      {
+        "id": "u_eekqrct771a",
+        "nickname": "Octopus",
+        "mbti": null,
+        "title": "复古影像寻踪者"
+      },
+      {
+        "id": "u_2y8awr8xblz",
+        "nickname": "叽叽喳喳",
+        "mbti": "ENFJ",
+        "title": "默片时光追寻者"
+      }
+    ],
+    "attendance": [
+      "u_b1tjiiam9vl",
+      "u_huq4tf4b990",
+      "u_g0363rfawpk",
+      "u_eekqrct771a",
+      "u_2y8awr8xblz"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-14T05:46:02.578Z",
+    "avgRating": 9.333333333333334,
+    "ratedCount": 3,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 0
+  },
+  {
+    "id": "m_k8bxdu103h1",
+    "title": "入夜不再",
+    "year": 2026,
+    "director": "戴夫·博伊尔",
+    "duration": 105,
+    "intro": "黑泽清type",
+    "startTime": "2026-11-14T06:30:00.000Z",
+    "createdAt": "2026-11-09T07:03:26.101Z",
+    "publicUntil": "2026-11-09T07:23:26.101Z",
+    "signupDeadline": "2026-11-13T06:30:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 4,
+      "ok": true,
+      "plan": "四人厅 × 1",
+      "settledAt": "2026-11-13T06:30:43.241Z"
+    },
+    "count": 4,
+    "participants": [
+      {
+        "id": "u_l8nrrc5aucj",
+        "nickname": "2d9",
+        "mbti": null,
+        "title": "二十年代影史守望者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_u7my6vzcrg7",
+        "nickname": "123",
+        "mbti": null,
+        "title": "时间旅行电影诗人",
+        "score": 10,
+        "review": null
+      },
+      {
+        "id": "u_kkov9j2fmfs",
+        "nickname": "子衿",
+        "mbti": "INFP",
+        "title": "怀旧光影行者",
+        "score": 7,
+        "review": null
+      },
+      {
+        "id": "u_huq4tf4b990",
+        "nickname": "加一个蛋",
+        "mbti": "ISFJ",
+        "title": "默片光影追忆者",
+        "score": 6,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_l8nrrc5aucj",
+      "nickname": "2d9",
+      "mbti": null,
+      "title": "二十年代影史守望者"
+    },
+    "signups": [
+      {
+        "id": "u_l8nrrc5aucj",
+        "nickname": "2d9",
+        "mbti": null,
+        "title": "二十年代影史守望者"
+      },
+      {
+        "id": "u_u7my6vzcrg7",
+        "nickname": "123",
+        "mbti": null,
+        "title": "时间旅行电影诗人"
+      },
+      {
+        "id": "u_kkov9j2fmfs",
+        "nickname": "子衿",
+        "mbti": "INFP",
+        "title": "怀旧光影行者"
+      },
+      {
+        "id": "u_huq4tf4b990",
+        "nickname": "加一个蛋",
+        "mbti": "ISFJ",
+        "title": "默片光影追忆者"
+      }
+    ],
+    "attendance": [
+      "u_l8nrrc5aucj",
+      "u_u7my6vzcrg7",
+      "u_kkov9j2fmfs",
+      "u_huq4tf4b990"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-14T09:15:02.824Z",
+    "avgRating": 7.666666666666667,
+    "ratedCount": 3,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 0
+  },
+  {
+    "id": "m_v7xmhqalub4",
+    "title": "鳄鱼波鞋走天涯",
+    "year": 1995,
+    "director": "",
+    "duration": 97,
+    "intro": "",
+    "startTime": "2026-11-14T07:00:00.000Z",
+    "createdAt": "2026-11-11T04:35:43.408Z",
+    "publicUntil": "2026-11-11T04:55:43.408Z",
+    "signupDeadline": "2026-11-13T07:00:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 5,
+      "ok": true,
+      "plan": "五人厅 × 1",
+      "settledAt": "2026-11-13T07:00:43.263Z"
+    },
+    "count": 5,
+    "participants": [
+      {
+        "id": "u_zq0wwlmbgdc",
+        "nickname": "橙",
+        "mbti": "ENTJ",
+        "title": "40年代光影追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_ucqyhxeg6uw",
+        "nickname": "琼心",
+        "mbti": "ISFP",
+        "title": "光影追忆者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_qg9rau37xm4",
+        "nickname": "D",
+        "mbti": "ENFP",
+        "title": "时空旅人影像猎人",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_gp8zhjd3xjb",
+        "nickname": "兔子",
+        "mbti": "ENFP",
+        "title": "时代回响者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_6a4zj6a37dp",
+        "nickname": "Alex",
+        "mbti": "ESTJ",
+        "title": "时光漫步者",
+        "score": null,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_zq0wwlmbgdc",
+      "nickname": "橙",
+      "mbti": "ENTJ",
+      "title": "40年代光影追寻者"
+    },
+    "signups": [
+      {
+        "id": "u_zq0wwlmbgdc",
+        "nickname": "橙",
+        "mbti": "ENTJ",
+        "title": "40年代光影追寻者"
+      },
+      {
+        "id": "u_ucqyhxeg6uw",
+        "nickname": "琼心",
+        "mbti": "ISFP",
+        "title": "光影追忆者"
+      },
+      {
+        "id": "u_qg9rau37xm4",
+        "nickname": "D",
+        "mbti": "ENFP",
+        "title": "时空旅人影像猎人"
+      },
+      {
+        "id": "u_gp8zhjd3xjb",
+        "nickname": "兔子",
+        "mbti": "ENFP",
+        "title": "时代回响者"
+      },
+      {
+        "id": "u_6a4zj6a37dp",
+        "nickname": "Alex",
+        "mbti": "ESTJ",
+        "title": "时光漫步者"
+      }
+    ],
+    "attendance": [
+      "u_zq0wwlmbgdc",
+      "u_ucqyhxeg6uw",
+      "u_qg9rau37xm4",
+      "u_gp8zhjd3xjb",
+      "u_6a4zj6a37dp"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-14T09:37:02.841Z",
     "avgRating": null,
     "ratedCount": 0,
     "myRating": null,
     "myReview": null,
     "reviewCount": 0
+  },
+  {
+    "id": "m_xqosl40v579",
+    "title": "可能的爱",
+    "year": 2026,
+    "director": "李沧东",
+    "duration": 166,
+    "intro": "",
+    "startTime": "2026-11-14T11:00:00.000Z",
+    "createdAt": "2026-11-09T03:15:38.133Z",
+    "publicUntil": "2026-11-09T03:35:38.133Z",
+    "signupDeadline": "2026-11-13T11:00:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 11,
+      "ok": true,
+      "plan": "八人厅 × 1 + 三人厅 × 1",
+      "settledAt": "2026-11-13T11:00:06.519Z"
+    },
+    "count": 11,
+    "participants": [
+      {
+        "id": "u_gkbil5ctfbs",
+        "nickname": "Eva",
+        "mbti": "INFJ",
+        "title": "午夜电影漫步者",
+        "score": 8,
+        "review": "印象最深的是赵寅成无时无刻该死的松弛感"
+      },
+      {
+        "id": "u_468fg8gsdfs",
+        "nickname": "影雾",
+        "mbti": "INFP",
+        "title": "午夜电影行者",
+        "score": 8,
+        "review": null
+      },
+      {
+        "id": "u_yg86azh59j4",
+        "nickname": "Erikatze",
+        "mbti": "INFP",
+        "title": "银翼复古探梦者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_3b2y2hdm7m0",
+        "nickname": "爱吃蛋饼",
+        "mbti": "INFP",
+        "title": "时光漫游者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_71kb3cb0297",
+        "nickname": "树叶",
+        "mbti": "INFP",
+        "title": "光影追忆者",
+        "score": 10,
+        "review": null
+      },
+      {
+        "id": "u_0xfkqo8pbsx",
+        "nickname": "徐可乐",
+        "mbti": "INTP",
+        "title": "复古光影追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_yyfvoyni44b",
+        "nickname": "云",
+        "mbti": "INFP",
+        "title": "胶片寻梦者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_i6tlr0hps2k",
+        "nickname": "人造月",
+        "mbti": "INFP",
+        "title": "深焦构图信徒",
+        "score": 7,
+        "review": "如片名的“可能”二字一样，本片拥有非常繁复的主题表达，但在细节展开与深度表达上不如燃烧，拍摄与被拍摄，表达与被表达，此刻的采访与彼刻的回忆，共同组成了一部文学性极强的电影"
+      },
+      {
+        "id": "u_v30b7vovbqb",
+        "nickname": "啊啾宝",
+        "mbti": null,
+        "title": "胶片时代追光者",
+        "score": 9,
+        "review": "底层穷苦人民的悲歌"
+      },
+      {
+        "id": "u_2b8h0pp7g60",
+        "nickname": "一只鹿",
+        "mbti": null,
+        "title": "默片情感猎手",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者",
+        "score": 9,
+        "review": "讨论度非常高，聊的最深入的一次"
+      }
+    ],
+    "creator": {
+      "id": "u_gkbil5ctfbs",
+      "nickname": "Eva",
+      "mbti": "INFJ",
+      "title": "午夜电影漫步者"
+    },
+    "signups": [
+      {
+        "id": "u_gkbil5ctfbs",
+        "nickname": "Eva",
+        "mbti": "INFJ",
+        "title": "午夜电影漫步者"
+      },
+      {
+        "id": "u_468fg8gsdfs",
+        "nickname": "影雾",
+        "mbti": "INFP",
+        "title": "午夜电影行者"
+      },
+      {
+        "id": "u_yg86azh59j4",
+        "nickname": "Erikatze",
+        "mbti": "INFP",
+        "title": "银翼复古探梦者"
+      },
+      {
+        "id": "u_3b2y2hdm7m0",
+        "nickname": "爱吃蛋饼",
+        "mbti": "INFP",
+        "title": "时光漫游者"
+      },
+      {
+        "id": "u_71kb3cb0297",
+        "nickname": "树叶",
+        "mbti": "INFP",
+        "title": "光影追忆者"
+      },
+      {
+        "id": "u_0xfkqo8pbsx",
+        "nickname": "徐可乐",
+        "mbti": "INTP",
+        "title": "复古光影追寻者"
+      },
+      {
+        "id": "u_yyfvoyni44b",
+        "nickname": "云",
+        "mbti": "INFP",
+        "title": "胶片寻梦者"
+      },
+      {
+        "id": "u_i6tlr0hps2k",
+        "nickname": "人造月",
+        "mbti": "INFP",
+        "title": "深焦构图信徒"
+      },
+      {
+        "id": "u_v30b7vovbqb",
+        "nickname": "啊啾宝",
+        "mbti": null,
+        "title": "胶片时代追光者"
+      },
+      {
+        "id": "u_2b8h0pp7g60",
+        "nickname": "一只鹿",
+        "mbti": null,
+        "title": "默片情感猎手"
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者"
+      }
+    ],
+    "attendance": [
+      "u_gkbil5ctfbs",
+      "u_468fg8gsdfs",
+      "u_yg86azh59j4",
+      "u_3b2y2hdm7m0",
+      "u_71kb3cb0297",
+      "u_0xfkqo8pbsx",
+      "u_yyfvoyni44b",
+      "u_i6tlr0hps2k",
+      "u_v30b7vovbqb",
+      "u_2b8h0pp7g60",
+      "u_m21tzyiaezv"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-14T14:46:03.226Z",
+    "avgRating": 8.5,
+    "ratedCount": 6,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 4
+  },
+  {
+    "id": "m_vy6j97xrkwf",
+    "title": "咫尺天涯",
+    "year": 1993,
+    "director": "维姆文德斯",
+    "duration": 146,
+    "intro": "柏林苍穹下续集",
+    "startTime": "2026-11-14T11:30:00.000Z",
+    "createdAt": "2026-11-08T15:05:01.839Z",
+    "publicUntil": "2026-11-08T15:25:01.839Z",
+    "signupDeadline": "2026-11-13T11:30:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 4,
+      "ok": true,
+      "plan": "四人厅 × 1",
+      "settledAt": "2026-11-13T11:30:03.789Z"
+    },
+    "count": 4,
+    "participants": [
+      {
+        "id": "u_upfd9hn9ycx",
+        "nickname": "Llanlanlanlan",
+        "mbti": "INTP",
+        "title": "70年代光影漫游者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_qg9rau37xm4",
+        "nickname": "D",
+        "mbti": "ENFP",
+        "title": "时空旅人影像猎人",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_6a4zj6a37dp",
+        "nickname": "Alex",
+        "mbti": "ESTJ",
+        "title": "时光漫步者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_i6zj6y19vne",
+        "nickname": "晏秋",
+        "mbti": "ISFJ",
+        "title": "时光漫步者",
+        "score": null,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_upfd9hn9ycx",
+      "nickname": "Llanlanlanlan",
+      "mbti": "INTP",
+      "title": "70年代光影漫游者"
+    },
+    "signups": [
+      {
+        "id": "u_upfd9hn9ycx",
+        "nickname": "Llanlanlanlan",
+        "mbti": "INTP",
+        "title": "70年代光影漫游者"
+      },
+      {
+        "id": "u_qg9rau37xm4",
+        "nickname": "D",
+        "mbti": "ENFP",
+        "title": "时空旅人影像猎人"
+      },
+      {
+        "id": "u_6a4zj6a37dp",
+        "nickname": "Alex",
+        "mbti": "ESTJ",
+        "title": "时光漫步者"
+      },
+      {
+        "id": "u_i6zj6y19vne",
+        "nickname": "晏秋",
+        "mbti": "ISFJ",
+        "title": "时光漫步者"
+      }
+    ],
+    "attendance": [
+      "u_upfd9hn9ycx",
+      "u_qg9rau37xm4",
+      "u_6a4zj6a37dp",
+      "u_i6zj6y19vne"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-14T14:56:03.233Z",
+    "avgRating": null,
+    "ratedCount": 0,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 0
+  },
+  {
+    "id": "m_c2zqfxl6xbz",
+    "title": "雏菊",
+    "year": 1966,
+    "director": "维拉·希蒂洛娃",
+    "duration": 74,
+    "intro": "捷克斯洛伐克/喜剧",
+    "startTime": "2026-11-15T02:00:00.000Z",
+    "createdAt": "2026-11-12T02:19:49.439Z",
+    "publicUntil": "2026-11-12T02:39:49.439Z",
+    "signupDeadline": "2026-11-14T02:00:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 3,
+      "ok": true,
+      "plan": "三人厅 × 1",
+      "settledAt": "2026-11-14T02:00:02.337Z"
+    },
+    "count": 3,
+    "participants": [
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者",
+        "score": 8,
+        "review": "色彩运用非常妙，很有艺术感"
+      },
+      {
+        "id": "u_v5godgiijw2",
+        "nickname": "布吉岛",
+        "mbti": "ENTP",
+        "title": "时尚光影追寻者",
+        "score": 6,
+        "review": "导演想做一些色彩上的大胆尝试和实验，随着背景音乐卡点切换画面或是不同颜色的滤镜。镜头很美，但还是喜欢剧情更有趣一些的，虽然说看这个也不需要动脑子"
+      },
+      {
+        "id": "u_2y8awr8xblz",
+        "nickname": "叽叽喳喳",
+        "mbti": "ENFJ",
+        "title": "默片时光追寻者",
+        "score": 10,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_m21tzyiaezv",
+      "nickname": "安静的美人",
+      "mbti": "INFJ",
+      "title": "时光穿梭者"
+    },
+    "signups": [
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者"
+      },
+      {
+        "id": "u_v5godgiijw2",
+        "nickname": "布吉岛",
+        "mbti": "ENTP",
+        "title": "时尚光影追寻者"
+      },
+      {
+        "id": "u_2y8awr8xblz",
+        "nickname": "叽叽喳喳",
+        "mbti": "ENFJ",
+        "title": "默片时光追寻者"
+      }
+    ],
+    "attendance": [
+      "u_m21tzyiaezv",
+      "u_v5godgiijw2",
+      "u_2y8awr8xblz"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-15T03:29:27.323Z",
+    "avgRating": 8,
+    "ratedCount": 3,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 2
+  },
+  {
+    "id": "m_9wdak8gmdfn",
+    "title": "爱的曝光",
+    "year": 2008,
+    "director": "",
+    "duration": 237,
+    "intro": "",
+    "startTime": "2026-11-15T06:00:00.000Z",
+    "createdAt": "2026-11-08T15:28:58.499Z",
+    "publicUntil": "2026-11-08T15:48:58.499Z",
+    "signupDeadline": "2026-11-14T06:00:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 6,
+      "ok": true,
+      "plan": "八人厅 × 1",
+      "settledAt": "2026-11-14T06:00:02.598Z"
+    },
+    "count": 6,
+    "participants": [
+      {
+        "id": "u_u7my6vzcrg7",
+        "nickname": "123",
+        "mbti": null,
+        "title": "时间旅行电影诗人",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_x7ptpj7qduf",
+        "nickname": "不要压力我",
+        "mbti": "INFP",
+        "title": "光影时代漫游者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_elbaf9us75s",
+        "nickname": "徐yes先生",
+        "mbti": null,
+        "title": "午夜光影追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_6ph3olr78ic",
+        "nickname": "Pscho",
+        "mbti": "ISFJ",
+        "title": "午夜光影行者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_468fg8gsdfs",
+        "nickname": "影雾",
+        "mbti": "INFP",
+        "title": "午夜电影行者",
+        "score": 7,
+        "review": null
+      },
+      {
+        "id": "u_yyfvoyni44b",
+        "nickname": "云",
+        "mbti": "INFP",
+        "title": "胶片寻梦者",
+        "score": null,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_u7my6vzcrg7",
+      "nickname": "123",
+      "mbti": null,
+      "title": "时间旅行电影诗人"
+    },
+    "signups": [
+      {
+        "id": "u_u7my6vzcrg7",
+        "nickname": "123",
+        "mbti": null,
+        "title": "时间旅行电影诗人"
+      },
+      {
+        "id": "u_x7ptpj7qduf",
+        "nickname": "不要压力我",
+        "mbti": "INFP",
+        "title": "光影时代漫游者"
+      },
+      {
+        "id": "u_elbaf9us75s",
+        "nickname": "徐yes先生",
+        "mbti": null,
+        "title": "午夜光影追寻者"
+      },
+      {
+        "id": "u_6ph3olr78ic",
+        "nickname": "Pscho",
+        "mbti": "ISFJ",
+        "title": "午夜光影行者"
+      },
+      {
+        "id": "u_468fg8gsdfs",
+        "nickname": "影雾",
+        "mbti": "INFP",
+        "title": "午夜电影行者"
+      },
+      {
+        "id": "u_yyfvoyni44b",
+        "nickname": "云",
+        "mbti": "INFP",
+        "title": "胶片寻梦者"
+      }
+    ],
+    "attendance": [
+      "u_u7my6vzcrg7",
+      "u_x7ptpj7qduf",
+      "u_elbaf9us75s",
+      "u_6ph3olr78ic",
+      "u_468fg8gsdfs",
+      "u_yyfvoyni44b"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-15T10:03:17.600Z",
+    "avgRating": 7,
+    "ratedCount": 1,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 0
+  },
+  {
+    "id": "m_efi3djevxzt",
+    "title": "戏梦巴黎",
+    "year": 2003,
+    "director": "",
+    "duration": 115,
+    "intro": "",
+    "startTime": "2026-11-15T11:00:00.000Z",
+    "createdAt": "2026-11-11T06:35:33.209Z",
+    "publicUntil": "2026-11-11T06:55:33.209Z",
+    "signupDeadline": "2026-11-14T11:00:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 8,
+      "ok": true,
+      "plan": "八人厅 × 1",
+      "settledAt": "2026-11-16T13:54:20.209Z"
+    },
+    "count": 8,
+    "participants": [
+      {
+        "id": "u_gkbil5ctfbs",
+        "nickname": "Eva",
+        "mbti": "INFJ",
+        "title": "午夜电影漫步者",
+        "score": 9,
+        "review": "我也很爱三个人在卢浮宫奔跑的情节"
+      },
+      {
+        "id": "u_m5fpup84hmd",
+        "nickname": "shell",
+        "mbti": "INTJ",
+        "title": "午夜光影探险者",
+        "score": 9,
+        "review": "“把他们送到乡下接受再教育”，味太正了😃"
+      },
+      {
+        "id": "u_xi7xzo7fknh",
+        "nickname": "CBCL",
+        "mbti": "INTP",
+        "title": "王家卫电影迷",
+        "score": 8,
+        "review": "Im a spy in the house of love"
+      },
+      {
+        "id": "u_i6tlr0hps2k",
+        "nickname": "人造月",
+        "mbti": "INFP",
+        "title": "深焦构图信徒",
+        "score": 7,
+        "review": "性与爱是对抗现实压力的最佳工具，但也是集体逃避的有力幻药。文艺青年的通病就在于，前已无通路，后不见归途，被活生生挤死在中间。"
+      },
+      {
+        "id": "u_elbaf9us75s",
+        "nickname": "徐yes先生",
+        "mbti": null,
+        "title": "午夜光影追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_6ph3olr78ic",
+        "nickname": "Pscho",
+        "mbti": "ISFJ",
+        "title": "午夜光影行者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_v6xevvjhvx2",
+        "nickname": "简生",
+        "mbti": "INFJ",
+        "title": "光影漫游者",
+        "score": 8,
+        "review": "革命的热火，把三个青年人从幻梦里拔出来了\n时代在呼唤吧\n但因此也走上了不同的道路\n巴黎的幻梦，也醒了"
+      },
+      {
+        "id": "u_cqctu1njrms",
+        "nickname": "漁子",
+        "mbti": "ENFP",
+        "title": "光影都市漫游者",
+        "score": null,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_gkbil5ctfbs",
+      "nickname": "Eva",
+      "mbti": "INFJ",
+      "title": "午夜电影漫步者"
+    },
+    "signups": [
+      {
+        "id": "u_gkbil5ctfbs",
+        "nickname": "Eva",
+        "mbti": "INFJ",
+        "title": "午夜电影漫步者"
+      },
+      {
+        "id": "u_m5fpup84hmd",
+        "nickname": "shell",
+        "mbti": "INTJ",
+        "title": "午夜光影探险者"
+      },
+      {
+        "id": "u_xi7xzo7fknh",
+        "nickname": "CBCL",
+        "mbti": "INTP",
+        "title": "王家卫电影迷"
+      },
+      {
+        "id": "u_i6tlr0hps2k",
+        "nickname": "人造月",
+        "mbti": "INFP",
+        "title": "深焦构图信徒"
+      },
+      {
+        "id": "u_elbaf9us75s",
+        "nickname": "徐yes先生",
+        "mbti": null,
+        "title": "午夜光影追寻者"
+      },
+      {
+        "id": "u_6ph3olr78ic",
+        "nickname": "Pscho",
+        "mbti": "ISFJ",
+        "title": "午夜光影行者"
+      },
+      {
+        "id": "u_v6xevvjhvx2",
+        "nickname": "简生",
+        "mbti": "INFJ",
+        "title": "光影漫游者"
+      },
+      {
+        "id": "u_cqctu1njrms",
+        "nickname": "漁子",
+        "mbti": "ENFP",
+        "title": "光影都市漫游者"
+      }
+    ],
+    "attendance": [
+      "u_gkbil5ctfbs",
+      "u_m5fpup84hmd",
+      "u_xi7xzo7fknh",
+      "u_i6tlr0hps2k",
+      "u_elbaf9us75s",
+      "u_6ph3olr78ic",
+      "u_v6xevvjhvx2",
+      "u_cqctu1njrms"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-15T12:55:30.224Z",
+    "avgRating": 8.333333333333334,
+    "ratedCount": 5,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 5
+  },
+  {
+    "id": "m_sfcvld0p0hw",
+    "title": "薄荷糖",
+    "year": 1999,
+    "director": "李沧东",
+    "duration": 130,
+    "intro": "没看过可以看一下",
+    "startTime": "2026-11-16T11:00:00.000Z",
+    "createdAt": "2026-11-10T07:38:28.676Z",
+    "publicUntil": "2026-11-10T07:58:28.676Z",
+    "signupDeadline": "2026-11-15T11:00:00.000Z",
+    "status": "done",
+    "stage": "done",
+    "viable": true,
+    "hall": {
+      "count": 8,
+      "ok": true,
+      "plan": "八人厅 × 1",
+      "settledAt": "2026-11-15T11:00:03.116Z"
+    },
+    "count": 8,
+    "participants": [
+      {
+        "id": "u_0q9a0dhhdw0",
+        "nickname": "火冋火冋",
+        "mbti": null,
+        "title": "光影追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者",
+        "score": 10,
+        "review": "是谁毁掉了我的人生呢"
+      },
+      {
+        "id": "u_q1adypia4xd",
+        "nickname": "Esja",
+        "mbti": "INFP",
+        "title": "光影追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_gp8zhjd3xjb",
+        "nickname": "兔子",
+        "mbti": "ENFP",
+        "title": "时代回响者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_h7g1k6lfteo",
+        "nickname": "西红柿",
+        "mbti": null,
+        "title": "胶片梦境追逐者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_zhoofvu4tmv",
+        "nickname": "三三得九",
+        "mbti": "ISFJ",
+        "title": "年代光影追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_2n3b217dd0b",
+        "nickname": "etuM",
+        "mbti": null,
+        "title": "90年代心灵追寻者",
+        "score": null,
+        "review": null
+      },
+      {
+        "id": "u_wadt6i48fec",
+        "nickname": "Louie",
+        "mbti": "INTJ",
+        "title": "九十年代电影守望者",
+        "score": null,
+        "review": null
+      }
+    ],
+    "creator": {
+      "id": "u_0q9a0dhhdw0",
+      "nickname": "火冋火冋",
+      "mbti": null,
+      "title": "光影追寻者"
+    },
+    "signups": [
+      {
+        "id": "u_0q9a0dhhdw0",
+        "nickname": "火冋火冋",
+        "mbti": null,
+        "title": "光影追寻者"
+      },
+      {
+        "id": "u_m21tzyiaezv",
+        "nickname": "安静的美人",
+        "mbti": "INFJ",
+        "title": "时光穿梭者"
+      },
+      {
+        "id": "u_q1adypia4xd",
+        "nickname": "Esja",
+        "mbti": "INFP",
+        "title": "光影追寻者"
+      },
+      {
+        "id": "u_gp8zhjd3xjb",
+        "nickname": "兔子",
+        "mbti": "ENFP",
+        "title": "时代回响者"
+      },
+      {
+        "id": "u_h7g1k6lfteo",
+        "nickname": "西红柿",
+        "mbti": null,
+        "title": "胶片梦境追逐者"
+      },
+      {
+        "id": "u_zhoofvu4tmv",
+        "nickname": "三三得九",
+        "mbti": "ISFJ",
+        "title": "年代光影追寻者"
+      },
+      {
+        "id": "u_2n3b217dd0b",
+        "nickname": "etuM",
+        "mbti": null,
+        "title": "90年代心灵追寻者"
+      },
+      {
+        "id": "u_wadt6i48fec",
+        "nickname": "Louie",
+        "mbti": "INTJ",
+        "title": "九十年代电影守望者"
+      }
+    ],
+    "attendance": [
+      "u_0q9a0dhhdw0",
+      "u_m21tzyiaezv",
+      "u_q1adypia4xd",
+      "u_gp8zhjd3xjb",
+      "u_h7g1k6lfteo",
+      "u_zhoofvu4tmv",
+      "u_2n3b217dd0b",
+      "u_wadt6i48fec"
+    ],
+    "isCreator": false,
+    "isSigned": false,
+    "completedAt": "2026-11-16T14:10:34.092Z",
+    "avgRating": 10,
+    "ratedCount": 1,
+    "myRating": null,
+    "myReview": null,
+    "reviewCount": 1
   }
 ]
