@@ -27,6 +27,16 @@ $code = $LASTEXITCODE
 $taskRetry = 'FilmLogAutoSyncRetry'
 if ($code -eq 0) {
     $null = & schtasks.exe /delete /tn $taskRetry /f 2>&1
+    # 同步并 push 成功后同步 Trae「我的站点」；失败仅告警，不影响已发布数据与 GitHub Pages
+    "--- Trae 站点部署 ---" | Out-File $log -Encoding utf8 -Append
+    $prevEnc2 = [Console]::OutputEncoding
+    [Console]::OutputEncoding = New-Object Text.UTF8Encoding $false
+    & powershell.exe -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'deploy_trae.ps1') 2>&1 | Out-File $log -Encoding utf8 -Append
+    $traeCode = $LASTEXITCODE
+    [Console]::OutputEncoding = $prevEnc2
+    if ($traeCode -ne 0) {
+        "Trae 站点未同步（exit=$traeCode）。GitHub Pages 已更新；可手动重跑 tools\deploy_trae.ps1 补部署。" | Out-File $log -Encoding utf8 -Append
+    }
     exit 0
 }
 
