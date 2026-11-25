@@ -7666,44 +7666,65 @@ function statsDecadeData(){
 }
 
 /* 折线图（趋势） */
+/* Catmull-Rom → Bezier 平滑折线 */
+function smoothLine(xs, ys){
+  let d = `M${xs[0]},${ys[0]}`;
+  for(let i = 0; i < xs.length - 1; i++){
+    const x0 = xs[i-1] ?? xs[i], y0 = ys[i-1] ?? ys[i];
+    const x1 = xs[i], y1 = ys[i];
+    const x2 = xs[i+1], y2 = ys[i+1];
+    const x3 = xs[i+2] ?? x2, y3 = ys[i+2] ?? y2;
+    const cp1x = x1 + (x2 - x0) / 6, cp1y = y1 + (y2 - y0) / 6;
+    const cp2x = x2 - (x3 - x1) / 6, cp2y = y2 - (y3 - y1) / 6;
+    d += ` C${cp1x.toFixed(1)},${cp1y.toFixed(1)} ${cp2x.toFixed(1)},${cp2y.toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}`;
+  }
+  return d;
+}
+/* 折线图（年度趋势）：渐变面积 + 平滑曲线 + 空心圆点 */
 function svgLineChart(points){
-  const W = 600, H = 260, L = 40, R = 16, T = 16, B = 30;
+  const W = 600, H = 260, L = 42, R = 16, T = 18, B = 32;
   if (!points.length) return '<svg class="st-svg" viewBox="0 0 600 260"><text x="300" y="130" text-anchor="middle" fill="#999" font-size="12">暂无数据</text></svg>';
   const vals = points.map(p => p[statsMetric]);
   const max = Math.max(1, ...vals);
   const x = i => L + (points.length === 1 ? (W - L - R) / 2 : i * (W - L - R) / (points.length - 1));
   const y = v => H - B - (v / max) * (H - T - B);
   let grid = '';
-  for (let g = 0; g <= 4; g++) { const v = max * g / 4; const yy = y(v); grid += `<line x1="${L}" y1="${yy}" x2="${W - R}" y2="${yy}" stroke="#eee"/><text x="${L - 6}" y="${yy + 4}" text-anchor="end" font-size="10" fill="#aaa">${Math.round(v)}</text>`; }
-  const d = points.map((p, i) => (i ? 'L' : 'M') + x(i) + ' ' + y(p[statsMetric])).join(' ');
-  const dots = points.map((p, i) => `<circle cx="${x(i)}" cy="${y(p[statsMetric])}" r="3.5" fill="#3370ff"><title>${p.ym}: ${p[statsMetric]}</title></circle>`).join('');
+  for (let g = 0; g <= 4; g++) { const v = max * g / 4; const yy = y(v); grid += `<line x1="${L}" y1="${yy}" x2="${W - R}" y2="${yy}" stroke="#eef1f5" stroke-dasharray="3 4"/>${g > 0 ? `<text x="${L - 8}" y="${yy + 4}" text-anchor="end" font-size="10" fill="#aab2bf">${Math.round(v)}</text>` : ''}`; }
+  const xs = points.map((_, i) => x(i));
+  const ys = points.map(p => y(p[statsMetric]));
+  const d = points.length < 2 ? `M${xs[0]},${ys[0]}` : smoothLine(xs, ys);
+  const area = `${d} L${x(points.length - 1).toFixed(1)},${(H - B).toFixed(1)} L${x(0).toFixed(1)},${(H - B).toFixed(1)} Z`;
+  const dots = points.map((p, i) => `<circle cx="${x(i)}" cy="${y(p[statsMetric])}" r="4" fill="#fff" stroke="#165dff" stroke-width="2"><title>${p.ym}: ${p[statsMetric]}</title></circle>`).join('');
   const step = Math.ceil(points.length / 8);
-  const xlabels = points.map((p, i) => i % step === 0 ? `<text x="${x(i)}" y="${H - B + 14}" text-anchor="middle" font-size="10" fill="#888">${p.ym.slice(5)}</text>` : '').join('');
-  return `<svg class="st-svg" viewBox="0 0 ${W} ${H}">${grid}<path d="${d}" fill="none" stroke="#3370ff" stroke-width="2"/>${dots}${xlabels}</svg>`;
+  const xlabels = points.map((p, i) => i % step === 0 ? `<text x="${x(i)}" y="${H - B + 16}" text-anchor="middle" font-size="10" fill="#8a94a6">${p.ym.slice(5)}</text>` : '').join('');
+  return `<svg class="st-svg" viewBox="0 0 ${W} ${H}"><defs><linearGradient id="lnArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#165dff" stop-opacity="0.20"/><stop offset="100%" stop-color="#165dff" stop-opacity="0"/></linearGradient></defs>${grid}<path d="${area}" fill="url(#lnArea)"/><path d="${d}" fill="none" stroke="#165dff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>${dots}${xlabels}</svg>`;
 }
-/* 横向条形（类型分布） */
+/* 横向条形（类型分布）：渐变填充 */
 function svgHBar(items){
   if (!items.length) return '<div class="st-empty">暂无数据</div>';
   const max = items[0][1];
   return items.map(([k, v]) => `<div class="st-bar-row"><span class="st-bar-lbl">${esc(k)}</span><span class="st-bar-track"><span class="st-bar-fill" style="width:${(v / max * 100).toFixed(1)}%"></span></span><span class="st-bar-val">${v}</span></div>`).join('');
 }
-/* 柱状图（年代分布） */
+/* 柱状图（年代分布）：渐变 + 圆角 + 柱顶数值 */
 function svgBarChart(items){
-  const W = 600, H = 240, L = 36, R = 16, T = 16, B = 40;
-  if (!items.length) return '<svg class="st-svg" viewBox="0 0 600 240"><text x="300" y="120" text-anchor="middle" fill="#999" font-size="12">暂无数据</text></svg>';
+  const W = 600, H = 260, L = 38, R = 16, T = 22, B = 40;
+  if (!items.length) return '<svg class="st-svg" viewBox="0 0 600 260"><text x="300" y="130" text-anchor="middle" fill="#999" font-size="12">暂无数据</text></svg>';
   const max = Math.max(1, ...items.map(i => i[1]));
   const gap = (W - L - R) / items.length;
-  const bw = gap * 0.6;
+  const bw = gap * 0.55;
   const y = v => H - B - (v / max) * (H - T - B);
   let bars = '', xlabels = '';
   items.forEach((it, i) => {
     const xc = L + i * gap + gap / 2;
-    bars += `<rect x="${xc - bw / 2}" y="${y(it[1])}" width="${bw}" height="${H - B - y(it[1])}" fill="#3370ff"><title>${it[0]}s：${it[1]} 部</title></rect>`;
-    xlabels += `<text x="${xc}" y="${H - B + 14}" text-anchor="middle" font-size="10" fill="#888">${it[0]}s</text>`;
+    const top = y(it[1]);
+    const h = H - B - top;
+    const r = Math.min(bw / 2, 6);
+    bars += `<rect x="${xc - bw / 2}" y="${top}" width="${bw}" height="${h}" rx="${r}" fill="url(#barGrad)"><title>${it[0]}s：${it[1]} 部</title></rect><text x="${xc}" y="${top - 8}" text-anchor="middle" font-size="11" fill="#4e5969" font-weight="600">${it[1]}</text>`;
+    xlabels += `<text x="${xc}" y="${H - B + 16}" text-anchor="middle" font-size="10" fill="#8a94a6">${it[0]}s</text>`;
   });
   let grid = '';
-  for (let g = 0; g <= 4; g++) { const v = max * g / 4; const yy = y(v); grid += `<line x1="${L}" y1="${yy}" x2="${W - R}" y2="${yy}" stroke="#eee"/><text x="${L - 6}" y="${yy + 4}" text-anchor="end" font-size="10" fill="#aaa">${Math.round(v)}</text>`; }
-  return `<svg class="st-svg" viewBox="0 0 ${W} ${H}">${grid}${bars}${xlabels}</svg>`;
+  for (let g = 0; g <= 4; g++) { const v = max * g / 4; const yy = y(v); grid += `<line x1="${L}" y1="${yy}" x2="${W - R}" y2="${yy}" stroke="#eef1f5" stroke-dasharray="3 4"/>${g > 0 ? `<text x="${L - 8}" y="${yy + 4}" text-anchor="end" font-size="10" fill="#aab2bf">${Math.round(v)}</text>` : ''}`; }
+  return `<svg class="st-svg" viewBox="0 0 ${W} ${H}"><defs><linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4080ff"/><stop offset="100%" stop-color="#165dff"/></linearGradient></defs>${grid}${bars}${xlabels}</svg>`;
 }
 
 function stats(){
