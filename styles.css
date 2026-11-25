@@ -1675,3 +1675,30 @@ details.raw pre{
 @media (max-width:600px){
   .cv-field{max-width:100%}
 }
+
+/* ---------- 统计页 ---------- */
+.stats{ max-width:880px; margin:0 auto; padding:28px 20px 60px; }
+.st-title{ font-size:26px; margin:6px 0 18px; }
+.st-overview{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:28px; }
+@media(max-width:560px){ .st-overview{ grid-template-columns:repeat(2,1fr); } }
+.st-ov{ background:#fafafa; border:1px solid #eee; border-radius:12px; padding:16px 14px; }
+.st-ov-num{ font-size:26px; font-weight:600; letter-spacing:.5px; }
+.st-ov-unit{ font-size:13px; font-weight:500; margin-left:2px; color:#666; }
+.st-ov-lbl{ font-size:12px; color:#888; margin-top:4px; }
+.st-ov-sub{ font-size:10px; color:#aaa; }
+.st-card{ background:#fff; border:1px solid #eee; border-radius:12px; padding:18px 18px 14px; margin-bottom:20px; }
+.st-card-h{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+.st-card-h h2{ font-size:17px; margin:0; }
+.st-card-sub{ font-size:12px; color:#999; }
+.st-controls{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+.st-pill{ border:1px solid #ddd; background:#fff; border-radius:20px; padding:4px 12px; font-size:12px; cursor:pointer; color:#555; }
+.st-pill.on{ background:#165dff; color:#fff; border-color:#165dff; }
+.st-svg{ width:100%; height:auto; display:block; }
+.st-note{ font-size:11px; color:#aaa; margin-top:8px; }
+.st-bars{ display:flex; flex-direction:column; gap:6px; }
+.st-bar-row{ display:grid; grid-template-columns:80px 1fr 32px; align-items:center; gap:10px; }
+.st-bar-lbl{ font-size:12px; color:#444; text-align:right; }
+.st-bar-track{ background:#f0f0f0; border-radius:4px; height:14px; overflow:hidden; }
+.st-bar-fill{ background:#3370ff; height:100%; border-radius:4px; }
+.st-bar-val{ font-size:11px; color:#888; }
+.st-empty{ color:#999; font-size:13px; text-align:center; padding:20px; }

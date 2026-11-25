@@ -194,7 +194,8 @@ function seed(){
     "cast": [
       "艾玛·苏亚雷斯",
       "阿德里亚娜·乌加特"
-    ]
+    ],
+    "duration": 96
   },
   {
     "id": 31,
@@ -222,7 +223,8 @@ function seed(){
     "cast": [
       "朱丽安·摩尔",
       "蒂尔达·斯文顿"
-    ]
+    ],
+    "duration": 107
   },
   {
     "id": 32,
@@ -247,7 +249,8 @@ function seed(){
     "cast": [
       "菲利波·斯科蒂",
       "托尼·塞尔维洛"
-    ]
+    ],
+    "duration": 130
   },
   {
     "id": 33,
@@ -278,7 +281,8 @@ function seed(){
       "桑名里瑛",
       "高桥真唯",
       "不二子"
-    ]
+    ],
+    "duration": 108
   },
   {
     "id": 34,
@@ -314,7 +318,8 @@ function seed(){
       "汤姆·克鲁斯",
       "朱丽安·摩尔",
       "菲利普·塞默·霍夫曼"
-    ]
+    ],
+    "duration": 188
   },
   {
     "id": 35,
@@ -339,7 +344,8 @@ function seed(){
     ],
     "cast": [
       "玛丽莎·帕雷德斯"
-    ]
+    ],
+    "duration": 103
   },
   {
     "id": 36,
@@ -369,7 +375,8 @@ function seed(){
     "cast": [
       "阿尔·帕西诺",
       "约翰·凯泽尔"
-    ]
+    ],
+    "duration": 125
   },
   {
     "id": 37,
@@ -398,7 +405,8 @@ function seed(){
     ],
     "cast": [
       "皮埃尔·德洛东"
-    ]
+    ],
+    "duration": 100
   },
   {
     "id": 38,
@@ -423,7 +431,8 @@ function seed(){
     ],
     "cast": [
       "威廉·芬利"
-    ]
+    ],
+    "duration": 92
   },
   {
     "id": 39,
@@ -452,7 +461,8 @@ function seed(){
     ],
     "cast": [
       "王宏伟"
-    ]
+    ],
+    "duration": 108
   },
   {
     "id": 40,
@@ -478,7 +488,8 @@ function seed(){
     "cast": [
       "伍迪·哈里森",
       "朱丽叶特·刘易斯"
-    ]
+    ],
+    "duration": 122
   },
   {
     "id": 41,
@@ -506,7 +517,8 @@ function seed(){
     "cast": [
       "欧文·威尔逊",
       "瑞秋·麦克亚当斯"
-    ]
+    ],
+    "duration": 94
   },
   {
     "id": 42,
@@ -538,7 +550,8 @@ function seed(){
     "cast": [
       "克斯汀·邓斯特",
       "夏洛特·甘斯布"
-    ]
+    ],
+    "duration": 136
   },
   {
     "id": 44,
@@ -565,7 +578,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 113
   },
   {
     "id": 45,
@@ -581,7 +595,8 @@ function seed(){
     "cast": [
       "广末凉子",
       "松田龙平"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 46,
@@ -610,7 +625,8 @@ function seed(){
     ],
     "cast": [
       "玛格丽特·捷列霍娃"
-    ]
+    ],
+    "duration": 107
   },
   {
     "id": 83,
@@ -655,7 +671,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 83
   },
   {
     "id": 84,
@@ -678,7 +695,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 106
   },
   {
     "id": 85,
@@ -705,7 +723,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 116
   },
   {
     "id": 43,
@@ -726,7 +745,8 @@ function seed(){
     "cast": [
       "查理·辛",
       "威廉·达福"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 86,
@@ -744,7 +764,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 87,
@@ -762,7 +783,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 88,
@@ -780,7 +802,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 89,
@@ -798,7 +821,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 90,
@@ -816,7 +840,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 91,
@@ -834,7 +859,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 92,
@@ -852,7 +878,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 93,
@@ -870,7 +897,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 94,
@@ -888,7 +916,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 95,
@@ -901,7 +930,8 @@ function seed(){
     "poster": "",
     "synopsis": "东京连续发生手法相同的谋杀，凶手们都声称被一个神秘男子催眠后行凶。黑泽清以阴冷的都市空间与断续记忆，把潜意识的恐惧拍成了90年代日本悬疑的巅峰。",
     "watches": [],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 96,
@@ -914,7 +944,8 @@ function seed(){
     "poster": "",
     "synopsis": "凯里男人罗纮武回到故乡，寻找十二年前的爱人与谜团。前半段是潮湿的南方记忆，后半段则以一镜到底的 3D 长梦，把现实与梦境一起沉入那个最后的夜晚。",
     "watches": [],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 97,
@@ -932,7 +963,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 98,
@@ -945,7 +977,8 @@ function seed(){
     "poster": "",
     "synopsis": "德克萨斯两兄弟为保住祖产，策划了一连串针对同一银行的抢劫；一位即将退休的老警长紧追不舍。马肯兹以荒凉的西部风光与克制的兄弟情谊，拍出一曲次贷危机后的现代西部挽歌。",
     "watches": [],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 99,
@@ -963,7 +996,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 100,
@@ -981,7 +1015,8 @@ function seed(){
         "people": []
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 101,
@@ -994,7 +1029,8 @@ function seed(){
     "poster": "",
     "synopsis": "美国青年杰西与法国女生塞琳娜在维也纳火车上一见钟情，决定在黎明前共度一夜。林克莱特以漫步、对话与城市的夜色，把一夜情拍成了关于相遇与可能性的永恒浪漫。",
     "watches": [],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 102,
@@ -1021,7 +1057,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 103
   },
   {
     "id": 103,
@@ -1043,7 +1080,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 104,
@@ -1075,7 +1113,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 85
   },
   {
     "id": 105,
@@ -1102,7 +1141,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 122
   },
   {
     "id": 106,
@@ -1129,7 +1169,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 111
   },
   {
     "id": 107,
@@ -1153,7 +1194,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 92
   },
   {
     "id": 108,
@@ -1176,7 +1218,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 132
   },
   {
     "id": 109,
@@ -1200,7 +1243,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 120
   },
   {
     "id": 111,
@@ -1226,7 +1270,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 104
   },
   {
     "id": 112,
@@ -1249,7 +1294,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 113,
@@ -1275,7 +1321,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 133
   },
   {
     "id": 47,
@@ -1307,7 +1354,8 @@ function seed(){
     "cast": [
       "马克·沃尔伯格",
       "朱丽安·摩尔"
-    ]
+    ],
+    "duration": 155
   },
   {
     "id": 48,
@@ -1337,7 +1385,8 @@ function seed(){
     "cast": [
       "马克斯·冯·西多",
       "本特·埃克罗特"
-    ]
+    ],
+    "duration": 96
   },
   {
     "id": 49,
@@ -1367,7 +1416,8 @@ function seed(){
     "cast": [
       "泽比纽·扎马乔夫斯基",
       "朱丽叶·比诺什"
-    ]
+    ],
+    "duration": 92
   },
   {
     "id": 50,
@@ -1400,7 +1450,8 @@ function seed(){
     ],
     "cast": [
       "里卡多·达林"
-    ]
+    ],
+    "duration": 129
   },
   {
     "id": 51,
@@ -1427,7 +1478,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 96
   },
   {
     "id": 52,
@@ -1457,7 +1509,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 132
   },
   {
     "id": 53,
@@ -1484,7 +1537,8 @@ function seed(){
     "cast": [
       "丰川悦司",
       "山口智子"
-    ]
+    ],
+    "duration": 47
   },
   {
     "id": 54,
@@ -1510,7 +1564,8 @@ function seed(){
     ],
     "cast": [
       "松隆子"
-    ]
+    ],
+    "duration": 67
   },
   {
     "id": 55,
@@ -1536,7 +1591,8 @@ function seed(){
       "绪方惠美",
       "林原惠",
       "宫村优子"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 56,
@@ -1571,7 +1627,8 @@ function seed(){
       "姜武",
       "王宝强",
       "赵涛"
-    ]
+    ],
+    "duration": 133
   },
   {
     "id": 57,
@@ -1600,7 +1657,8 @@ function seed(){
     ],
     "cast": [
       "柳乐优弥"
-    ]
+    ],
+    "duration": 141
   },
   {
     "id": 58,
@@ -1626,7 +1684,8 @@ function seed(){
     "cast": [
       "伊莎贝尔·阿佳妮",
       "山姆·尼尔"
-    ]
+    ],
+    "duration": 124
   },
   {
     "id": 59,
@@ -1648,7 +1707,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 60,
@@ -1677,7 +1737,8 @@ function seed(){
     ],
     "cast": [
       "汤姆·希林"
-    ]
+    ],
+    "duration": 188
   },
   {
     "id": 61,
@@ -1706,7 +1767,8 @@ function seed(){
     ],
     "cast": [
       "詹吉拉·品功帕"
-    ]
+    ],
+    "duration": 122
   },
   {
     "id": 62,
@@ -1730,7 +1792,8 @@ function seed(){
     ],
     "cast": [
       "阿列克谢·克拉夫琴科"
-    ]
+    ],
+    "duration": 142
   },
   {
     "id": 63,
@@ -1764,7 +1827,8 @@ function seed(){
     "cast": [
       "李纬",
       "韦伟"
-    ]
+    ],
+    "duration": 98
   },
   {
     "id": 64,
@@ -1794,7 +1858,8 @@ function seed(){
     "cast": [
       "琳达·布莱尔",
       "艾伦·伯斯汀"
-    ]
+    ],
+    "duration": 122
   },
   {
     "id": 65,
@@ -1819,7 +1884,8 @@ function seed(){
     "cast": [
       "杰克·尼科尔森",
       "玛丽亚·施耐德"
-    ]
+    ],
+    "duration": 120
   },
   {
     "id": 66,
@@ -1849,7 +1915,8 @@ function seed(){
     "cast": [
       "永濑正敏",
       "工藤夕贵"
-    ]
+    ],
+    "duration": 113
   },
   {
     "id": 67,
@@ -1873,7 +1940,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 108
   },
   {
     "id": 68,
@@ -1899,7 +1967,8 @@ function seed(){
     "cast": [
       "朱丽叶·比诺什",
       "德尼·拉旺"
-    ]
+    ],
+    "duration": 125
   },
   {
     "id": 69,
@@ -1914,7 +1983,8 @@ function seed(){
     "watches": [],
     "cast": [
       "苏菲·玛索"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 70,
@@ -1941,7 +2011,8 @@ function seed(){
     ],
     "cast": [
       "朱迪思·奥迪亚"
-    ]
+    ],
+    "duration": 96
   },
   {
     "id": 71,
@@ -1972,7 +2043,8 @@ function seed(){
     ],
     "cast": [
       "真木藏人"
-    ]
+    ],
+    "duration": 101
   },
   {
     "id": 72,
@@ -2002,7 +2074,8 @@ function seed(){
     "cast": [
       "亚当·桑德勒",
       "艾米莉·沃森"
-    ]
+    ],
+    "duration": 95
   },
   {
     "id": 73,
@@ -2029,7 +2102,8 @@ function seed(){
     "cast": [
       "洼冢洋介",
       "麻生久美子"
-    ]
+    ],
+    "duration": 118
   },
   {
     "id": 74,
@@ -2063,7 +2137,8 @@ function seed(){
     "cast": [
       "华金·菲尼克斯",
       "乔什·布洛林"
-    ]
+    ],
+    "duration": 148
   },
   {
     "id": 75,
@@ -2091,7 +2166,8 @@ function seed(){
     ],
     "cast": [
       "汤姆·希林"
-    ]
+    ],
+    "duration": 176
   },
   {
     "id": 76,
@@ -2117,7 +2193,8 @@ function seed(){
     ],
     "cast": [
       "维克多·斯约斯特洛姆"
-    ]
+    ],
+    "duration": 91
   },
   {
     "id": 77,
@@ -2142,7 +2219,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 151
   },
   {
     "id": 78,
@@ -2175,7 +2253,8 @@ function seed(){
     ],
     "cast": [
       "马克斯·冯·西多"
-    ]
+    ],
+    "duration": 89
   },
   {
     "id": 79,
@@ -2209,7 +2288,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 142
   },
   {
     "id": 80,
@@ -2246,7 +2326,8 @@ function seed(){
     "cast": [
       "瑞恩·高斯林",
       "哈里森·福特"
-    ]
+    ],
+    "duration": 163
   },
   {
     "id": 81,
@@ -2271,7 +2352,8 @@ function seed(){
     ],
     "cast": [
       "托尼·塞尔维洛"
-    ]
+    ],
+    "duration": 133
   },
   {
     "id": 114,
@@ -2296,7 +2378,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 85
   },
   {
     "id": 115,
@@ -2323,7 +2406,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 121
   },
   {
     "id": 116,
@@ -2350,7 +2434,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 140
   },
   {
     "id": 117,
@@ -2377,7 +2462,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 95
   },
   {
     "id": 118,
@@ -2402,7 +2488,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 179
   },
   {
     "id": 120,
@@ -2434,7 +2521,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 130
   },
   {
     "id": 121,
@@ -2459,7 +2547,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 97
   },
   {
     "id": 122,
@@ -2472,7 +2561,8 @@ function seed(){
     "poster": "",
     "synopsis": "大学新生典子在武田老师的茶室里学习里千家茶道。从生涩、失恋、就业失败，到姑姑离世与慢慢放下，二十四节气在她手里一一走过，茶与季节、人与时间一起把日子过成了诗。黑木华、树木希林主演。",
     "watches": [],
-    "cast": []
+    "cast": [],
+    "duration": ""
   },
   {
     "id": 123,
@@ -2503,7 +2593,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 116
   },
   {
     "id": 124,
@@ -2526,7 +2617,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 167
   },
   {
     "id": 125,
@@ -2566,7 +2658,8 @@ function seed(){
       "Caro Braun",
       "Marisa Growaldt",
       "Godehard Giese"
-    ]
+    ],
+    "duration": 94
   },
   {
     "id": 126,
@@ -2588,7 +2681,8 @@ function seed(){
       "罗根·勒曼",
       "艾玛·沃森",
       "埃兹拉·米勒"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 127,
@@ -2610,7 +2704,8 @@ function seed(){
       "池松壮亮",
       "菅田将晖",
       "中条彩未"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 128,
@@ -2631,7 +2726,8 @@ function seed(){
     "cast": [
       "班罗普·洛罗伊",
       "萨克达·卡亚伯迪"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 129,
@@ -2652,7 +2748,8 @@ function seed(){
     "cast": [
       "叶尔克布兰·戴洛夫",
       "奥达斯恩·别西克巴索夫"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 130,
@@ -2673,7 +2770,8 @@ function seed(){
     "cast": [
       "克里斯蒂安·弗里德尔",
       "乌尔里希·图库尔"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 131,
@@ -2695,7 +2793,8 @@ function seed(){
       "丹尼·罗维拉",
       "卡拉·埃莱哈尔德",
       "亚历山德拉·希门尼斯"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 132,
@@ -2727,7 +2826,8 @@ function seed(){
       "唐从圣",
       "柯宇纶",
       "王启赞"
-    ]
+    ],
+    "duration": 121
   },
   {
     "id": 133,
@@ -2753,7 +2853,8 @@ function seed(){
       "切瓦特·埃加福",
       "雷娜特·赖因斯夫",
       "马克·杜普拉斯"
-    ]
+    ],
+    "duration": 110
   },
   {
     "id": 134,
@@ -2786,7 +2887,8 @@ function seed(){
       "安德烈·维尔姆斯",
       "卡蒂·奥廷宁",
       "布隆丹·米格尔"
-    ]
+    ],
+    "duration": 93
   },
   {
     "id": 135,
@@ -2817,7 +2919,8 @@ function seed(){
       "历苏",
       "马瑞斯·威尔斯",
       "Sandra Prinsloo"
-    ]
+    ],
+    "duration": 109
   },
   {
     "id": 136,
@@ -2844,7 +2947,8 @@ function seed(){
       "让·托帕尔",
       "让·瓦尔蒙",
       "伊夫·巴萨克"
-    ]
+    ],
+    "duration": 72
   },
   {
     "id": 137,
@@ -2879,7 +2983,8 @@ function seed(){
       "丹尼尔·戴-刘易斯",
       "薇姬·克里普斯",
       "莱丝利·曼维尔"
-    ]
+    ],
+    "duration": 130
   },
   {
     "id": 138,
@@ -2906,7 +3011,8 @@ function seed(){
       "三船敏郎",
       "仲代达矢",
       "加山雄三"
-    ]
+    ],
+    "duration": 96
   },
   {
     "id": 139,
@@ -2939,7 +3045,8 @@ function seed(){
       "游安顺",
       "田丰",
       "梅芳"
-    ]
+    ],
+    "duration": 137
   },
   {
     "id": 140,
@@ -2964,7 +3071,8 @@ function seed(){
       "安杰丽卡·休斯顿",
       "劳尔·朱力亚",
       "克里斯托弗·洛伊德"
-    ]
+    ],
+    "duration": 100
   },
   {
     "id": 141,
@@ -2990,7 +3098,8 @@ function seed(){
       "韩石圭",
       "沈惠珍",
       "文盛瑾"
-    ]
+    ],
+    "duration": 111
   },
   {
     "id": 142,
@@ -3015,7 +3124,8 @@ function seed(){
       "古川琴音",
       "涩川清彦",
       "占部房子"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 143,
@@ -3042,7 +3152,8 @@ function seed(){
       "萨蒂亚吉特·雷伊",
       "卡努·班纳吉",
       "卡鲁娜·班纳吉"
-    ]
+    ],
+    "duration": 115
   },
   {
     "id": 144,
@@ -3068,7 +3179,8 @@ function seed(){
       "米格尔·安赫尔·索拉",
       "苏苏·佩科拉罗",
       "菲利普·莱奥塔尔"
-    ]
+    ],
+    "duration": 127
   },
   {
     "id": 145,
@@ -3095,7 +3207,8 @@ function seed(){
       "吕晓禾",
       "唐国强",
       "斯琴高娃"
-    ]
+    ],
+    "duration": 146
   },
   {
     "id": 146,
@@ -3126,7 +3239,8 @@ function seed(){
       "Sasha Calle",
       "Bilal Hasna",
       "Owen Teague"
-    ]
+    ],
+    "duration": 112
   },
   {
     "id": 147,
@@ -3152,7 +3266,8 @@ function seed(){
       "北野武",
       "岸本加世子",
       "大杉涟"
-    ]
+    ],
+    "duration": 103
   },
   {
     "id": 148,
@@ -3169,7 +3284,8 @@ function seed(){
       "东出昌大",
       "唐田英里佳",
       "濑户康史"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 149,
@@ -3197,7 +3313,8 @@ function seed(){
       "布里吉特·赫尔姆",
       "阿尔弗雷德·阿贝尔",
       "古斯塔夫·佛力施"
-    ]
+    ],
+    "duration": 150
   },
   {
     "id": 150,
@@ -3227,7 +3344,8 @@ function seed(){
       "绫濑遥",
       "长泽雅美",
       "夏帆"
-    ]
+    ],
+    "duration": 127
   },
   {
     "id": 151,
@@ -3253,7 +3371,8 @@ function seed(){
       "华金·菲尼克斯",
       "菲利普·塞默·霍夫曼",
       "艾米·亚当斯"
-    ]
+    ],
+    "duration": 138
   },
   {
     "id": 152,
@@ -3270,7 +3389,8 @@ function seed(){
       "泽城美雪",
       "上田丽奈",
       "洲崎绫"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 153,
@@ -3300,7 +3420,8 @@ function seed(){
       "刘德华",
       "张柏芝",
       "张兆辉"
-    ]
+    ],
+    "duration": 106
   },
   {
     "id": 154,
@@ -3333,7 +3454,8 @@ function seed(){
       "全度妍",
       "宋康昊",
       "赵勇进"
-    ]
+    ],
+    "duration": 142
   },
   {
     "id": 155,
@@ -3367,7 +3489,8 @@ function seed(){
       "让-马克·巴尔",
       "巴巴拉·苏科瓦",
       "乌多·基尔"
-    ]
+    ],
+    "duration": 112
   },
   {
     "id": 156,
@@ -3393,7 +3516,8 @@ function seed(){
       "加藤罗莎",
       "德井义实",
       "河原さぶ"
-    ]
+    ],
+    "duration": 117
   },
   {
     "id": 157,
@@ -3424,7 +3548,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 158
   },
   {
     "id": 158,
@@ -3451,7 +3576,8 @@ function seed(){
         ]
       }
     ],
-    "cast": []
+    "cast": [],
+    "duration": 127
   },
   {
     "id": 159,
@@ -3474,7 +3600,8 @@ function seed(){
           "安静的美人"
         ]
       }
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 160,
@@ -3495,7 +3622,8 @@ function seed(){
           "林三"
         ]
       }
-    ]
+    ],
+    "duration": 122
   },
   {
     "id": 161,
@@ -3519,7 +3647,8 @@ function seed(){
           "安静的美人"
         ]
       }
-    ]
+    ],
+    "duration": 167
   },
   {
     "id": 162,
@@ -3541,7 +3670,8 @@ function seed(){
           "shell"
         ]
       }
-    ]
+    ],
+    "duration": 104
   },
   {
     "id": 163,
@@ -3567,7 +3697,8 @@ function seed(){
           "文刀王大可"
         ]
       }
-    ]
+    ],
+    "duration": 116
   },
   {
     "id": 164,
@@ -3593,7 +3724,8 @@ function seed(){
           "残花"
         ]
       }
-    ]
+    ],
+    "duration": 136
   },
   {
     "id": 165,
@@ -3614,7 +3746,8 @@ function seed(){
           "Bitter"
         ]
       }
-    ]
+    ],
+    "duration": 96
   },
   {
     "id": 166,
@@ -3635,7 +3768,8 @@ function seed(){
           "飞天小象"
         ]
       }
-    ]
+    ],
+    "duration": 125
   },
   {
     "id": 167,
@@ -3657,7 +3791,8 @@ function seed(){
           "水镜"
         ]
       }
-    ]
+    ],
+    "duration": 113
   },
   {
     "id": 168,
@@ -3682,7 +3817,8 @@ function seed(){
           "Crazy-Film-Nerd"
         ]
       }
-    ]
+    ],
+    "duration": 104
   },
   {
     "id": 169,
@@ -3703,7 +3839,8 @@ function seed(){
           "榴莲圣武士"
         ]
       }
-    ]
+    ],
+    "duration": 139
   },
   {
     "id": 170,
@@ -3729,7 +3866,8 @@ function seed(){
           "小葱"
         ]
       }
-    ]
+    ],
+    "duration": 158
   },
   {
     "id": 171,
@@ -3751,7 +3889,8 @@ function seed(){
           "Bitter"
         ]
       }
-    ]
+    ],
+    "duration": 98
   },
   {
     "id": 172,
@@ -3777,7 +3916,8 @@ function seed(){
           "残花"
         ]
       }
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 173,
@@ -3798,7 +3938,8 @@ function seed(){
           "南柯"
         ]
       }
-    ]
+    ],
+    "duration": 113
   },
   {
     "id": 174,
@@ -3835,7 +3976,8 @@ function seed(){
           "别说短话"
         ]
       }
-    ]
+    ],
+    "duration": 97
   },
   {
     "id": 175,
@@ -3863,7 +4005,8 @@ function seed(){
           "安静的美人"
         ]
       }
-    ]
+    ],
+    "duration": 98
   },
   {
     "id": 176,
@@ -3886,7 +4029,8 @@ function seed(){
           "子衿"
         ]
       }
-    ]
+    ],
+    "duration": 93
   },
   {
     "id": 177,
@@ -3911,7 +4055,8 @@ function seed(){
           "埃芬博格"
         ]
       }
-    ]
+    ],
+    "duration": 98
   },
   {
     "id": 178,
@@ -3934,7 +4079,8 @@ function seed(){
           "A"
         ]
       }
-    ]
+    ],
+    "duration": 137
   },
   {
     "id": 179,
@@ -3968,7 +4114,8 @@ function seed(){
           "残花"
         ]
       }
-    ]
+    ],
+    "duration": 157
   },
   {
     "id": 180,
@@ -3989,7 +4136,8 @@ function seed(){
           "李子"
         ]
       }
-    ]
+    ],
+    "duration": 124
   },
   {
     "id": 181,
@@ -4011,7 +4159,8 @@ function seed(){
           "晏秋"
         ]
       }
-    ]
+    ],
+    "duration": 82
   },
   {
     "id": 182,
@@ -4040,7 +4189,8 @@ function seed(){
           "火冋火冋"
         ]
       }
-    ]
+    ],
+    "duration": 97
   },
   {
     "id": 183,
@@ -4075,7 +4225,8 @@ function seed(){
           "屋顶上的猫"
         ]
       }
-    ]
+    ],
+    "duration": 98
   },
   {
     "id": 184,
@@ -4101,7 +4252,8 @@ function seed(){
           "李子"
         ]
       }
-    ]
+    ],
+    "duration": 97
   },
   {
     "id": 185,
@@ -4121,7 +4273,8 @@ function seed(){
           "三三得九"
         ]
       }
-    ]
+    ],
+    "duration": 100
   },
   {
     "id": 186,
@@ -4143,7 +4296,8 @@ function seed(){
           "coconut"
         ]
       }
-    ]
+    ],
+    "duration": 82
   },
   {
     "id": 187,
@@ -4170,7 +4324,8 @@ function seed(){
           "火冋火冋"
         ]
       }
-    ]
+    ],
+    "duration": 97
   },
   {
     "id": 188,
@@ -4196,7 +4351,8 @@ function seed(){
           "三三得九"
         ]
       }
-    ]
+    ],
+    "duration": 100
   },
   {
     "id": 189,
@@ -4220,7 +4376,8 @@ function seed(){
           "river"
         ]
       }
-    ]
+    ],
+    "duration": 120
   },
   {
     "id": 190,
@@ -4246,7 +4403,8 @@ function seed(){
           "之尤"
         ]
       }
-    ]
+    ],
+    "duration": 156
   },
   {
     "id": 191,
@@ -4268,7 +4426,8 @@ function seed(){
           "2d9"
         ]
       }
-    ]
+    ],
+    "duration": 95
   },
   {
     "id": 192,
@@ -4293,7 +4452,8 @@ function seed(){
           "天地正气"
         ]
       }
-    ]
+    ],
+    "duration": 85
   },
   {
     "id": 193,
@@ -4314,7 +4474,8 @@ function seed(){
           "Judy"
         ]
       }
-    ]
+    ],
+    "duration": 117
   },
   {
     "id": 194,
@@ -4337,7 +4498,8 @@ function seed(){
           "卜"
         ]
       }
-    ]
+    ],
+    "duration": 79
   },
   {
     "id": 195,
@@ -4359,7 +4521,8 @@ function seed(){
           "萱草花开"
         ]
       }
-    ]
+    ],
+    "duration": 128
   },
   {
     "id": 196,
@@ -4381,7 +4544,8 @@ function seed(){
           "663"
         ]
       }
-    ]
+    ],
+    "duration": 108
   },
   {
     "id": 197,
@@ -4403,7 +4567,8 @@ function seed(){
           "D"
         ]
       }
-    ]
+    ],
+    "duration": 137
   },
   {
     "id": 198,
@@ -4428,7 +4593,8 @@ function seed(){
           "天地正气"
         ]
       }
-    ]
+    ],
+    "duration": 129
   },
   {
     "id": 199,
@@ -4456,7 +4622,8 @@ function seed(){
           "树叶"
         ]
       }
-    ]
+    ],
+    "duration": 101
   },
   {
     "id": 200,
@@ -4480,7 +4647,8 @@ function seed(){
           "盐井"
         ]
       }
-    ]
+    ],
+    "duration": 127
   },
   {
     "id": 201,
@@ -4523,7 +4691,8 @@ function seed(){
           "拉吉塔尼的鹦鹉会笑"
         ]
       }
-    ]
+    ],
+    "duration": 160
   },
   {
     "id": 202,
@@ -4544,7 +4713,8 @@ function seed(){
           "啊啾宝"
         ]
       }
-    ]
+    ],
+    "duration": 125
   },
   {
     "id": 203,
@@ -4580,7 +4750,8 @@ function seed(){
           "Louie"
         ]
       }
-    ]
+    ],
+    "duration": 130
   },
   {
     "id": 204,
@@ -4603,7 +4774,8 @@ function seed(){
           "心如止水"
         ]
       }
-    ]
+    ],
+    "duration": 126
   },
   {
     "id": 205,
@@ -4626,7 +4798,8 @@ function seed(){
           "拎拎"
         ]
       }
-    ]
+    ],
+    "duration": 145
   },
   {
     "id": 206,
@@ -4650,7 +4823,8 @@ function seed(){
           "大梦"
         ]
       }
-    ]
+    ],
+    "duration": 113
   },
   {
     "id": 207,
@@ -4674,7 +4848,8 @@ function seed(){
           "Wuyusheng"
         ]
       }
-    ]
+    ],
+    "duration": 129
   },
   {
     "id": 208,
@@ -4696,7 +4871,8 @@ function seed(){
           "大梦"
         ]
       }
-    ]
+    ],
+    "duration": 120
   },
   {
     "id": 209,
@@ -4728,7 +4904,8 @@ function seed(){
           "hush"
         ]
       }
-    ]
+    ],
+    "duration": 87
   },
   {
     "id": 210,
@@ -4749,7 +4926,8 @@ function seed(){
           "马丁妮"
         ]
       }
-    ]
+    ],
+    "duration": 157
   },
   {
     "id": 211,
@@ -4781,7 +4959,8 @@ function seed(){
           "veydu"
         ]
       }
-    ]
+    ],
+    "duration": 113
   },
   {
     "id": 212,
@@ -4805,7 +4984,8 @@ function seed(){
           "来点KFC"
         ]
       }
-    ]
+    ],
+    "duration": 154
   },
   {
     "id": 213,
@@ -4827,7 +5007,8 @@ function seed(){
           "水镜"
         ]
       }
-    ]
+    ],
+    "duration": 118
   },
   {
     "id": 214,
@@ -4849,7 +5030,8 @@ function seed(){
           "安静的美人"
         ]
       }
-    ]
+    ],
+    "duration": 95
   },
   {
     "id": 215,
@@ -4874,7 +5056,8 @@ function seed(){
           "橙"
         ]
       }
-    ]
+    ],
+    "duration": 100
   },
   {
     "id": 216,
@@ -4898,7 +5081,8 @@ function seed(){
     "cast": [
       "高良健吾",
       "吉高由里子"
-    ]
+    ],
+    "duration": ""
   },
   {
     "id": 217,
@@ -4930,7 +5114,8 @@ function seed(){
       "朱丽安·摩尔",
       "尼古拉斯·霍尔特",
       "马修·古迪"
-    ]
+    ],
+    "duration": 101
   },
   {
     "id": 218,
@@ -4970,7 +5155,8 @@ function seed(){
       "梁朝伟",
       "张震",
       "格利高里·戴顿"
-    ]
+    ],
+    "duration": 96
   },
   {
     "id": 219,
@@ -4998,7 +5184,8 @@ function seed(){
       "乔凡娜·梅佐乔尔诺",
       "列维·施瑞博尔",
       "约翰·雷吉扎莫"
-    ]
+    ],
+    "duration": 133
   },
   {
     "id": 220,
@@ -5030,7 +5217,8 @@ function seed(){
       "布尔格哈特·克劳斯纳",
       "伊摩根·蔻格",
       "安娜·布洛迈尔"
-    ]
+    ],
+    "duration": 93
   },
   {
     "id": 221,
@@ -5061,7 +5249,8 @@ function seed(){
       "李璟荣",
       "全慧珍",
       "李大卫"
-    ]
+    ],
+    "duration": 97
   },
   {
     "id": 222,
@@ -5097,7 +5286,8 @@ function seed(){
       "杜鲁门·卡波特",
       "詹姆斯·可可",
       "彼得·法尔克"
-    ]
+    ],
+    "duration": 94
   },
   {
     "id": 223,
@@ -5125,7 +5315,8 @@ function seed(){
       "艾玛纽尔·塞尼耶",
       "休·格兰特",
       "克里斯汀·斯科特·托马斯"
-    ]
+    ],
+    "duration": 139
   },
   {
     "id": 224,
@@ -5206,7 +5397,8 @@ function seed(){
       "薛景求",
       "赵寅成",
       "赵汝贞"
-    ]
+    ],
+    "duration": 166
   },
   {
     "id": 225,
@@ -5234,7 +5426,8 @@ function seed(){
       "稻垣来泉",
       "贺来贤人",
       "吉冈睦雄"
-    ]
+    ],
+    "duration": 105
   },
   {
     "id": 226,
@@ -5263,7 +5456,8 @@ function seed(){
       "埃里克·伊根",
       "Delphine French",
       "Mona Powell"
-    ]
+    ],
+    "duration": 97
   },
   {
     "id": 227,
@@ -5291,7 +5485,8 @@ function seed(){
       "彼得·法尔克",
       "霍斯特·布赫霍尔茨",
       "米哈伊尔·谢尔盖耶维奇·戈尔巴乔夫"
-    ]
+    ],
+    "duration": 146
   },
   {
     "id": 228,
@@ -5318,7 +5513,8 @@ function seed(){
       "郑雨盛",
       "李成宰",
       "姜大卫"
-    ]
+    ],
+    "duration": 74
   },
   {
     "id": 229,
@@ -5348,7 +5544,8 @@ function seed(){
       "满岛光",
       "渡部笃郎",
       "渡边真起子"
-    ]
+    ],
+    "duration": 237
   },
   {
     "id": 230,
@@ -5380,7 +5577,8 @@ function seed(){
       "伊娃·格林",
       "路易·加瑞尔",
       "安娜·钱斯勒"
-    ]
+    ],
+    "duration": 115
   },
   {
     "id": 231,
@@ -5408,7 +5606,8 @@ function seed(){
       "谢霆锋",
       "伍佰",
       "卢巧音"
-    ]
+    ],
+    "duration": 113
   },
   {
     "id": 232,
@@ -5435,7 +5634,8 @@ function seed(){
       "汤姆·希林",
       "卡塔琳娜·舒特勒",
       "尤斯图斯·冯·多赫纳尼"
-    ]
+    ],
+    "duration": 86
   },
   {
     "id": 233,
@@ -5464,7 +5664,8 @@ function seed(){
       "陈女氤溪",
       "如琼",
       "张氏禄"
-    ]
+    ],
+    "duration": 104
   },
   {
     "id": 234,
@@ -5495,7 +5696,8 @@ function seed(){
       "诺米·梅兰特",
       "阿黛拉·哈内尔",
       "卢安娜·巴杰拉米"
-    ]
+    ],
+    "duration": 121
   },
   {
     "id": 235,
@@ -5521,7 +5723,8 @@ function seed(){
       "比尔·默瑞",
       "安迪·麦克道尔",
       "克里斯·艾略特"
-    ]
+    ],
+    "duration": 101
   },
   {
     "id": 236,
@@ -5551,7 +5754,8 @@ function seed(){
       "尹静姬",
       "李大卫",
       "金熙罗"
-    ]
+    ],
+    "duration": 140
   },
   {
     "id": 237,
@@ -5584,7 +5788,8 @@ function seed(){
       "李康生",
       "陈湘琪",
       "陆弈静"
-    ]
+    ],
+    "duration": 114
   },
   {
     "id": 238,
@@ -5610,7 +5815,8 @@ function seed(){
       "罗文姬",
       "朴仁焕",
       "宋康昊"
-    ]
+    ],
+    "duration": 98
   },
   {
     "id": 239,
@@ -5638,7 +5844,8 @@ function seed(){
       "维尔日妮·埃菲拉",
       "冈本多绪",
       "长塚京三"
-    ]
+    ],
+    "duration": 196
   },
   {
     "id": 240,
@@ -5668,7 +5875,8 @@ function seed(){
       "让娜·莫罗",
       "奥斯卡·威内尔",
       "亨利·赛尔"
-    ]
+    ],
+    "duration": 105
   },
   {
     "id": 241,
@@ -5699,7 +5907,8 @@ function seed(){
       "岩永洋昭",
       "樱井孝宏",
       "寿美菜子"
-    ]
+    ],
+    "duration": 277
   },
   {
     "id": 242,
@@ -5725,7 +5934,8 @@ function seed(){
       "理查德·本杰明",
       "黛恩·坎农",
       "詹姆斯·柯本"
-    ]
+    ],
+    "duration": 120
   },
   {
     "id": 243,
@@ -5756,7 +5966,8 @@ function seed(){
       "梁朝伟",
       "羽田美智子",
       "刘嘉玲"
-    ]
+    ],
+    "duration": 113
   },
   {
     "id": 244,
@@ -5799,7 +6010,8 @@ function seed(){
       "高捷",
       "林强",
       "伊能静"
-    ]
+    ],
+    "duration": 124
   }
 ];
 }
@@ -7354,6 +7566,7 @@ function header(back){
     : `<span class="header-actions">
         <button class="header-action" onclick="go('#/search')">SEARCH</button>
         <button class="header-action" onclick="go('#/library')">片库</button>
+        <button class="header-action" onclick="go('#/stats')">统计</button>
       </span>`;
   return `<header class="header">${brand}${action}</header>`;
 }
@@ -7384,6 +7597,151 @@ function cinephile(){
     <div class="cine-sub">${total} 位影迷 · 按首字母排列</div>
     ${blocks}
     <div class="cine-note">为避免数据混淆，用户名为“xx朋友”的观影记录未录入统计范畴</div>
+  </main>`;
+  return wrap(html, true);
+}
+
+/* ---------- 统计页：年度趋势 / 类型 / 年代 / 累计时长（纯 SVG，零依赖） ---------- */
+let statsMetric = 'visits';   // visits 人次 | sessions 场次 | films 影片数 | people 影迷数
+let statsYear = 'all';
+function statsSetMetric(m){ statsMetric = m; document.getElementById('app').innerHTML = stats(); }
+function statsSetYear(y){ statsYear = y; document.getElementById('app').innerHTML = stats(); }
+
+/* 归一观影者，口径与首页 monthStat 一致：canon(stripFunc)，空名跳过 */
+function _person(p){ const n = canon(stripFunc(p)); return n || ''; }
+function _eachWatch(fn){
+  allFilms().forEach(f => (f.watches || []).forEach(w => {
+    const ps = (w.people || []).map(_person).filter(Boolean);
+    fn({ film: f, date: w.date, people: ps, n: ps.length });
+  }));
+}
+
+function statsOverview(){
+  const o = { totalFilms: films.length, shown: 0, sessions: 0, visits: 0, watchers: new Set(), dur: 0, durSess: 0 };
+  const seen = new Set();
+  _eachWatch(w => {
+    o.sessions++; o.visits += w.n;
+    if (!seen.has(w.film.id)) { seen.add(w.film.id); o.shown++; }
+    w.people.forEach(p => o.watchers.add(p));
+    const d = Number(w.film.duration);
+    if (d > 0) { o.durSess++; o.dur += d; }
+  });
+  return o;
+}
+function statsTrendData(){
+  const m = {};
+  _eachWatch(w => {
+    if (!w.date) return;
+    const ym = w.date.slice(0, 7);
+    if (statsYear !== 'all' && ym.slice(0, 4) !== statsYear) return;
+    const o = m[ym] || (m[ym] = { sessions: 0, visits: 0, films: new Set(), people: new Set() });
+    o.sessions++; o.visits += w.n;
+    if (w.n > 0) o.films.add(w.film.id);
+    w.people.forEach(p => o.people.add(p));
+  });
+  return Object.keys(m).sort().map(k => ({ ym: k, sessions: m[k].sessions, visits: m[k].visits, films: m[k].films.size, people: m[k].people.size }));
+}
+function statsTagsData(){
+  const m = {};
+  const seen = new Set();
+  _eachWatch(w => {
+    if (seen.has(w.film.id)) return;
+    seen.add(w.film.id);
+    String(w.film.tags || '').split(/[ ·、,\/]+/).map(t => t.trim()).filter(Boolean).forEach(t => { m[t] = (m[t] || 0) + 1; });
+  });
+  return Object.entries(m).sort((a, b) => b[1] - a[1]).slice(0, 20);
+}
+function statsDecadeData(){
+  const m = {};
+  const seen = new Set();
+  _eachWatch(w => {
+    if (seen.has(w.film.id)) return;
+    seen.add(w.film.id);
+    const y = parseInt(w.film.year, 10);
+    if (!y) return;
+    const d = Math.floor(y / 10) * 10;
+    m[d] = (m[d] || 0) + 1;
+  });
+  return Object.entries(m).map(([k, v]) => [Number(k), v]).sort((a, b) => a[0] - b[0]);
+}
+
+/* 折线图（趋势） */
+function svgLineChart(points){
+  const W = 600, H = 260, L = 40, R = 16, T = 16, B = 30;
+  if (!points.length) return '<svg class="st-svg" viewBox="0 0 600 260"><text x="300" y="130" text-anchor="middle" fill="#999" font-size="12">暂无数据</text></svg>';
+  const vals = points.map(p => p[statsMetric]);
+  const max = Math.max(1, ...vals);
+  const x = i => L + (points.length === 1 ? (W - L - R) / 2 : i * (W - L - R) / (points.length - 1));
+  const y = v => H - B - (v / max) * (H - T - B);
+  let grid = '';
+  for (let g = 0; g <= 4; g++) { const v = max * g / 4; const yy = y(v); grid += `<line x1="${L}" y1="${yy}" x2="${W - R}" y2="${yy}" stroke="#eee"/><text x="${L - 6}" y="${yy + 4}" text-anchor="end" font-size="10" fill="#aaa">${Math.round(v)}</text>`; }
+  const d = points.map((p, i) => (i ? 'L' : 'M') + x(i) + ' ' + y(p[statsMetric])).join(' ');
+  const dots = points.map((p, i) => `<circle cx="${x(i)}" cy="${y(p[statsMetric])}" r="3.5" fill="#3370ff"><title>${p.ym}: ${p[statsMetric]}</title></circle>`).join('');
+  const step = Math.ceil(points.length / 8);
+  const xlabels = points.map((p, i) => i % step === 0 ? `<text x="${x(i)}" y="${H - B + 14}" text-anchor="middle" font-size="10" fill="#888">${p.ym.slice(5)}</text>` : '').join('');
+  return `<svg class="st-svg" viewBox="0 0 ${W} ${H}">${grid}<path d="${d}" fill="none" stroke="#3370ff" stroke-width="2"/>${dots}${xlabels}</svg>`;
+}
+/* 横向条形（类型分布） */
+function svgHBar(items){
+  if (!items.length) return '<div class="st-empty">暂无数据</div>';
+  const max = items[0][1];
+  return items.map(([k, v]) => `<div class="st-bar-row"><span class="st-bar-lbl">${esc(k)}</span><span class="st-bar-track"><span class="st-bar-fill" style="width:${(v / max * 100).toFixed(1)}%"></span></span><span class="st-bar-val">${v}</span></div>`).join('');
+}
+/* 柱状图（年代分布） */
+function svgBarChart(items){
+  const W = 600, H = 240, L = 36, R = 16, T = 16, B = 40;
+  if (!items.length) return '<svg class="st-svg" viewBox="0 0 600 240"><text x="300" y="120" text-anchor="middle" fill="#999" font-size="12">暂无数据</text></svg>';
+  const max = Math.max(1, ...items.map(i => i[1]));
+  const gap = (W - L - R) / items.length;
+  const bw = gap * 0.6;
+  const y = v => H - B - (v / max) * (H - T - B);
+  let bars = '', xlabels = '';
+  items.forEach((it, i) => {
+    const xc = L + i * gap + gap / 2;
+    bars += `<rect x="${xc - bw / 2}" y="${y(it[1])}" width="${bw}" height="${H - B - y(it[1])}" fill="#3370ff"><title>${it[0]}s：${it[1]} 部</title></rect>`;
+    xlabels += `<text x="${xc}" y="${H - B + 14}" text-anchor="middle" font-size="10" fill="#888">${it[0]}s</text>`;
+  });
+  let grid = '';
+  for (let g = 0; g <= 4; g++) { const v = max * g / 4; const yy = y(v); grid += `<line x1="${L}" y1="${yy}" x2="${W - R}" y2="${yy}" stroke="#eee"/><text x="${L - 6}" y="${yy + 4}" text-anchor="end" font-size="10" fill="#aaa">${Math.round(v)}</text>`; }
+  return `<svg class="st-svg" viewBox="0 0 ${W} ${H}">${grid}${bars}${xlabels}</svg>`;
+}
+
+function stats(){
+  const ov = statsOverview();
+  const trend = statsTrendData();
+  const tags = statsTagsData();
+  const decades = statsDecadeData();
+  const years = [...new Set(allFilms().flatMap(f => (f.watches || []).map(w => String(w.date || '').slice(0, 4))).filter(Boolean))].sort();
+  const yearBtns = ['all', ...years].map(y => `<button class="st-pill ${statsYear === y ? 'on' : ''}" onclick="statsSetYear('${y}')">${y === 'all' ? '全部' : y}</button>`).join('');
+  const metricBtns = [['visits', '人次'], ['sessions', '场次'], ['films', '影片'], ['people', '影迷']].map(([k, l]) => `<button class="st-pill ${statsMetric === k ? 'on' : ''}" onclick="statsSetMetric('${k}')">${l}</button>`).join('');
+  const html = `<main class="stats">
+    <div class="eyebrow">STATS</div>
+    <h1 class="st-title">数据概览</h1>
+    <div class="st-overview">
+      <div class="st-ov"><div class="st-ov-num">${ov.totalFilms}</div><div class="st-ov-lbl">影片总数</div></div>
+      <div class="st-ov"><div class="st-ov-num">${ov.shown}</div><div class="st-ov-lbl">已放映</div></div>
+      <div class="st-ov"><div class="st-ov-num">${ov.sessions}</div><div class="st-ov-lbl">总场次</div></div>
+      <div class="st-ov"><div class="st-ov-num">${ov.visits}</div><div class="st-ov-lbl">总人次</div></div>
+      <div class="st-ov"><div class="st-ov-num">${ov.watchers.size}</div><div class="st-ov-lbl">唯一影迷</div></div>
+      <div class="st-ov"><div class="st-ov-num">${Math.floor(ov.dur / 60)}<span class="st-ov-unit">小时</span></div><div class="st-ov-lbl">累计放映时长<span class="st-ov-sub">（${ov.durSess} 场有片长数据）</span></div></div>
+    </div>
+
+    <section class="st-card">
+      <div class="st-card-h"><h2>年度趋势</h2><div class="st-controls">${yearBtns}</div></div>
+      <div class="st-controls">${metricBtns}</div>
+      ${svgLineChart(trend)}
+      <div class="st-note">人次 = 每场观影人数累计；影片数 = 当月有人次影片去重</div>
+    </section>
+
+    <section class="st-card">
+      <div class="st-card-h"><h2>类型分布</h2><span class="st-card-sub">已放映影片（每部片贡献一次其标签）</span></div>
+      <div class="st-bars">${svgHBar(tags)}</div>
+    </section>
+
+    <section class="st-card">
+      <div class="st-card-h"><h2>年代分布</h2><span class="st-card-sub">已放映影片的出品年代</span></div>
+      ${svgBarChart(decades)}
+    </section>
   </main>`;
   return wrap(html, true);
 }
@@ -8578,6 +8936,7 @@ function render(){
   let html;
   if(p === '#/' || p === '#' || p === '') html = home();
   else if(p === '#/cinophile') html = cinephile();
+  else if(p === '#/stats') html = stats();
   else if(p === '#/search') html = searchPage();
   else if(p.startsWith('#/film/')) html = filmDetail(p.split('/')[2]);
   else if(p.startsWith('#/director/')) html = directorDetail(p.substring('#/director/'.length));
